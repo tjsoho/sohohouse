@@ -1,11 +1,13 @@
-
 import './App.css';
+
+import Style from './components/StyleGuide/Style';
 
 function App() {
   return (
     <div>
       
-       <h1 className='text-blue-600'>Soho House</h1>
+       <Style   />
+       
       
     </div>
   );
