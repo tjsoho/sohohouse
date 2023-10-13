@@ -7,8 +7,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'brand-blue': '#375292',
-        'brand-orange': '#E26F44',
+        'brand-blue': '#061C4E',
+        'brand-orange': '#FC7643',
+        'brand-cream': '#FFE9E2',
+        'brand-camel': '#CA9F78',
         'brand-black': '#222222',
       },
       fontFamily: {
