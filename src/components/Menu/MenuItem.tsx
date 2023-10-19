@@ -32,7 +32,7 @@ export const MenuItem: React.FC<MenuItemProps> = ({ text, i }) => {
       whileHover={{ scale: 1.2 }}
       whileTap={{ scale: 0.95 }}
     >
-      <div className="text-6xl text-center pl-5 cursor-pointer font-Black my-12">
+      <div className="text-6xl text-center pl-5 cursor-pointer font-Black my-12 text-brand-camel hover:text-brand-orange active:text-brand-blue">
         {text}
       </div>
     </motion.li>
