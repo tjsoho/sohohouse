@@ -1,5 +1,6 @@
-import { Button } from "@mui/material";
+
 import { Accordion } from "../../../Accordion/Accordion";
+import Button1 from "../../../Button/Button1";
 import accordionData from "./accordionData";
 
 export default function Section3() {
@@ -37,7 +38,7 @@ export default function Section3() {
       {/* Row 3 */}
       <div className="flex w-full">
         <div className="flex flex-col justify-center items-center w-full">
-          <Button>START YOUR JOURNEY</Button>
+        <Button1 label="START YOUR JOURNEY"  icon="arrowRight" />
         </div>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import { Accordion } from "../Accordion/Accordion";
+import Button1 from "../Button/Button1";
 import Icon from "../Icons/Icon";
 import MenuBar from "../Menu/MenuBar";
 import Landing from "../Pages/Home/Section1/Landing1";
@@ -6,6 +7,7 @@ import Section1 from "../Pages/Home/Section1/Section1";
 import HouseAnimation from "../Pages/Home/Section2/houseAnimation";
 import Section2 from "../Pages/Home/Section2/Section2";
 import Section3 from "../Pages/Home/Section3/Section3";
+import Tan from "../Pages/Home/Section5/Tan";
 import Square from "../Square";
 
 export default function Styleguide() {
@@ -14,12 +16,42 @@ export default function Styleguide() {
       <div>
         <div>
           <div>
-            <div className="w-full bg-brand-cream py-10">
+            <div className="w-full">
               <div>
                 <div>
                   <Section1 />
                   <Section2 />
                   <Section3 />
+                </div>
+                <div className="flex w-full">
+                  <div className="w-1/3 h-96">
+                    <Square label="Rosie & Laurent" />
+                  </div>
+                  <div className="w-1/3 h-96">
+                    <Square label="Loved Luxe" color="camel" />
+                  </div>
+                  <div className="w-1/3 h-96">
+                    <Square
+                      label="Rosie & Laurent"
+                      color="blue"
+                      text="orange"
+                    />
+                  </div>
+                </div>
+                <div className="flex w-full">
+                  <div className="w-1/3 h-96">
+                    <Square label="Loved Luxe" color="camel" />
+                  </div>
+                  <div className="w-1/3 h-96">
+                    <Square
+                      label="Rosie & Laurent"
+                      color="blue"
+                      text="orange"
+                    />
+                  </div>
+                  <div className="w-1/3 h-96">
+                    <Square label="Rosie & Laurent" />
+                  </div>
                 </div>
                 <h1 className="text-brand-orange heading">Soho House H1</h1>
                 <h2 className="text-brand-orange heading">Soho House H2</h2>
@@ -33,9 +65,7 @@ export default function Styleguide() {
                 <p className="text-brand-orange heading">
                   Soho House P=Figma Body1
                 </p>
-              </div>
-              <div className="w-96 h-96">
-                <Square label="Rosie & Laurent" />
+                <Button1 label="START YOUR JOURNEY" icon="arrowRight" />
               </div>
               <Icon name="arrowDown" />
               <div className="w-full h-12 mb-2">
@@ -47,6 +77,9 @@ export default function Styleguide() {
                 title="BEHIND CLOSED DOORS"
                 content="We kick things off by getting cozy, diving deep to understand your brand, your vision, and what makes you tick."
               />
+              <div className="w-1/2 h-screen">
+                <Tan />
+              </div>
             </div>
           </div>
         </div>

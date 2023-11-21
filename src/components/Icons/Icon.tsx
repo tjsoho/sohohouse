@@ -196,6 +196,12 @@ export default function Icon({ name, className, rotation = 0, onExitComplete }: 
           />
         </motion.svg>
       )}
+
+      {name === "arrowRight" && (
+        <svg width="22" height="22" viewBox="0 0 22 22" fill="#FFE9E2" xmlns="http://www.w3.org/2000/svg">
+        <path d="M9.4763 21.5L15.6287 13.5061L16.2482 12.7011H15.2324L0.5 12.7011V9.29888L15.2324 9.29888H16.2482L15.6287 8.49393L9.4763 0.5H13.2932L21.3692 11L13.2932 21.5H9.4763Z" fill="#FFE9E2" stroke="#FFE9E2"/>
+        </svg>
+        )}
     </>
   );
 }
