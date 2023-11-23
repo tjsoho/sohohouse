@@ -25,14 +25,14 @@ export default function Styleguide() {
                 </div>
                 <div className="flex w-full">
                   <div className="w-1/3 h-96">
-                    <Square label="Rosie & Laurent" />
+                    <Square label="Chevell" />
                   </div>
                   <div className="w-1/3 h-96">
                     <Square label="Loved Luxe" color="camel" />
                   </div>
                   <div className="w-1/3 h-96">
                     <Square
-                      label="Rosie & Laurent"
+                      label="Shadow"
                       color="blue"
                       text="orange"
                     />
@@ -44,13 +44,13 @@ export default function Styleguide() {
                   </div>
                   <div className="w-1/3 h-96">
                     <Square
-                      label="Rosie & Laurent"
+                      label="Project Empower"
                       color="blue"
                       text="orange"
                     />
                   </div>
                   <div className="w-1/3 h-96">
-                    <Square label="Rosie & Laurent" />
+                    <Square label="Breath" />
                   </div>
                 </div>
                 <h1 className="text-brand-orange heading">Soho House H1</h1>
