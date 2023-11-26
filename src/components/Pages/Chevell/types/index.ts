@@ -1,0 +1,1 @@
+export type ChevellTextType = "h1" | "h2" | "h3";
