@@ -32,7 +32,7 @@ export function Accordion({ title, content }: AccordionProps) {
 
   const getAccordionClasses = () => `
     Accordion Class
-    text-[28px] font-medium font-Black text-brand-cream 
+    text-[20px] md:text-[28px] font-medium font-Black text-brand-cream 
     ${isOpen ? "text-brand-orange underline" : ""}
     hover:text-brand-camel active:text-brand-orange flex justify-between items-center text-left uppercase
   `;
@@ -40,7 +40,7 @@ export function Accordion({ title, content }: AccordionProps) {
   const rotation = isOpen ? 180 : 0;
 
   return (
-    <div className="flex flex-col justify-between w-1/2 px-16 my-2">
+    <div className="flex flex-col justify-between w-full lg:w-1/2 px-8 md:px-16 my-2">
       <motion.button
         onClick={() => setIsOpen(!isOpen)}
         initial={false}
@@ -57,7 +57,7 @@ export function Accordion({ title, content }: AccordionProps) {
         </div>
       </motion.button>
       <motion.div
-        className="text-base p-4 font-Raleway text-brand-cream text-left w-[600px]" // Apply Tailwind CSS classes for content styling
+        className="text-base p-4 font-Raleway text-brand-cream text-left w-contain flex-wrap" // Apply Tailwind CSS classes for content styling
       >
         <motion.div
           ref={contentRef}

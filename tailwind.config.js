@@ -17,14 +17,14 @@ module.exports = {
         'Black': ['Black Han Sans', 'sans-serif'],
         'Raleway': ['Raleway', 'sans-serif']
       },
-      screens: {
-        'xs': {'min': '320px', 'max': '479px'},
-        'sm': {'min': '480px', 'max': '639px'},
-        'md': {'min': '640px', 'max': '789px'},
-        'lg': {'min': '790px', 'max': '1029px'},
-        'xl': {'min': '1030px', 'max': '1479px'},
-        '2xl': {'min': '1480px'},
-      },
+      // screens: {
+      //   'xs': {'min': '320px', 'max': '479px'},
+      //   'sm': {'min': '480px', 'max': '639px'},
+      //   'md': {'min': '640px', 'max': '789px'},
+      //   'lg': {'min': '790px', 'max': '1029px'},
+      //   'xl': {'min': '1030px', 'max': '1479px'},
+      //   '2xl': {'min': '1480px'},
+      // },
       
     },
   },

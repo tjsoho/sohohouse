@@ -44,6 +44,18 @@ export default function Icon({ name, className, rotation = 0, onExitComplete }: 
           <line y1="5.5" x2="116" y2="5.5" stroke="#FC7643" stroke-width="11" />
         </svg>
       )}
+      {name === "xsmallLine" && (
+        <svg
+          className={className}
+          width="116"
+          height="3"
+          viewBox="0 0 116 11"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <line y1="5.5" x2="116" y2="5.5" stroke="#FC7643" stroke-width="11" />
+        </svg>
+      )}
 
       {name === "arrowCamel" && (
         <svg

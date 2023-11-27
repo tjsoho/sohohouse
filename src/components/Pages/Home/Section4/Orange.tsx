@@ -1,8 +1,8 @@
-import React from "react";
 
-export default function Tan() {
+
+export default function Orange() {
   return (
-    <div className="bg-brand-camel mx-auto px-5 h-full">
+    <div className="bg-brand-orange mx-auto px-5 h-full">
       <div className="row px-5 -mx-5">
         <div className="row px-5 -mx-5">
           <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">

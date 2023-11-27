@@ -9,18 +9,18 @@ export default function Section3() {
     <div className="flex flex-col justify-between py-16 items-center h-auto w-screen bg-brand-blue">
       {/* Row 1 */}
       <div className="flex flex-col w-full">
-        <div className="flex  justify-center items-start">
-          <h3 className="text-center text-[70px] leading-none text-brand-cream mr-[20rem]">
+        <div className="flex justify-center md:justify-start items-center mb-2 px-4 md:px-16 lg:px-48 xl:px-72 2xl:px-[400px]">
+          <h3 className="text-center text-[40px] md:text-[70px] leading-none text-brand-cream">
             Bringing Your
           </h3>
         </div>
-        <div className="flex  justify-center items-start w-full">
-          <h3 className="text-center text-[70px] leading-none text-brand-cream ml-[20rem]">
-            Stroy To Life
+        <div className="flex justify-center md:justify-end items-center w-full px-4 md:px-16 lg:px-48 xl:px-72 2xl:px-[400px]">
+          <h3 className="text-center text-[40px] md:text-[70px] leading-none text-brand-cream ">
+            Story To Life
           </h3>
         </div>
-        <div className="flex  justify-center items-start w-full">
-          <p className="text-center text-[26px] leading-1 tracking-widest text-brand-orange uppercase ml-[21rem]">
+        <div className="flex  justify-center md:justify-end items-center w-full mt-1">
+          <p className="text-center text-[18px] md:text-[26px] leading-1 tracking-widest text-brand-orange uppercase md:pr-12 lg:pr-44 xl:pr-[280px] 2xl:pr-[388px] ">
             Our step-by-step framework
           </p>
         </div>

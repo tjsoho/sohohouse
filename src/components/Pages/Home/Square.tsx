@@ -1,4 +1,4 @@
-import laptopImage from "./Images/1.png";
+import laptopImage from "../../Images/1.png";
 
 interface SquareProps {
   label: string;
