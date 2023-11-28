@@ -1,3 +1,4 @@
+import Contact from "../Contact/Contact";
 import Section1 from "./Section1/Section1";
 import Section2a from "./Section2/Section2a";
 import Section3 from "./Section3/Section3";
@@ -39,6 +40,9 @@ function Home() {
         </div>
       </div>
       <Section4 />
+      <div className="w-screen h-screen">
+        <Contact />
+      </div>
     </div>
   );
 }

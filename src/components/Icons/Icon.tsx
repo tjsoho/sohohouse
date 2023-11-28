@@ -72,6 +72,21 @@ export default function Icon({ name, className, rotation = 0, onExitComplete }: 
           />
         </svg>
       )}
+      {name === "arrowCamel2" && (
+        <svg
+        className={`${className} rotate-svg`}
+          width="42"
+          height="42"
+          viewBox="0 0 42 42"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M13.0291 36.4437L12.6387 5.76421L33.1663 20.8452L13.0291 36.4437Z"
+            fill="#FFE9E2"
+          />
+        </svg>
+      )}
 
       {name === "smallHouse" && (
         <svg
