@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'OggItalic';
+    src: url('./assets//fonts/Ogg\ Italic.otf') format('.otf'), 
+}
+
+@font-face {
+    font-family: 'OggRoman';
+    src: url('./assets//fonts/Ogg\ Roman.otf') format('.otf')
+}

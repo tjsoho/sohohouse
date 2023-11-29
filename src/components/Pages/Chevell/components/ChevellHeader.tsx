@@ -5,12 +5,21 @@ import ChevellText from "./core/ChevellText";
 const ChevellHeader = () => {
   return (
     <div
-      style={{ backgroundImage: `url(${HeaderImage})` }}
-      className="bg-cover bg-center h-[100vh]"
+      style={{
+        backgroundImage: `url(${HeaderImage})`,
+        backgroundPositionX: "73%",
+        backgroundPositionY: "30%",
+      }}
+      className="bg-cover h-[100vh]"
     >
-      <ChevellText type="h1" color={ChevellColors.SOFT_BLACK}>
-        CHEVELL
-      </ChevellText>
+      <div className="ml-[10%] pt-[16%]">
+        <ChevellText type="h1" color={ChevellColors.SOFT_BLACK}>
+          CHEVELL
+        </ChevellText>
+        <ChevellText type="sub1" color={ChevellColors.SOFT_BLACK}>
+          Effortless, Editorial, Wedding Photography
+        </ChevellText>
+      </div>
     </div>
   );
 };
