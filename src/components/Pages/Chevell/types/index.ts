@@ -1,1 +1,1 @@
-export type ChevellTextType = "h1" | "h2" | "h3";
+export type ChevellTextType = "h1" | "h2" | "h3" | "sub1" | "sub2";
