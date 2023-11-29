@@ -4,25 +4,31 @@ import Process from "./Components/Process";
 import Start from "./Components/Start";
 
 function Contact() {
-  return (
-    <div className="bg-brand-cream mx-auto px-5 py-32 h-screen flex flex-col justify-between items-start">
-      {/* Ensure this div takes full height */}
-      <div className=" ">
-        <Start />
-      </div>
-      <div className="  my-16">
-        <LetsChat />
-      </div>
-      <div className="flex flex-col md:flex-row w-full md:justify-evenly">
-        <div className="  my-16 md:my-4">
-          <Process />
+    return (
+      <div className="bg-brand-cream mx-auto px-5 py-32 h-screen flex flex-col lg:flex-row  items-start md:items-center w-full">
+        {/* Col 1 */}
+        <div className="w-full lg:w-1/2 lg:mt-32">
+          <div className="md:mb-16 ">
+            <Start />
+          </div>
+          <div className="my-16 ">
+            <LetsChat />
+          </div>
         </div>
-        <div className="  mb-16 md:my-4">
-          <Creations />
+  
+        {/* Col 2 */}
+        <div className="w-full lg:w-1/2 lg:pl-16">
+          <div className="flex flex-col md:flex-row lg:flex-col md:justify-evenly items-center w-full">
+            <div className="my-16 md:my-4 lg:my-20">
+              <Process />
+            </div>
+            <div className="mb-4 md:my-4 lg:my-20">
+              <Creations />
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  );
-}
-
-export default Contact;
+    );
+  }
+  
+  export default Contact;
