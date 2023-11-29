@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Style from "./components/StyleGuide/Style";
 import Chevell from "./components/Pages/Chevell/Chevell";
 import Home from "./components/Pages/Home/Home";
+import About from "./components/Pages/About/About";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
           <Route path="/style" element={<Style />} />
           <Route path="/chevell" element={<Chevell />} />
         </Routes>
