@@ -1,13 +1,11 @@
-
-
 function SoHoBlue() {
   return (
     <div>
-      <h1 className="text-[#2c3b5f] leading-none text-center">SoHo</h1>
+      <h1 className="text-[#262b56] leading-none text-center md:text-[250px] lg:text-[450px] relative">
+        SoHo
+      </h1>
     </div>
-  )
+  );
 }
 
-export default SoHoBlue
-
-
+export default SoHoBlue;
