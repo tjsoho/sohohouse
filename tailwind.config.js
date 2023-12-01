@@ -12,6 +12,7 @@ module.exports = {
         'brand-cream': '#FFE9E2',
         'brand-camel': '#CA9F78',
         'brand-black': '#222222',
+        'brand-beige': '#F9D3B1',
       },
       fontFamily: {
         'Black': ['Black Han Sans', 'sans-serif'],

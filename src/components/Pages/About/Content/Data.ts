@@ -1,13 +1,13 @@
 const content = {
-    paragraph1: `Hi there! I’m Toby J - the founder of SoHo Creative House. Think of me as the guy who swapped a guitar pick for a digital pen. <br><br>
+    paragraph1: `Hi there! I’m Toby J - the founder of SoHo Creative House. Think of me as the guy who swapped a guitar pick for a digital pen. {"\n"} 
 
-        You see, in a previous life, I was a globe-trotting musician. Yep, I could rock a saxophone like nobody's business and strum a guitar with the passion of a Jack Black from ‘School of Rock.’ <br><br>
+        You see, in a previous life, I was a globe-trotting musician. Yep, I could rock a saxophone like nobody's business and strum a guitar with the passion of a Jack Black from ‘School of Rock.’ 
         
-        For two decades, I took my tunes from New York to London, Hong Kong, and everywhere in between. Every city, every culture, every melody, it all became a part of me.<br><br>
+        For two decades, I took my tunes from New York to London, Hong Kong, and everywhere in between. Every city, every culture, every melody, it all became a part of me
         
         But one day, amidst the roar of applause and the shimmering lights of the stage, I decided to pivot. I hung up my ‘muso’ boots and slipped into the digital realm.`,
     
-    paragraph2: `Why, you ask? Because I wanted to create a different kind of harmony – the     kind that resonates through pixels and code. <br><br>
+    paragraph2: `Why, you ask? Because I wanted to create a different kind of harmony – the     kind that resonates through pixels and code. 
 
         SoHo Creative House was born from the ashes of my music career (not literally, that would be a bit dramatic). It's where the art of storytelling meets the precision of web design. <br><br>
         
