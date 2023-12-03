@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Beauty';
+    src: url('./assets//fonts/Beauty.otf') format('.otf'), 
+}
+
+@font-face {
+    font-family: 'Nashville';
+    src: url('./assets//fonts/Nashville-Regular.otf') format('.otf')
+}

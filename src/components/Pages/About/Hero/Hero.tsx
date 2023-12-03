@@ -1,4 +1,4 @@
-import React from 'react';
+
 import ResponsiveBackground from './ResponsiveBackground'; // import the new component
 
 function Hero() {
