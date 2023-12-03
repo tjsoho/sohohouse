@@ -1,4 +1,4 @@
-interface MobileProps {
+interface ComponentProps {
   title: string;
   para1: string;
   para2: string;
@@ -6,7 +6,7 @@ interface MobileProps {
   lineColour: string;
 }
 
-function Mobile({ title, para1, para2, image, lineColour,  }: MobileProps) {
+function Mobile({ title, para1, para2, image, lineColour,  }: ComponentProps) {
   return (
     <div className="py-24">
       <div className="px-8">

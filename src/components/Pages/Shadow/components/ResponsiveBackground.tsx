@@ -1,7 +1,9 @@
 import { useState, useEffect, ReactNode } from 'react';
-import mobIMG from '../Images/darkSM.png';
-import tabIMG from '../Images/darkMD.png';
-import deskIMG from '../Images/darklg.png';
+import mobIMG from '../assets/images/Section2ImgSM.png';
+import tabIMG from '../assets/images/Section2ImgMD.jpg'
+import deskIMG from '../assets/images/Section2ImgLG.png'
+
+
 
 type ResponsiveBackgroundProps = {
   children: ReactNode;

@@ -1,5 +1,5 @@
 const content = {
-    paragraph1: `Hi there! I’m Toby J - the founder of SoHo Creative House. Think of me as the guy who swapped a guitar pick for a digital pen. {"\n"} 
+    paragraph1: `Hi there! I’m Toby J - the founder of SoHo Creative House. Think of me as the guy who swapped a guitar pick for a digital pen. 
 
         You see, in a previous life, I was a globe-trotting musician. Yep, I could rock a saxophone like nobody's business and strum a guitar with the passion of a Jack Black from ‘School of Rock.’ 
         
