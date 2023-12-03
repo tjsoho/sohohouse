@@ -31,7 +31,7 @@ const ChevellText = ({ children, type, color }: Props) => {
         return <h3 style={{ color, fontFamily: "OggItalic" }}>{children}</h3>;
       case "sub1":
         return (
-          <p className="text-[20px] sm:text-[25px] md:text-[30px] lg:text-[35px] xl:text-[37px]">
+          <p className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[25px] xl:text-[30px]">
             {children}
           </p>
         );
