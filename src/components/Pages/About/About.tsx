@@ -1,6 +1,5 @@
 import Contact from "../Contact/Contact";
 
-
 import Content from "./Content/Content";
 import Content2 from "./Content/Content2";
 import Content3 from "./Content/Content3";
@@ -12,15 +11,14 @@ import Values from "./Values/Values";
 function About() {
   return (
     <div className="flex flex-col">
-    
       <div className="w-screen h-screen">
-        <Hero />    
+        <Hero />
       </div>
       <div className="w-screen h-contain bg-brand-camel">
         <Content />
       </div>
       <div className="h-screen">
-      <Values />
+        <Values />
       </div>
       <div className="w-screen h-contain">
         <Elevate />
