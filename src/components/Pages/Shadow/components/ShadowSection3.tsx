@@ -1,8 +1,27 @@
 import ShadowText from "./core/ShadowText";
 import { ShadowColours } from "../constants/ShadowColours";
 import backgroundImage from "../assets/images/shadowGirlBoard.png";
+import desktopImage from "../assets/images/girlBoardLG.png";
+import { useEffect, useState } from "react";
 
 function ShadowSection3() {
+
+  const [currentImage, setCurrentImage] = useState(backgroundImage);
+
+  useEffect(() => {
+    function handleResize() {
+      if (window.innerWidth >= 1024) {
+        setCurrentImage(desktopImage); // Desktop
+      } else {
+        setCurrentImage(backgroundImage); // Mobile
+      }
+    }
+
+    window.addEventListener('resize', handleResize);
+    handleResize(); // Initialize on component mount
+
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
   return (
     <div
       style={{ backgroundColor: ShadowColours.SOFT_YELLOW }}
@@ -10,7 +29,7 @@ function ShadowSection3() {
     >
       {/* Background Image */}
       <div
-        style={{ backgroundImage: `url(${backgroundImage})` }}
+        style={{ backgroundImage: `url(${currentImage})` }}
         className="h-full bg-no-repeat bg-contain bg-left"
       >
         {/* Content */}

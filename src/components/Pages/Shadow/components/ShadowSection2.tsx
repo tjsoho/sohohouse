@@ -9,7 +9,7 @@ function ShadowSection2() {
         {/* Overlay */}
         
           {/* Content */}
-          <div className="flex justify-start items-end lg:items-center h-full pl-4 pb-32 md:pb-4 md:pl-8">
+          <div className="flex justify-start items-end lg:items-center h-full pl-4 pb-16 md:pb-4 md:pl-8 lg:pl-32">
             <ShadowText  type="h1" color={ShadowColours.SOFT_GREEN}>
               REDISCOVER <br /> YOURSELF
             </ShadowText>
