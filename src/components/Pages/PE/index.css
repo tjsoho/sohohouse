@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'GopherB';
+    src: url('./assets/fonts/Gopher-Bold.ttf') format('.ttf'); 
+}
+
+@font-face {
+    font-family: 'GopherM';
+    src: url('./assets//fonts/Gopher-Medium.ttf') format('.ttf'), 
+}
+@font-face {
+    font-family: 'GopherL';
+    src: url('./assets//fonts/Gopher-Light.ttf') format('.ttf'), 
+}
+
+
