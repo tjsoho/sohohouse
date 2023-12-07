@@ -18,7 +18,7 @@ const Content: React.FC<ContentProps> = ({ number, title, content }) => {
         {title}
       </p>
 
-        <p className="text-left text-[18px] md:text-[21px] leading-1 tracking-widest text-brand-cream mb-12 font-light">
+        <p className="text-left text-[18px] md:text-[21px] leading-1 tracking-widest text-brand-cream font-light p-4">
             {content}
         </p>
     </div>

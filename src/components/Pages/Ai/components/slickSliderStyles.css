@@ -1,0 +1,35 @@
+/* Arrow styles */
+.slick-prev, .slick-next {
+    font-size: 0px; /* Adjust the size */
+    color: #CA9F78; /* Arrow color */
+    z-index: 1;
+}
+  
+    /* Add more styles as needed (e.g., background, border, etc.) */
+  
+  
+  /* Style for the left arrow */
+  .slick-prev {
+    left: -15px; /* Distance from the left edge */
+  }
+  
+  /* Style for the right arrow */
+  .slick-next {
+    right: -15px; /* Distance from the right edge */
+    display: none;
+    ;
+  }
+  
+  /* Dot styles */
+  .slick-dots li button:before {
+    font-size: 14px; /* Size of dots */
+    color: #FFE8D6; /* Color of dots */
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #FC7643 ; /* Color of the active dot */
+    margin-bottom: 8px;
+  }
+  
+  /* Add more custom styles as needed */
+  
