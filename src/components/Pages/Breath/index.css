@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Play';
+    src: url('./assets//fonts/PlayfairDisplay-Bold.ttf') format('.ttf'), 
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets//fonts/Roboto-Thin.ttf') format('.ttf')
+}

@@ -13,7 +13,7 @@ const PeText = ({ children, type, color, className }: Props) => {
       case "h1":
         return (
           <h1
-            style={{ color, fontFamily: "GopherB" }}
+            style={{ color, fontFamily: "Gopher" }}
             className={`text-[38px] sm:text-[60px] md:text-[80px] lg:text-[90px]  leading-none font-bold ${className}`}
           >
             {children}
@@ -22,17 +22,17 @@ const PeText = ({ children, type, color, className }: Props) => {
       case "h2":
         return (
           <h2
-            style={{ color, fontFamily: "GopherB" }}
+            style={{ color, fontFamily: "Gopher" }}
             className="text-[50px] sm:text-[60px] md:text-[70px]"
           >
             {children}
           </h2>
         );
       case "h3":
-        return <h3 style={{ color, fontFamily: "GopherM" }}>{children}</h3>;
+        return <h3 style={{ color, fontFamily: "Gopher" }}>{children}</h3>;
         case "sub1":
           return (
-            <p style={{ color, fontFamily: "GopherL" }} className={`text-[20px] sm:text-[25px]  ${className}`}>
+            <p style={{ color, fontFamily: "Gopher" }} className={`text-[20px] sm:text-[25px]  ${className}`}>
               {children}
             </p>
           );

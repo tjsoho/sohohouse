@@ -20,7 +20,7 @@ export default function Button1 ({ label, onClick, icon, color = 'orange', text 
   ${color === 'orange' ? 'bg-brand-orange' : color === 'blue' ? 'bg-brand-blue' : 'bg-brand-camel'}
   text-brand-cream hover:text-brand-blue  active:underline
   ${className}
-  flex justify-between 
+  flex justify-center items-center 
   font-Black
 
   `
