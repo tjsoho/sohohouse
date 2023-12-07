@@ -7,6 +7,9 @@ import Home from "./components/Pages/Home/Home";
 import About from "./components/Pages/About/About";
 import Shadow from "./components/Pages/Shadow/Shadow";
 import Pe from "./components/Pages/PE/Pe";
+import Breath from "./components/Pages/Breath/Breath";
+import Luxe from "./components/Pages/Luxe/Luxe";
+import Ai from "./components/Pages/Ai/Ai";
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
           <Route path="/chevell" element={<Chevell />} />
           <Route path="/shadow" element={<Shadow />} />
           <Route path="/pe" element={<Pe />} />
+          <Route path="/breath" element={<Breath />} />
+          <Route path="/luxe" element={<Luxe />} />
+          <Route path="/businesscompanion" element={<Ai />} />
         </Routes>
       </div>
     </Router>

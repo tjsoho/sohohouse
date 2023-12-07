@@ -31,7 +31,7 @@ export default function Orange() {
                   Your Ai Journey Starts Here: {isSmallScreen && <br />}Tips and
                   Expert Guides
                 </p>
-                <Button label="Get Ahead" />
+                <Button label="Become an Ai Master" />
                 
               </div>
             </div>

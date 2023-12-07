@@ -1,3 +1,4 @@
+import Hero from "../About/Hero/Hero";
 import Contact from "../Contact/Contact";
 import Section1 from "./Section1/Section1";
 import Section2a from "./Section2/Section2a";
@@ -38,6 +39,9 @@ function Home() {
         <div className="w-full md:w-1/2 lg:w-1/3 h-96">
           <Square label="Breath" />
         </div>
+      </div>
+      <div className="w-full h-screen">
+      <Hero />
       </div>
       <Section4 />
       <div className="w-screen h-screen">

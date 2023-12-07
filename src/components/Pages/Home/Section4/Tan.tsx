@@ -10,16 +10,16 @@ export default function Tan() {
                   Ai
                 </h2>
                 <h3 className="text-brand-blue text-2xl md:text-4xl">
-                  Don't get left behind
+                  The Master Key <br/>To Your Business
                 </h3>
                 <div className="bg-brand-orange self-center w-[116px] shrink-0 h-[6px] mb-8 mt-10" />
                 
                   <p className="text-brand-blue text-[20px] mb-16 px-4 md:px-16 xl:px-32 text-justify">
-                    Think AI is just kind of cool? Think again. It's a
+                  Don't get left behind... Think AI is just kind of cool? Think again. It's a
                     game-changer, and we're here to show you how to unleash its
                     full potential. <br />
                     <br />
-                    Our training equips you to elevate your brand's voice and
+                    Our ChatGPT Companion equips you to elevate your brand's voice and
                     dominate your marketing game. Don't just dabble in AI—master
                     it!
                   </p>
