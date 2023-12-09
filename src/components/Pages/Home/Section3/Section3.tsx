@@ -1,7 +1,8 @@
-
+import { Link } from "react-router-dom";
 import { Accordion } from "../../../Accordion/Accordion";
 import Button1 from "../../../Button/Button1";
 import accordionData from "./accordionData";
+
 
 export default function Section3() {
   return (
@@ -38,7 +39,9 @@ export default function Section3() {
       {/* Row 3 */}
       <div className="flex w-full">
         <div className="flex flex-col justify-center items-center w-full">
+        <Link to="/contactform">
         <Button1 label="START YOUR JOURNEY"  icon="arrowRight" />
+        </Link>
         </div>
       </div>
     </div>

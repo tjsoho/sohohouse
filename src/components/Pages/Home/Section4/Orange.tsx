@@ -28,10 +28,9 @@ export default function Orange() {
                   Become an Ai Master
                 </h3>
                 <p className="text-brand-cream text-[22px] mb-16 md:mb-8 px-4 text-center ">
-                  Your Ai Journey Starts Here: {isSmallScreen && <br />}Tips and
-                  Expert Guides
+                  Your Ai Journey Starts Right Here! {isSmallScreen && <br />}Are you ready?
                 </p>
-                <Button label="Become an Ai Master" />
+                <Button label="I'm Ready" />
                 
               </div>
             </div>

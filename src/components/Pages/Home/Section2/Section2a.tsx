@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import Icon from "../../../Icons/Icon";
 import HouseAnimation from "./houseAnimation";
+import { Link } from "react-router-dom";
 
 function Section2a() {
   const titleClasses = `
@@ -25,43 +26,47 @@ function Section2a() {
 
         {/* Orange Line */}
         <div className="mt-8 mb-12">
-        <div className="bg-brand-orange self-center w-[58px] md:w-[116px] shrink-0 h-[6px]" />
+          <div className="bg-brand-orange self-center w-[58px] md:w-[116px] shrink-0 h-[6px]" />
         </div>
 
         {/* Paragraph */}
         <div className="px-4 tracking-wider">
-          <p className="text-[18px] text-center">
-            Welcome to your new online home, where your business isn't just a
-            reflection of who you are, it's a story that deserves to be shared
-            with the world.
+          <p className="text-[18px] text-center lg:px-16 md:mb-8 ">
+            Welcome to your new online home, <br /> where your business isn't
+            just a reflection of who you are, <br /> it's a story that deserves
+            to be shared with the world.
           </p>
         </div>
       </div>
 
       {/* Right Column: House Animation and Start Now */}
-      <div className="w-full md:w-1/2 flex flex-col items-center">
+      <div className="w-full md:w-1/2 flex flex-col items-center justify-center">
         {/* House Animation */}
         <div className="pb-6 mt-8 mb-4">
           <HouseAnimation />
         </div>
 
         {/* Start Now */}
-        <div className="px-20 flex items-center justify-center">
-          <Icon name="arrowCamel" />
-          <motion.div
-            className="text-brand-camel"
-            initial={{ x: "+10vw" }}
-            animate={{ x: ["-8px", "10px", "-8px"] }}
-            transition={{
-              duration: 1,
-              repeat: Infinity,
-              repeatType: "reverse",
-              ease: "easeInOut",
-            }}
-          >
-            <p className="font-Black leading-none pt-1">START NOW</p>
-          </motion.div>
-        </div>
+        <Link to="/contactform">
+          <div className="px-20 flex items-center justify-end">
+            <Icon name="arrowCamel" />
+            <motion.div
+              className="text-brand-camel pt-1"
+              initial={{ x: "+10vw" }}
+              animate={{ x: ["-8px", "10px", "-8px"] }}
+              transition={{
+                duration: 1,
+                repeat: Infinity,
+                repeatType: "reverse",
+                ease: "easeInOut",
+              }}
+            >
+              <button className="font-Black leading-none text-2xl lg:text-3xl lg:pr-8 w-full">
+                <span className="pl-2 pt-8">START NOW</span>
+              </button>
+            </motion.div>
+          </div>
+        </Link>
       </div>
     </div>
   );

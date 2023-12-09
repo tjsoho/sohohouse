@@ -14,7 +14,7 @@ export default function Tan() {
                 </h3>
                 <div className="bg-brand-orange self-center w-[116px] shrink-0 h-[6px] mb-8 mt-10" />
                 
-                  <p className="text-brand-blue text-[20px] mb-16 px-4 md:px-16 xl:px-32 text-justify">
+                  <p className="text-brand-blue text-[20px] mb-16 px-4 md:px-16 xl:px-24 text-justify">
                   Don't get left behind... Think AI is just kind of cool? Think again. It's a
                     game-changer, and we're here to show you how to unleash its
                     full potential. <br />
