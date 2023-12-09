@@ -32,7 +32,7 @@ const MenuPage: React.FC<MenuPageProps> = ({ toggleMenu }) => {
   }, []);
 
   return (
-    <div className="fixed top-0 left-0 w-screen h-screen p-16 lg:p-32 bg-brand-blue flex flex-col justify-center items-center font-Black z-40">
+    <div className="fixed top-0 left-0 w-screen h-screen p-16 lg:p-32 bg-brand-blue flex flex-col justify-center items-center font-Black z-40 ">
       <ul style={{ listStyle: "none", padding: 0 }}>
         {menuItems.map((item) => (
           <MenuItem 

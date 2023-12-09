@@ -8,7 +8,7 @@ import Square from "./Square";
 
 function Home() {
   return (
-    <div className="w-full">
+    <div className="w-screen">
       <Section1 />
       <Section2a />
       <Section3 />
