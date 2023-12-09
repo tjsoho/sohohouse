@@ -8,7 +8,7 @@ import Landing from "../Pages/Home/Section1/Landing1";
 import Section1 from "../Pages/Home/Section1/Section1";
 import HouseAnimation from "../Pages/Home/Section2/houseAnimation";
 import Section2a from "../Pages/Home/Section2/Section2a";
-import Section3 from "../Pages/Home/Section3/Section3";
+import Section3 from "../Pages/Home/Section3/Framework";
 import Orange from "../Pages/Home/Section4/Orange";
 import Tan from "../Pages/Home/Section4/Tan";
 import Square from "../Pages/Home/Square";
@@ -21,9 +21,7 @@ export default function Styleguide() {
           <div>
             <div className="w-full">
               <div>
-                <div>
-                  
-                </div>
+                <div></div>
                 <div>
                   <Chevell />
                   <Section1 />
@@ -71,9 +69,7 @@ export default function Styleguide() {
                 <Button1 label="START YOUR JOURNEY" icon="arrowRight" />
               </div>
               <Icon name="arrowDown" />
-              <div className="w-full h-12 mb-2">
-           
-              </div>
+              <div className="w-full h-12 mb-2"></div>
               <HouseAnimation />
               <Landing />
               <Accordion
