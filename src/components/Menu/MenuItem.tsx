@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 interface MenuItemProps {
   text: string;
   i: number;
+  onClick: () => void;
+  isCurrentPage: boolean;
 }
 
 const variants = {
@@ -23,7 +25,7 @@ const variants = {
   }
 };
 
-export const MenuItem: React.FC<MenuItemProps> = ({ text, i }) => {
+export const MenuItem: React.FC<MenuItemProps> = ({ text, i, onClick, isCurrentPage }) => {
   return (
     <motion.li
       initial="closed"
@@ -32,7 +34,10 @@ export const MenuItem: React.FC<MenuItemProps> = ({ text, i }) => {
       whileHover={{ scale: 1.2 }}
       whileTap={{ scale: 0.95 }}
     >
-      <div className="text-6xl text-center pl-5 cursor-pointer font-Black my-12 text-brand-camel hover:text-brand-orange active:text-brand-blue">
+      <div className={`text-3xl lg:text-6xl cursor-pointer my-12 origin-left w-contain text-center ${
+        isCurrentPage ? "text-brand-cream" : "text-brand-camel hover:text-brand-orange active:text-brand-cream"
+      }`}
+        onClick={onClick}>
         {text}
       </div>
     </motion.li>

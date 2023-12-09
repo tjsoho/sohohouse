@@ -1,32 +1,39 @@
-import laptopImage from "../../Images/1.png";
+
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
+import laptopImage from "../../Images/1.png"; // Assuming you have this image
 
 interface SquareProps {
   label: string;
-  onClick?: () => void;
-  link?: string;
-  image?: string;
+  path?: string; // Add a path prop
   color?: string;
   text?: string;
 }
 
-export default function Square({ label, onClick, link, image, color = 'orange', text = 'blue'}: SquareProps) {
+export default function Square({ label, path, color = 'orange', text = 'blue' }: SquareProps) {
+  const navigate = useNavigate(); // Initialize useNavigate
+
+  // Function to handle click
+  const handleClick = () => {
+    if (path) {
+      navigate(path); // Navigate to the specified path
+    }
+  };
+
   const cardClasses = `
-  Card Class
-  ${color === 'orange' ? 'bg-brand-orange' : color === 'blue' ? 'bg-brand-blue' : 'bg-brand-camel'}
-  absolute inset-0 flex justify-center items-center text-center 
+    Card Class
+    ${color === 'orange' ? 'bg-brand-orange' : color === 'blue' ? 'bg-brand-blue' : 'bg-brand-camel'}
+    absolute inset-0 flex justify-center items-center text-center 
   `
   
   const labelClasses =`
-  Label Class
-  ${text === 'orange' ? 'text-brand-orange' : text === 'blue' ? 'text-brand-blue' : 'text-brand-camel'}
-  [backface-visibility:visible] 
-  
+    Label Class
+    ${text === 'orange' ? 'text-brand-orange' : text === 'blue' ? 'text-brand-blue' : 'text-brand-camel'}
+    [backface-visibility:visible] 
   `
+
   return (
-
-
-    <div className="group h-full w-full [perspective:1000px] flex flex-col justify-center items-center">
-      <div className="relative h-full w-full  transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+    <div className="group h-full w-full [perspective:1000px] flex flex-col justify-center items-center" onClick={handleClick}>
+      <div className="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
         <div className={cardClasses}>
           <div>
             <h3 className={labelClasses}>

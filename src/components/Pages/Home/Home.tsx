@@ -17,27 +17,27 @@ function Home() {
       <div className="flex flex-wrap w-full">
         
         <div className="w-full md:w-1/2 lg:w-1/3 h-96">
-          <Square label="Chevell" />
+          <Square label="Chevell" path="/chevell"/>
         </div>
         
         <div className="w-full md:w-1/2 lg:w-1/3 h-96">
-          <Square label="Rosie & Laurent" color="camel" />
+          <Square label="Rosie & Laurent" path="/" color="camel" />
         </div>
         
         <div className="w-full md:w-1/2 lg:w-1/3 h-96">
-          <Square label="Shadow" color="blue" text="orange" />
+          <Square label="Shadow" path="/shadow" color="blue" text="orange" />
         </div>
        
         <div className="w-full md:w-1/2 lg:w-1/3 h-96">
-          <Square label="Loved Luxe" color="camel" />
+          <Square label="Loved Luxe" path="/luxe" color="camel" />
         </div>
        
         <div className="w-full md:w-1/2 lg:w-1/3 h-96">
-          <Square label="Project Empower" color="blue" text="orange" />
+          <Square label="Project Empower" path="/pe" color="blue" text="orange" />
         </div>
         
         <div className="w-full md:w-1/2 lg:w-1/3 h-96">
-          <Square label="Breath" />
+          <Square label="Breath" path="/breath" />
         </div>
       </div>
       <div className="w-full h-screen">

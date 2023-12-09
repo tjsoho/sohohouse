@@ -26,11 +26,11 @@ function Values() {
             <motion.div
               className={`flex flex-col ${getBgColor(index)}`}
               animate={{ minHeight: expandedCard === index ? "auto" : "300px" }}
-              transition={{ type: "spring", stiffness: 100 }}
+              transition={{ type: "spring", stiffness: 100, delay: expandedCard === index ? 0.2 : 0, }}
             >
               <SquareTitle
                 title={content.title}
-                titleColour="text-brand-cream"
+                titleColour="text-brand-blue"
                 isExpanded={expandedCard === index}
                 onIconClick={() => toggleExpansion(index)}
               />
