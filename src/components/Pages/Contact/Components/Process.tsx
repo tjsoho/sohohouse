@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 function Process() {
   return (
@@ -8,9 +8,11 @@ function Process() {
           <p className="text-brand-blue text-xl leading-none font-Raleway font-extralight ">
             Discover Our
           </p>
+          <Link to="/framework">
           <p className="text-brand-blue text-2xl leading-none font-Raleway font-normal underline">
             Framework
           </p>
+          </Link>
         </div>
       </div>
     </div>
