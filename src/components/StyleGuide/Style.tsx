@@ -2,6 +2,7 @@ import { Accordion } from "../Accordion/Accordion";
 import Button1 from "../Button/Button1";
 import Icon from "../Icons/Icon";
 import MenuBar from "../Menu/MenuBar";
+import MenuPage from "../Menu/MenuPage";
 import Chevell from "../Pages/Chevell/Chevell";
 import Landing from "../Pages/Home/Section1/Landing1";
 import Section1 from "../Pages/Home/Section1/Section1";
@@ -20,6 +21,9 @@ export default function Styleguide() {
           <div>
             <div className="w-full">
               <div>
+                <div>
+                  
+                </div>
                 <div>
                   <Chevell />
                   <Section1 />
@@ -68,7 +72,7 @@ export default function Styleguide() {
               </div>
               <Icon name="arrowDown" />
               <div className="w-full h-12 mb-2">
-                <MenuBar />
+           
               </div>
               <HouseAnimation />
               <Landing />

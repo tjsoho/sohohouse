@@ -31,7 +31,7 @@ export const valueContent: CardData[] = [
   },
   {
     title: "Guidance",
-    content: "When we hand over your website, we won't leave you hanging. We'll provide you with easy-to-follow videos and step-by-step instructions to ensure you can confidently manage your online presence.",
+    content: "When we hand over your website, we won't leave you hanging. We'll provide you with easy-to-follow instructions to ensure you can confidently manage your online presence.",
   
   },
 ];
