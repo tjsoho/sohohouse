@@ -34,7 +34,7 @@ function StyleTablet({
           {para2}
         </div>
       </div>
-      <div>{image}</div>
+      {image}
     </div>
   );
 }
