@@ -1,25 +1,25 @@
-import Mobile3 from "./Components/Mobile3";
-import Data from "./Data";
+import BeginningsMobile from "./Components/BeginningsMobile";
+import Data from "./Paragraphs";
 import SohoTan from "./Components/SoHoTan";
-import Tablet3 from "./Components/Tablet3";
+import BeginningsTablet from "./Components/BeginningsTablet";
 
-function Content3() {
+function Content() {
   return (
     <div>
       <div className="md:hidden">
-        <Mobile3
-          title="Promise"
-          para1={Data.paragraph5}
-          para2={Data.paragraph6}
+        <BeginningsMobile
+          title="Beginnings"
+          para1={Data.paragraph1}
+          para2={Data.paragraph2}
           lineColour="bg-brand-orange self-center w-[72px] md:w-[116px] shrink-0 h-[6px] my-8"
           image={<SohoTan />}
         />
       </div>
       <div className="hidden md:block">
-        <Tablet3
-          title="Promise"
-          para1={Data.paragraph5}
-          para2={Data.paragraph6}
+        <BeginningsTablet
+          title="Beginnings"
+          para1={Data.paragraph1}
+          para2={Data.paragraph2}
           lineColour="bg-brand-orange self-center w-[72px] md:w-[116px] shrink-0 h-[6px] my-8"
           image={<SohoTan />}
         />
@@ -28,4 +28,4 @@ function Content3() {
   );
 }
 
-export default Content3;
+export default Content;

@@ -1,12 +1,20 @@
-interface ComponentProps {
+import { ReactNode } from "react";
+
+interface Mobile3Props {
   title: string;
-  para1: string;
-  para2: string;
+  para1: ReactNode;
+  para2: ReactNode;
   image: JSX.Element;
   lineColour: string;
 }
 
-function Mobile({ title, para1, para2, image, lineColour,  }: ComponentProps) {
+function PromiseMobile({
+  title,
+  para1,
+  para2,
+  image,
+  lineColour,
+}: Mobile3Props) {
   return (
     <div className="py-24">
       <div className="px-8">
@@ -16,18 +24,14 @@ function Mobile({ title, para1, para2, image, lineColour,  }: ComponentProps) {
           </h4>
           <div className={lineColour} />
         </div>
-        <div>
-          <p className="pb-4 text-Raleway text-brand-blue">{para1}</p>
-        </div>
+        <div>{para1}</div>
       </div>
       <div>{image}</div>
       <div>
-        <div className="px-8">
-          <p className="pb-4 text-Raleway text-brand-blue">{para2}</p>
-        </div>
+        <div className="px-8">{para2}</div>
       </div>
     </div>
   );
 }
 
-export default Mobile;
+export default PromiseMobile;

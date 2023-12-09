@@ -1,8 +1,8 @@
 import Contact from "../Contact/Contact";
 
-import Content from "./Content/Content";
-import Content2 from "./Content/Content2";
-import Content3 from "./Content/Content3";
+import Content from "./Content/BeginningsParagraphs";
+import Content2 from "./Content/StyleParagraphs";
+import Content3 from "./Content/PromiseParagraphs";
 import Elevate from "./Elevate/Elevate";
 import Hero from "./Hero/Hero";
 
