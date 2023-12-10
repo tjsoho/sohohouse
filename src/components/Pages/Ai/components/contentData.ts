@@ -13,8 +13,8 @@ const contentData = [
    },
     {
     number: 3,
-    title: "The Grand Finale: Your ChatGPT Business Companion",
-    content: "And now, for the exciting revelation—I introduce to you your Personalized GPT Companion Experience. Envision it as your personal concierge, meticulously crafted and effortlessly user-friendly. It's not just a resource; it's your key to navigating the world of AI seamlessly."
+    title: "The Grand Finale: Your Ai Business Companion",
+    content: "And now, for the exciting revelation—I introduce to you your Personalized Ai Companion Experience. Envision it as your personal concierge, meticulously crafted and effortlessly user-friendly. It's not just a resource; it's your key to supercharging every aspect of your bsuiness."
     },
 
 ];

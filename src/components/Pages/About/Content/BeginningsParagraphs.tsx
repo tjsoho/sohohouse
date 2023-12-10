@@ -15,7 +15,7 @@ function Content() {
           image={<SohoTan />}
         />
       </div>
-      <div className="hidden md:block">
+      <div className="hidden md:block ">
         <BeginningsTablet
           title="Beginnings"
           para1={Data.paragraph1}

@@ -4,7 +4,7 @@ import Button1 from "../../../Button/Button1";
 import accordionData from "./accordionData";
 
 
-export default function Section3() {
+export default function Framework() {
   return (
     // 1 Col of 3 rows
     <div className="flex flex-col justify-between py-16 items-center h-auto w-screen bg-brand-blue">
@@ -28,6 +28,7 @@ export default function Section3() {
       </div>
 
       {/* Row 2 */}
+      
       <div className="flex w-full my-16">
         <div className="flex flex-col justify-center items-center w-full">
           {accordionData.map((item, index) => (

@@ -3,6 +3,7 @@ import graphic from "../images/graphic.png";
 
 
 function Graphic() {
+  const externalLink = "https://calendly.com/sohocreativehouse/30min";
   return (
     <div className="w-full h-full flex flex-col lg:flex-row bg-brand-camel justify-around items-center py-16">
     
@@ -15,7 +16,9 @@ function Graphic() {
           Elevate Your Business with <br />
           All-in-One Assistance, <br /> Priced at $990
         </p>
-        <Button1 label="YES PLEASE" color="blue" className="mt-8"/>
+        <a href={externalLink} target="_blank" rel="noopener noreferrer">
+        <Button1 label="YES PLEASE" color="blue" className="mt-7 hover:text-brand-orange"/>
+        </a>
       </div>
     </div>
   );

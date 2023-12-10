@@ -10,12 +10,12 @@
   
   /* Style for the left arrow */
   .slick-prev {
-    left: -15px; /* Distance from the left edge */
+    left: -25px; /* Distance from the left edge */
   }
   
   /* Style for the right arrow */
   .slick-next {
-    right: -15px; /* Distance from the right edge */
+    right: -25px; /* Distance from the right edge */
     display: none;
     ;
   }

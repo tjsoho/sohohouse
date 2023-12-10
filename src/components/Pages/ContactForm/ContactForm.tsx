@@ -42,23 +42,25 @@ const ContactForm: React.FC = () => {
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          padding: 8,
-        }} className="bg-brand-orange"
+          padding: 4,
+          paddingTop:16,
+          paddingBottom:16,
+        }} className="bg-brand-blue"
       >
-        <h2>
+        <h2 className="text-brand-orange text-center text-5xl lg:text-7xl my-4 ">
           Let's Chat
         </h2>
-        <Typography variant="h5" style={{ textAlign: 'center', fontSize: '20px' }} gutterBottom>
-          Well hello there! Thanks for dropping by. Guess what?! You're just one step away from chatting in person! I know, super exciting.<br /><br /> So what are you waiting for? <br />Fill in those blanks and let's have a real-life conversation.<br /><br /> 
+        <Typography variant="h5" style={{ textAlign: 'center', fontSize: '20px' }} className="text-brand-camel" gutterBottom>
+         We love to hear about new ideas.<br /><br /> Feel free to share your thoughts with us and we'll get back to you as soon as we can.
         </Typography>
-      <Button>Resume</Button>
+      
       </Grid>
       <Grid
         item
         xs={12}
         sm={6}
         sx={{
-          backgroundColor: "#ffe597",
+          
           padding: { xs: '50px', sm: "0 20px"},
           height: "100vh",
           display: "flex",
@@ -66,6 +68,7 @@ const ContactForm: React.FC = () => {
           justifyContent: { xs: "flex-start", sm: "center"},
           alignItems: "center",
         }}
+        className="bg-brand-cream"
       >
         {/* Close Button */}
         
@@ -76,9 +79,9 @@ const ContactForm: React.FC = () => {
             name="access_key"
             value="11ca1af5-f8d5-4044-b6c3-9d57029c53d8" // Replace with your actual Access Key
           />
-          <Typography variant="h3" align='center' gutterBottom>
+          <h3 className="font-Black text-center text-3xl lg:text-5xl text-brand-blue" >
             Contact Form
-          </Typography>
+            </h3>
           <TextField
             fullWidth
             label="Full Name"
@@ -102,6 +105,7 @@ const ContactForm: React.FC = () => {
             name="phone"
             variant="outlined"
             margin="normal"
+            required
           />
           <TextField
             fullWidth
@@ -116,14 +120,12 @@ const ContactForm: React.FC = () => {
           <div style={{ display: "none" }}>
             <input type="checkbox" name="botcheck" />
           </div>
-          <Button
+          <button
             type="submit"
-            variant="contained"
-            color="primary"
-            size="large"
+            className="bg-brand-blue text-brand-cream hover:text-brand-orange font-Black font-bold py-2 px-4 rounded-sm"
           >
             Send Message
-          </Button>
+          </button>
         </form>
         <p id="result" style={{ textAlign: "center" }}></p>
         {/* Display a pop-up message if the form is successfully submitted */}
