@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom"; // Import the Link component from react-router-dom
+import { Reveal } from "../../../Animations/Reveal";
 
 interface PortfolioCardProps {
   image: string;
@@ -16,10 +17,14 @@ function PortfolioCard({ image, title, subTitle, link }: PortfolioCardProps) {
           whileHover={{ scale: 0.9 }} // Increase the scale on hover
         >
           <img className="mb-4" src={image} alt={title} />
+          <Reveal>
         <h3 className="leading-none text-4xl md:text-[40px] text-brand-camel hover:text-brand-blue mb-2">
           {title}
         </h3>
+        </Reveal>
+        <Reveal>
         <p className="text-[20px] text-brand-camel">{subTitle}</p>
+        </Reveal>
         </motion.div>
       </div>
     </Link>

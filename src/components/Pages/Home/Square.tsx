@@ -1,4 +1,6 @@
+
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
+
 
 interface SquareProps {
   label: string;
@@ -45,15 +47,15 @@ export default function Square({ label, image, path, color = 'orange', text = 'b
               {label}
             </h3>
           </div>
-          {/* <div className="">
-            <p className="text-brand-cream text-xl pb-4 lg:"> FLIP ME </p>
-          </div> */}
+         
         </div>
         <div className="absolute inset-0 h-full w-full text-center bg-brand-cream text-brand-blue [backface-visibility:hidden] [transform:rotateY(180deg)]">
           <div className="flex min-h-full flex-col items-center justify-center">
-            <h3 className="absolute bottom-20 left-50 z-40 text-xl text-brand-blue bg-brand-cream hover:text-brand-orange py-3 px-3 leading-none active:text-brand-orange rounded-sm shadow-md">
+            
+            <h3 style={{ cursor: 'pointer' }} className="absolute bottom-20 left-50 z-40 text-xl text-brand-blue bg-brand-cream hover:text-brand-camel py-3 px-3 leading-none active:text-brand-orange rounded-sm shadow-md">
               Show Me
             </h3>
+            
             <img style={imageStyles} src={image} alt="laptop" />
           </div>
         </div>
