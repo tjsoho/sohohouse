@@ -1,3 +1,6 @@
+import { SlideReveal } from "../../../Animations/SlideReveal";
+
+
 function Voice() {
   return (
     <div className="w-full h-full bg-brand-blue flex flex-col lg:flex-row py-16 md:py-32 lg:py-16 px-4 md:p-8 ">
@@ -7,6 +10,7 @@ function Voice() {
       </div>
 
       <div className=" h-3/5 lg:h-full w-full lg:w-1/2 flex flex-col justify-center items-center">
+        <SlideReveal>
         <p className="text-brand-camel p-8">
           Dive into the cutting-edge world of AI with SoHo Creative House, where
           we leverage ChatGPT, the pinnacle of artificial intelligence, to craft
@@ -19,6 +23,7 @@ function Voice() {
           support, and crafting emails with precision—all in YOUR unique and
           individual voice.
         </p>
+        </SlideReveal>
       </div>
     </div>
   );

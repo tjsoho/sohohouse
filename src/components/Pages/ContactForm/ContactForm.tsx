@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import { Grid, Typography, TextField, Button, IconButton } from "@mui/material";
+import { Grid, Typography, TextField,  } from "@mui/material";
 import { useNavigate } from "react-router-dom";
-import CloseIcon from '@mui/icons-material/Close'; // Import the CloseIcon
+import { SlideReveal } from "../../Animations/SlideReveal";
+import { Reveal } from "../../Animations/Reveal";
 
 const ContactForm: React.FC = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -47,12 +48,16 @@ const ContactForm: React.FC = () => {
           paddingBottom:16,
         }} className="bg-brand-blue"
       >
+        <SlideReveal>
         <h2 className="text-brand-orange text-center text-5xl lg:text-7xl my-4 ">
           Let's Chat
         </h2>
+        </SlideReveal>
+        <Reveal>
         <Typography variant="h5" style={{ textAlign: 'center', fontSize: '20px' }} className="text-brand-camel" gutterBottom>
          We love to hear about new ideas.<br /><br /> Feel free to share your thoughts with us and we'll get back to you as soon as we can.
         </Typography>
+        </Reveal>
       
       </Grid>
       <Grid

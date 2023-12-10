@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import MenuIcon from "./MenuIcon";
 import LogoO from "../Logo/LogoO";
-import LogoB from "../Logo/LogoB"; // Import LogoB if you haven't already
+import LogoB from "../Logo/LogoB";
+import { Link } from "react-router-dom"; // Import Link
 
 type MenuBarProps = {
   isMenuOpen: boolean;
@@ -11,17 +12,16 @@ type MenuBarProps = {
 export default function MenuBar({ isMenuOpen, toggleMenu }: MenuBarProps) {
   const [hasScrolled, setHasScrolled] = useState(false);
   const [isHidden, setIsHidden] = useState(false);
-  let lastScrollTop = 0; // Declare lastScrollTop as a variable
+  let lastScrollTop = 0;
 
   const handleScroll = () => {
     const offset = window.scrollY;
     setHasScrolled(offset > 50);
 
-    // Check the scroll direction
     if (offset > lastScrollTop) {
-      setIsHidden(true); // Scrolling down, hide the menu bar
+      setIsHidden(true);
     } else {
-      setIsHidden(false); // Scrolling up or at the top, show the menu bar
+      setIsHidden(false);
     }
     lastScrollTop = offset;
   };
@@ -38,7 +38,9 @@ export default function MenuBar({ isMenuOpen, toggleMenu }: MenuBarProps) {
       } ${isHidden ? "-translate-y-full" : "translate-y-0"} flex justify-between items-center px-[25px] py-2`}
     >
       <div className="flex items-center md:pl-4">
-        {hasScrolled ? <LogoO /> : <LogoO />}
+        <Link to="/"> {/* Wrap the logo with Link */}
+          {hasScrolled ? <LogoO /> : <LogoO />}
+        </Link>
       </div>
       <div className="flex items-center">
         <MenuIcon isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />

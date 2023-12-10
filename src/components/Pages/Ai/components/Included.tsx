@@ -8,6 +8,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "./slickSliderStyles.css";
 import Button1 from "../../../Button/Button1";
 
+
 const Included: React.FC = () => {
   const sliderSettings = {
     dots: true,
@@ -23,6 +24,7 @@ const Included: React.FC = () => {
 
     <div className="w-full h-full flex flex-col lg:flex-row justify-center items-center bg-brand-blue py-16">
       {/* Slider and Button Container */}
+          
       <div className="w-full h-full lg:w-1/2 lg:h-full px-8 flex flex-col justify-center lg:ml-8 mb-8">
         <Slider {...sliderSettings} className="mb-8 flex justify-center items-center">
           {contentData.map((item, index) => (
@@ -46,6 +48,7 @@ const Included: React.FC = () => {
       <div className="w-full h-full lg:w-1/2 lg:h-full flex flex-col justify-content items-center">
         <img src={desktop} alt="Soho Creative House Ai ChatGPT Training" style={{ width: '70%', height: 'auto' }} />
       </div>
+      
     </div>
   );
 };

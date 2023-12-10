@@ -1,5 +1,7 @@
 import Button1 from "../../../Button/Button1";
 import graphic from "../images/graphic.png";
+import { SlideReveal } from "../../../Animations/SlideReveal";
+import { Slide } from "@mui/material";
 
 
 function Graphic() {
@@ -12,10 +14,12 @@ function Graphic() {
       </div>
 
       <div className="lg:w-1/2 lg:h-full flex flex-col justify-center items-center ">
+        <SlideReveal> 
         <p className="text-center text-[26px] md:text-[38px] font-bold">
           Elevate Your Business with <br />
           All-in-One Assistance, <br /> Priced at $990
         </p>
+        </SlideReveal>
         <a href={externalLink} target="_blank" rel="noopener noreferrer">
         <Button1 label="YES PLEASE" color="blue" className="mt-7 hover:text-brand-orange"/>
         </a>

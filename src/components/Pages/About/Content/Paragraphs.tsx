@@ -1,10 +1,16 @@
+
 const paraClass = `Paragraph Classes
   px-4 lg:px-8
   text-brand-blue text-justify
   `;
 const content = {
   paragraph1: (
+
+    
+   
+
     <p className="pb-4 mx-4 text-Raleway text-brand-blue">
+
       Hi there! I’m Toby J - the founder of SoHo Creative House. Think of me as
       the guy who swapped a guitar pick for a digital pen. <br /> <br /> You
       see, in a previous life, I was a globe-trotting musician. Yep, I could
@@ -16,6 +22,7 @@ const content = {
       shimmering lights of the stage, I decided to pivot. I hung up my ‘muso’
       boots and slipped into the digital realm.
     </p>
+    
   ),
 
   paragraph2: (

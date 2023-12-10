@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import Icon from "../../../Icons/Icon";
 import HouseAnimation from "./houseAnimation";
 import { Link } from "react-router-dom";
+import { SlideReveal } from "../../../Animations/SlideReveal";
 
 function Section2a() {
   const titleClasses = `
@@ -31,11 +32,13 @@ function Section2a() {
 
         {/* Paragraph */}
         <div className="px-4 tracking-wider">
+          <SlideReveal>
           <p className="text-[18px] text-center lg:px-16 md:mb-8 ">
             Welcome to your new online home, <br /> where your business isn't
             just a reflection of who you are, <br /> it's a story that deserves
             to be shared with the world.
           </p>
+          </SlideReveal>
         </div>
       </div>
 

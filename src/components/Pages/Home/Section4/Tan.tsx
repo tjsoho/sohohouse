@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { SlideReveal } from "../../../Animations/SlideReveal";
+
 
 export default function Tan() {
   return (
@@ -13,7 +15,7 @@ export default function Tan() {
                   The Master Key To Your Business
                 </h3>
                 <div className="bg-brand-orange self-center w-[116px] shrink-0 h-[6px] mb-8 mt-8" />
-                
+                <SlideReveal>
                   <p className="text-brand-blue text-[20px]  px-4 md:px-12 xl:px-16 text-left">
                   Don't get left behind... Think AI is just kind of cool? Think again. It's a
                     game-changer, and we're here to show you how to unleash its
@@ -25,10 +27,13 @@ export default function Tan() {
                     <br /><br />
                       
                   </p>
+                </SlideReveal>
                     <Link to="/businesscompanion">
+              
                    <button className="bg-brand-cream px-6 py-2 rounded-sm font-Black text-brand-blue mb-32 hover:text-brand-orange">
                       Learn More
                    </button>
+                   
                     </Link>
               </div>
          
