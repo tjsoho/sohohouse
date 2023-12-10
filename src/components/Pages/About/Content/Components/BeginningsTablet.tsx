@@ -24,7 +24,7 @@ function BeginningsTablet({
           </h4>
           <div className={lineColour} />
         </div>
-        <div className="flex flex-row top-0 left-0">
+        <div className="flex flex-row top-0 left-0 lg:px-8 ">
           {para1}
           {para2}
         </div>

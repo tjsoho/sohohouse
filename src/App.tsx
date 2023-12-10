@@ -17,6 +17,9 @@ import ContactForm from "./components/Pages/ContactForm/ContactForm";
 import MenuBar from "./components/Menu/MenuBar";
 import MenuPage from "./components/Menu/MenuPage";
 import ScrollToTop from './components/ScrollToTop'
+import Creations from "./components/Pages/Creations/Creations";
+import Calendar from "./components/Pages/Contact/Calendar";
+import ComingSoon from "./components/Pages/ComingSoon";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -45,6 +48,9 @@ function App() {
           <Route path="/luxe" element={<Luxe />} />
           <Route path="/businesscompanion" element={<Ai />} />
           <Route path="/contactform" element={<ContactForm />} />
+          <Route path="/creations" element={<Creations />} />
+          <Route path="/calendar" element={<Calendar />} />
+          <Route path="/comingsoon" element={<ComingSoon />} />
         </Routes>
       </div>
     </Router>

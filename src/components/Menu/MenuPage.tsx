@@ -13,7 +13,7 @@ const MenuPage: React.FC<MenuPageProps> = ({ toggleMenu }) => {
   const menuItems = [
     { text: "Home", route: "/", i: 1 },
     { text: "Our Story", route: "/about", i: 2 }, // Corrected the route
-    { text: "Our Creations", route: "/ourcreations", i: 3 }, // Corrected the route and index
+    { text: "Our Creations", route: "/creations", i: 3 }, // Corrected the route and index
     { text: "Business Companion", route: "/businesscompanion", i: 4 }, // Corrected the index
     { text: "Connect", route: "/contactform", i: 5 }, // Corrected the index
   ];

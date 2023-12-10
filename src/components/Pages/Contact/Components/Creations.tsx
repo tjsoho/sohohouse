@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 function Creations() {
   return (
@@ -8,9 +8,11 @@ function Creations() {
         <p className="text-brand-blue text-xl leading-none font-Raleway font-extralight ">
           Explore Our
         </p>
+        <Link to="/creations">
         <p className="text-brand-blue text-2xl leading-none font-Raleway font-normal underline">
           Creations
         </p>
+        </Link>
       </div>
     </div>
   </div>

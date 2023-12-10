@@ -5,7 +5,7 @@ import desktop from "../images/desktop.png";
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
- import "./slickSliderStyles.css";
+import "./slickSliderStyles.css";
 import Button1 from "../../../Button/Button1";
 
 const Included: React.FC = () => {
@@ -18,11 +18,13 @@ const Included: React.FC = () => {
     autoplay: false,
   };
 
+  const externalLink = "https://calendly.com/sohocreativehouse/30min";
   return (
+
     <div className="w-full h-full flex flex-col lg:flex-row justify-center items-center bg-brand-blue py-16">
-      {/* Slider */}
-      <div className="w-full h-full lg:w-1/2 lg:h-full px-8 flex flex-col justify-center mb-8">
-        <Slider {...sliderSettings} className="mb-8">
+      {/* Slider and Button Container */}
+      <div className="w-full h-full lg:w-1/2 lg:h-full px-8 flex flex-col justify-center lg:ml-8 mb-8">
+        <Slider {...sliderSettings} className="mb-8 flex justify-center items-center">
           {contentData.map((item, index) => (
             <div key={index}>
               <Content
@@ -33,7 +35,11 @@ const Included: React.FC = () => {
             </div>
           ))}
         </Slider>
-        <Button1 label="BOOK NOW" color="tan" className="my-8"/>
+        <a href={externalLink} target="_blank" rel="noopener noreferrer">
+        <div className="flex justify-center items-center"> {/* Center the button */}
+          <Button1 label="BOOK NOW" color="tan" className="my-8 w-1/2" />
+        </div>
+        </a>
       </div>
 
       {/* image div */}

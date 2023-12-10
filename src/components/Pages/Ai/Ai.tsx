@@ -1,5 +1,6 @@
 
-import Contact from '../Contact/Contact'
+
+import ContactAi from '../Contact/ContactAi'
 import Graphic from './components/Graphic'
 import Hero from './components/Hero'
 import Included from './components/Included'
@@ -21,7 +22,7 @@ function Ai() {
         <Included />
       </div>
       <div className="w-full h-screen">
-        <Contact />
+        <ContactAi />
       </div>
     </div>
   )
