@@ -11,14 +11,14 @@ export default function Framework() {
     <div className="flex flex-col justify-between py-16 items-center h-auto w-screen bg-brand-blue">
       {/* Row 1 */}
       <div className="flex flex-col w-full">
-        <div className="flex justify-center md:justify-start items-center mb-2 px-4 md:px-16 lg:px-48 xl:px-72 2xl:px-[400px]">
+        <div className="flex justify-center md:justify-start items-center mb-2 px-4 md:px-16 lg:px-48 xl:px-72 1xl:px-[350px] 2xl:px-[450px]">
          <Reveal>
           <h3 className="text-center text-[40px] md:text-[70px] leading-none text-brand-cream">
             Bringing Your
           </h3>
           </Reveal>
         </div>
-        <div className="flex justify-center md:justify-end items-center w-full px-4 md:px-16 lg:px-48 xl:px-72 2xl:px-[400px]">
+        <div className="flex justify-center md:justify-end items-center w-full px-4 md:px-16 lg:px-48 xl:px-72 1xl:px-[350px] 2xl:px-[450px]">
           <Reveal>
           <h3 className="text-center text-[40px] md:text-[70px] leading-none text-brand-cream ">
             Story To Life
@@ -27,7 +27,7 @@ export default function Framework() {
         </div>
         <div className="flex  justify-center md:justify-end items-center w-full mt-1">
           <Reveal>
-          <p className="text-center text-[18px] md:text-[26px] leading-1 tracking-widest text-brand-orange uppercase md:pr-12 lg:pr-44 xl:pr-[280px] 2xl:pr-[388px] ">
+          <p className="text-center text-[18px] md:text-[26px] leading-1 tracking-widest text-brand-orange uppercase md:pr-12 lg:pr-44 xl:pr-[280px] 2xl:pr-[440px] ">
             Our step-by-step framework
           </p>
           </Reveal>
@@ -48,7 +48,7 @@ export default function Framework() {
       <div className="flex w-full">
         <div className="flex flex-col justify-center items-center w-full">
         <Link to="/contactform">
-        <Button1 label="START YOUR JOURNEY"  icon="arrowRight" />
+        <Button1 label="SHARE YOUR STORY"  icon="arrowRight" />
         </Link>
         </div>
       </div>

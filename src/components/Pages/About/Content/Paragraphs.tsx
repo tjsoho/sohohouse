@@ -9,7 +9,7 @@ const content = {
     
    
 
-    <p className="pb-4 mx-4 text-Raleway text-brand-blue">
+    <p className="text-brand-blue md:pr-8 text-justify">
 
       Hi there! I’m Toby J - the founder of SoHo Creative House. Think of me as
       the guy who swapped a guitar pick for a digital pen. <br /> <br /> You
@@ -26,7 +26,7 @@ const content = {
   ),
 
   paragraph2: (
-    <p className="pb-4 mx-4 text-Raleway text-brand-blue">
+    <p className="text-brand-blue md:pr-8 text-justify">
       Why, you ask? Because I wanted to create a different kind of harmony – the
       kind that resonates through pixels and code. SoHo Creative House was born
       from the ashes of my music career (not literally, that would be a bit
@@ -41,7 +41,7 @@ const content = {
   ),
 
   paragraph3: (
-    <p className="pb-4 mx-4 text-Raleway text-brand-orange">
+    <p className="text-brand-orange md:pr-8 text-justify lg:w-[1800px]">
       Our style? Picture a blend of swagger and cheekiness, a pinch of Ryan
       Gosling's charm, and a sprinkle of Harvey Specter's confidence. <br />{" "}
       <br />
@@ -55,7 +55,7 @@ const content = {
   ),
 
   paragraph4: (
-    <p className="pb-4 mx-4 text-Raleway text-brand-orange">
+    <p className="text-brand-orange md:pr-8 text-justify">
       These places are the epicentre of trends, where style and sophistication
       blend effortlessly with sophisticated inspiration. <br /> <br />
       In the streets of these Soho districts, you'll find a community of young,

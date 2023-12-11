@@ -9,7 +9,7 @@ function Start() {
         <div className="flex justify-center items-center h-full w-full">
           <SlideReveal>
           <p className="text-brand-blue text-4xl md:text-5xl leading-none font-Raleway">
-            Ready to Start <br /> Your Journey?
+            Ready to Share <br /> Your Story?
           </p>
           </SlideReveal>
         </div>
