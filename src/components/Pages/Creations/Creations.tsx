@@ -5,13 +5,13 @@ import { SlideReveal } from "../../Animations/SlideReveal";
 
 function Creations() {
   return (
-    <div className="w-full h-full flex flex-col p-8 lg:px-32 bg-brand-cream py-32">
+    <div className="w-full h-full flex flex-col p-8 lg:px-32 bg-brand-blue py-32">
       
-        <h2 className="leading-none text-brand-blue font-bold text-4xl md:text-7xl lg:text-9xl text-left">
+        <h2 className="leading-none text-brand-orange font-bold text-4xl md:text-7xl lg:text-9xl text-left">
           Our Creations
         </h2>
         <SlideReveal>
-        <p className="text-brand-blue text-[20px] md:text-[28px] lg:text-[32px] xl:text-[35px] 2xl:text-[35px] font-Raleway font-light lg:font-thin leading-1 tracking-widest text-left mb-16 md:mb-32">
+        <p className="text-brand-camel text-[20px] md:text-[28px] lg:text-[32px] xl:text-[35px] 2xl:text-[35px] font-Raleway font-light lg:font-thin leading-1 tracking-widest text-left mb-16 md:mb-32">
           Awesome people doing awesome things.
         </p>
         </SlideReveal>

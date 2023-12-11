@@ -28,12 +28,12 @@ export default function Square({ label, image, path, color = 'orange', text = 'b
   
   const labelClasses =`
     Label Class
-    ${text === 'orange' ? 'text-brand-orange' : text === 'blue' ? 'text-brand-blue' : 'text-brand-camel'}
+    ${text === 'orange' ? 'text-brand-orange' : text === 'blue' ? 'text-brand-blue' : text === 'cream' ? 'text-brand-cream' : 'text-brand-camel'}
     [backface-visibility:visible] 
   `
 
   const imageStyles: React.CSSProperties = {
-    objectFit: 'cover', // Ensure the image fits within the container and maintains its aspect ratio
+    objectFit: 'contain', // Ensure the image fits within the container and maintains its aspect ratio
     width: '100%',
     height: '100%',
   };
@@ -56,7 +56,7 @@ export default function Square({ label, image, path, color = 'orange', text = 'b
               Show Me
             </h3>
             
-            <img style={imageStyles} src={image} alt="laptop" />
+            <img style={imageStyles} src={image} alt="SoHo CReative House Web Designs" />
           </div>
         </div>
       </div>

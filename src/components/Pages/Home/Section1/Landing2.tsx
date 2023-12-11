@@ -79,7 +79,7 @@ export default function Landing2() {
           }}
         >
           <span className={subClasses}>
-            HIGH-END WEBSITES{isSmallScreen && <br />} AT START-UP PRICES
+            BEAUTIFUL WEBSITES +{isSmallScreen && <br />} Ai BUSINESS COMPANIONS
           </span>
         </motion.div>
       </div>
