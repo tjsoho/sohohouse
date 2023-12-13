@@ -7,7 +7,7 @@ import ReadyAi from "./Components/ReadyAi";
 
 function ContactAi() {
     return (
-      <div className="bg-brand-cream mx-auto px-5 py-32 h-screen flex flex-col lg:flex-row  items-start md:items-center w-full">
+      <div className="bg-brand-cream mx-auto px-5 py-32 h-screen flex flex-col lg:flex-row  items-start md:items-center w-screen">
         {/* Col 1 */}
         <div className="w-full lg:w-1/2 lg:mt-32">
           <div className="md:mb-16 ">

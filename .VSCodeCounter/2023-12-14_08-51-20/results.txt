@@ -1,0 +1,306 @@
+Date : 2023-12-14 08:51:20
+Directory : /Users/tobycarroll/develop/sohohouse
+Total : 181 files,  22220 codes, 197 comments, 862 blanks, all 23279 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| JSON               |          3 |     16,933 |          0 |          3 |     16,936 |
+| TypeScript React   |        121 |      4,621 |        147 |        754 |      5,522 |
+| SVG                |         26 |        297 |          0 |         25 |        322 |
+| TypeScript         |         18 |        178 |          9 |         25 |        212 |
+| CSS                |          8 |         93 |          8 |         27 |        128 |
+| JavaScript         |          2 |         29 |         10 |          3 |         42 |
+| JSON with Comments |          1 |         26 |          0 |          1 |         27 |
+| Markdown           |          1 |         26 |          0 |         21 |         47 |
+| HTML               |          1 |         17 |         23 |          3 |         43 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                    | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                       |        181 |     22,220 |        197 |        862 |     23,279 |
+| . (Files)                                                                                               |          7 |     16,990 |         13 |         27 |     17,030 |
+| public                                                                                                  |         11 |         80 |         23 |         13 |        116 |
+| public (Files)                                                                                          |          2 |         42 |         23 |          4 |         69 |
+| public/Icons                                                                                            |          9 |         38 |          0 |          9 |         47 |
+| src                                                                                                     |        163 |      5,150 |        161 |        822 |      6,133 |
+| src (Files)                                                                                             |          8 |        113 |         10 |         29 |        152 |
+| src/components                                                                                          |        155 |      5,037 |        151 |        793 |      5,981 |
+| src/components (Files)                                                                                  |          1 |         10 |          0 |          5 |         15 |
+| src/components/Accordion                                                                                |          1 |         68 |          0 |          8 |         76 |
+| src/components/Animations                                                                               |          2 |         71 |          0 |         10 |         81 |
+| src/components/Button                                                                                   |          2 |         72 |          1 |         11 |         84 |
+| src/components/Icons                                                                                    |          1 |        244 |          0 |         10 |        254 |
+| src/components/Logo                                                                                     |          2 |         14 |          0 |          2 |         16 |
+| src/components/Menu                                                                                     |          4 |        185 |          0 |         21 |        206 |
+| src/components/Pages                                                                                    |        141 |      4,281 |        146 |        723 |      5,150 |
+| src/components/Pages (Files)                                                                            |          1 |         20 |          0 |          5 |         25 |
+| src/components/Pages/About                                                                              |         20 |        667 |          5 |        105 |        777 |
+| src/components/Pages/About (Files)                                                                      |          1 |         33 |          0 |          5 |         38 |
+| src/components/Pages/About/Content                                                                      |         12 |        402 |          0 |         53 |        455 |
+| src/components/Pages/About/Content (Files)                                                              |          4 |        170 |          0 |         23 |        193 |
+| src/components/Pages/About/Content/Components                                                           |          8 |        232 |          0 |         30 |        262 |
+| src/components/Pages/About/Elevate                                                                      |          1 |         32 |          0 |          7 |         39 |
+| src/components/Pages/About/Hero                                                                         |          2 |         51 |          4 |         13 |         68 |
+| src/components/Pages/About/Values                                                                       |          4 |        149 |          1 |         27 |        177 |
+| src/components/Pages/About/Values (Files)                                                               |          1 |         52 |          0 |          7 |         59 |
+| src/components/Pages/About/Values/Components                                                            |          3 |         97 |          1 |         20 |        118 |
+| src/components/Pages/Ai                                                                                 |          8 |        208 |          8 |         51 |        267 |
+| src/components/Pages/Ai (Files)                                                                         |          1 |         27 |          0 |          5 |         32 |
+| src/components/Pages/Ai/components                                                                      |          7 |        181 |          8 |         46 |        235 |
+| src/components/Pages/Breath                                                                             |         15 |        494 |         15 |         71 |        580 |
+| src/components/Pages/Breath (Files)                                                                     |          2 |         39 |          0 |          6 |         45 |
+| src/components/Pages/Breath/assets                                                                      |          2 |         52 |          0 |          2 |         54 |
+| src/components/Pages/Breath/assets/images                                                               |          2 |         52 |          0 |          2 |         54 |
+| src/components/Pages/Breath/components                                                                  |          9 |        394 |         15 |         63 |        472 |
+| src/components/Pages/Breath/components (Files)                                                          |          7 |        287 |         15 |         55 |        357 |
+| src/components/Pages/Breath/components/core                                                             |          1 |         42 |          0 |          3 |         45 |
+| src/components/Pages/Breath/components/section4                                                         |          1 |         65 |          0 |          5 |         70 |
+| src/components/Pages/Breath/constants                                                                   |          1 |          8 |          0 |          0 |          8 |
+| src/components/Pages/Breath/types                                                                       |          1 |          1 |          0 |          0 |          1 |
+| src/components/Pages/Chevell                                                                            |         16 |        531 |         20 |         60 |        611 |
+| src/components/Pages/Chevell (Files)                                                                    |          2 |         43 |          0 |          5 |         48 |
+| src/components/Pages/Chevell/assets                                                                     |          4 |        104 |          0 |          4 |        108 |
+| src/components/Pages/Chevell/assets/images                                                              |          4 |        104 |          0 |          4 |        108 |
+| src/components/Pages/Chevell/components                                                                 |          8 |        377 |         20 |         51 |        448 |
+| src/components/Pages/Chevell/components (Files)                                                         |          7 |        336 |         20 |         48 |        404 |
+| src/components/Pages/Chevell/components/core                                                            |          1 |         41 |          0 |          3 |         44 |
+| src/components/Pages/Chevell/constants                                                                  |          1 |          6 |          0 |          0 |          6 |
+| src/components/Pages/Chevell/types                                                                      |          1 |          1 |          0 |          0 |          1 |
+| src/components/Pages/Contact                                                                            |         11 |        226 |          9 |         44 |        279 |
+| src/components/Pages/Contact (Files)                                                                    |          3 |         75 |          6 |         12 |         93 |
+| src/components/Pages/Contact/Components                                                                 |          8 |        151 |          3 |         32 |        186 |
+| src/components/Pages/ContactForm                                                                        |          1 |        134 |          5 |         12 |        151 |
+| src/components/Pages/Creations                                                                          |          3 |        111 |          1 |         14 |        126 |
+| src/components/Pages/Creations (Files)                                                                  |          1 |         35 |          1 |          6 |         42 |
+| src/components/Pages/Creations/components                                                               |          2 |         76 |          0 |          8 |         84 |
+| src/components/Pages/Home                                                                               |         17 |        726 |         32 |        117 |        875 |
+| src/components/Pages/Home (Files)                                                                       |          2 |        135 |          5 |         20 |        160 |
+| src/components/Pages/Home/Craft                                                                         |          1 |         32 |          0 |          7 |         39 |
+| src/components/Pages/Home/Offering                                                                      |          2 |         80 |          4 |         16 |        100 |
+| src/components/Pages/Home/Section1                                                                      |          3 |        145 |          5 |         18 |        168 |
+| src/components/Pages/Home/Section2                                                                      |          3 |        134 |         13 |         16 |        163 |
+| src/components/Pages/Home/Section3                                                                      |          2 |         79 |          5 |          9 |         93 |
+| src/components/Pages/Home/Section4                                                                      |          3 |         89 |          0 |         24 |        113 |
+| src/components/Pages/Home/Stories                                                                       |          1 |         32 |          0 |          7 |         39 |
+| src/components/Pages/Luxe                                                                               |         16 |        458 |         24 |        102 |        584 |
+| src/components/Pages/Luxe (Files)                                                                       |          2 |         35 |          0 |          7 |         42 |
+| src/components/Pages/Luxe/assets                                                                        |          3 |         24 |          0 |          3 |         27 |
+| src/components/Pages/Luxe/assets/images                                                                 |          3 |         24 |          0 |          3 |         27 |
+| src/components/Pages/Luxe/components                                                                    |          9 |        392 |         24 |         92 |        508 |
+| src/components/Pages/Luxe/components (Files)                                                            |          6 |        248 |         19 |         66 |        333 |
+| src/components/Pages/Luxe/components/core                                                               |          1 |         43 |          0 |          3 |         46 |
+| src/components/Pages/Luxe/components/story                                                              |          2 |        101 |          5 |         23 |        129 |
+| src/components/Pages/Luxe/constants                                                                     |          1 |          6 |          0 |          0 |          6 |
+| src/components/Pages/Luxe/types                                                                         |          1 |          1 |          0 |          0 |          1 |
+| src/components/Pages/PE                                                                                 |         17 |        288 |         14 |         65 |        367 |
+| src/components/Pages/PE (Files)                                                                         |          2 |         47 |          0 |          9 |         56 |
+| src/components/Pages/PE/assets                                                                          |          5 |         34 |          0 |          4 |         38 |
+| src/components/Pages/PE/assets/images                                                                   |          5 |         34 |          0 |          4 |         38 |
+| src/components/Pages/PE/components                                                                      |          8 |        200 |         14 |         51 |        265 |
+| src/components/Pages/PE/components (Files)                                                              |          7 |        158 |         14 |         48 |        220 |
+| src/components/Pages/PE/components/core                                                                 |          1 |         42 |          0 |          3 |         45 |
+| src/components/Pages/PE/constants                                                                       |          1 |          6 |          0 |          1 |          7 |
+| src/components/Pages/PE/types                                                                           |          1 |          1 |          0 |          0 |          1 |
+| src/components/Pages/Shadow                                                                             |         16 |        418 |         13 |         77 |        508 |
+| src/components/Pages/Shadow (Files)                                                                     |          2 |         39 |          0 |          6 |         45 |
+| src/components/Pages/Shadow/assets                                                                      |          3 |         45 |          0 |          3 |         48 |
+| src/components/Pages/Shadow/assets/images                                                               |          3 |         45 |          0 |          3 |         48 |
+| src/components/Pages/Shadow/components                                                                  |          9 |        325 |         13 |         68 |        406 |
+| src/components/Pages/Shadow/components (Files)                                                          |          8 |        283 |         13 |         65 |        361 |
+| src/components/Pages/Shadow/components/core                                                             |          1 |         42 |          0 |          3 |         45 |
+| src/components/Pages/Shadow/constants                                                                   |          1 |          8 |          0 |          0 |          8 |
+| src/components/Pages/Shadow/types                                                                       |          1 |          1 |          0 |          0 |          1 |
+| src/components/StyleGuide                                                                               |          1 |         92 |          4 |          3 |         99 |
++---------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                                                | language           | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| /Users/tobycarroll/develop/sohohouse/README.md                                                          | Markdown           |         26 |          0 |         21 |         47 |
+| /Users/tobycarroll/develop/sohohouse/declarations.d.ts                                                  | TypeScript         |          1 |          3 |          0 |          4 |
+| /Users/tobycarroll/develop/sohohouse/package-lock.json                                                  | JSON               |     16,848 |          0 |          1 |     16,849 |
+| /Users/tobycarroll/develop/sohohouse/package.json                                                       | JSON               |         60 |          0 |          1 |         61 |
+| /Users/tobycarroll/develop/sohohouse/postcss.config.js                                                  | JavaScript         |          6 |          1 |          1 |          8 |
+| /Users/tobycarroll/develop/sohohouse/public/Icons/SoHo.svg                                              | SVG                |          3 |          0 |          1 |          4 |
+| /Users/tobycarroll/develop/sohohouse/public/Icons/arrowCamel.svg                                        | SVG                |          3 |          0 |          1 |          4 |
+| /Users/tobycarroll/develop/sohohouse/public/Icons/arrowRight.svg                                        | SVG                |          3 |          0 |          1 |          4 |
+| /Users/tobycarroll/develop/sohohouse/public/Icons/houseOutline.svg                                      | SVG                |          8 |          0 |          1 |          9 |
+| /Users/tobycarroll/develop/sohohouse/public/Icons/minus.svg                                             | SVG                |          3 |          0 |          1 |          4 |
+| /Users/tobycarroll/develop/sohohouse/public/Icons/plus.svg                                              | SVG                |          3 |          0 |          1 |          4 |
+| /Users/tobycarroll/develop/sohohouse/public/Icons/smallHouse.svg                                        | SVG                |          9 |          0 |          1 |         10 |
+| /Users/tobycarroll/develop/sohohouse/public/Icons/smallLine.svg                                         | SVG                |          3 |          0 |          1 |          4 |
+| /Users/tobycarroll/develop/sohohouse/public/Icons/triangleArrow.svg                                     | SVG                |          3 |          0 |          1 |          4 |
+| /Users/tobycarroll/develop/sohohouse/public/index.html                                                  | HTML               |         17 |         23 |          3 |         43 |
+| /Users/tobycarroll/develop/sohohouse/public/manifest.json                                               | JSON               |         25 |          0 |          1 |         26 |
+| /Users/tobycarroll/develop/sohohouse/src/App.css                                                        | CSS                |          0 |          0 |          1 |          1 |
+| /Users/tobycarroll/develop/sohohouse/src/App.test.tsx                                                   | TypeScript React   |          8 |          0 |          2 |         10 |
+| /Users/tobycarroll/develop/sohohouse/src/App.tsx                                                        | TypeScript React   |         49 |          2 |         10 |         61 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Accordion/Accordion.tsx                             | TypeScript React   |         68 |          0 |          8 |         76 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Animations/Reveal.tsx                               | TypeScript React   |         33 |          0 |          5 |         38 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Animations/SlideReveal.tsx                          | TypeScript React   |         38 |          0 |          5 |         43 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Button/Button.tsx                                   | TypeScript React   |         38 |          1 |          6 |         45 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Button/Button1.tsx                                  | TypeScript React   |         34 |          0 |          5 |         39 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Icons/Icon.tsx                                      | TypeScript React   |        244 |          0 |         10 |        254 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Logo/LogoB.tsx                                      | TypeScript React   |          7 |          0 |          1 |          8 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Logo/LogoO.tsx                                      | TypeScript React   |          7 |          0 |          1 |          8 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Menu/MenuBar.tsx                                    | TypeScript React   |         59 |          0 |          8 |         67 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Menu/MenuIcon.tsx                                   | TypeScript React   |         40 |          0 |          2 |         42 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Menu/MenuItem.tsx                                   | TypeScript React   |         42 |          0 |          3 |         45 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Menu/MenuPage.tsx                                   | TypeScript React   |         44 |          0 |          8 |         52 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/About/About.tsx                               | TypeScript React   |         33 |          0 |          5 |         38 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/About/Content/BeginningsParagraphs.tsx        | TypeScript React   |         29 |          0 |          3 |         32 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/About/Content/Components/BeginningsMobile.tsx | TypeScript React   |         34 |          0 |          4 |         38 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/About/Content/Components/BeginningsTablet.tsx | TypeScript React   |         34 |          0 |          4 |         38 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/About/Content/Components/PromiseMobile.tsx    | TypeScript React   |         34 |          0 |          4 |         38 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/About/Content/Components/PromiseTablet.tsx    | TypeScript React   |         38 |          0 |          5 |         43 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/About/Content/Components/SoHoBlue.tsx         | TypeScript React   |         10 |          0 |          2 |         12 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/About/Content/Components/SoHoTan.tsx          | TypeScript React   |         10 |          0 |          2 |         12 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/About/Content/Components/StyleMobile.tsx      | TypeScript React   |         34 |          0 |          4 |         38 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/About/Content/Components/StyleTablet.tsx      | TypeScript React   |         38 |          0 |          5 |         43 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/About/Content/Paragraphs.tsx                  | TypeScript React   |         83 |          0 |         14 |         97 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/About/Content/PromiseParagraphs.tsx           | TypeScript React   |         29 |          0 |          3 |         32 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/About/Content/StyleParagraphs.tsx             | TypeScript React   |         29 |          0 |          3 |         32 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/About/Elevate/Elevate.tsx                     | TypeScript React   |         32 |          0 |          7 |         39 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/About/Hero/Hero.tsx                           | TypeScript React   |         18 |          2 |          4 |         24 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/About/Hero/ResponsiveBackground.tsx           | TypeScript React   |         33 |          2 |          9 |         44 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/About/Values/Components/Data.ts               | TypeScript         |         30 |          0 |          8 |         38 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/About/Values/Components/SquareContent.tsx     | TypeScript React   |         11 |          0 |          3 |         14 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/About/Values/Components/SquareTitle.tsx       | TypeScript React   |         56 |          1 |          9 |         66 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/About/Values/Values.tsx                       | TypeScript React   |         52 |          0 |          7 |         59 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Ai/Ai.tsx                                     | TypeScript React   |         27 |          0 |          5 |         32 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Ai/components/Content.tsx                     | TypeScript React   |         21 |          0 |          8 |         29 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Ai/components/Graphic.tsx                     | TypeScript React   |         25 |          0 |          7 |         32 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Ai/components/Hero.tsx                        | TypeScript React   |         22 |          0 |          5 |         27 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Ai/components/Included.tsx                    | TypeScript React   |         46 |          2 |          9 |         57 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Ai/components/Voice.tsx                       | TypeScript React   |         28 |          0 |          5 |         33 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Ai/components/contentData.ts                  | TypeScript         |         18 |          0 |          4 |         22 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Ai/components/slickSliderStyles.css           | CSS                |         21 |          6 |          8 |         35 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Breath/Breath.tsx                             | TypeScript React   |         31 |          0 |          5 |         36 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Breath/assets/images/letter.svg               | SVG                |          4 |          0 |          1 |          5 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Breath/assets/images/logo.svg                 | SVG                |         48 |          0 |          1 |         49 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Breath/components/BreathHeader.tsx            | TypeScript React   |         14 |          0 |          3 |         17 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Breath/components/HeaderResponsive.tsx        | TypeScript React   |         33 |          2 |          9 |         44 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Breath/components/Responsive1BG.tsx           | TypeScript React   |         33 |          2 |          9 |         44 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Breath/components/Section2.tsx                | TypeScript React   |         42 |          4 |         10 |         56 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Breath/components/Section3.tsx                | TypeScript React   |         35 |          4 |         12 |         51 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Breath/components/Section4.tsx                | TypeScript React   |         77 |          0 |          3 |         80 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Breath/components/Section5.tsx                | TypeScript React   |         53 |          3 |          9 |         65 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Breath/components/core/BreathText.tsx         | TypeScript React   |         42 |          0 |          3 |         45 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Breath/components/section4/Square.tsx         | TypeScript React   |         65 |          0 |          5 |         70 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Breath/constants/BreathColours.ts             | TypeScript         |          8 |          0 |          0 |          8 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Breath/index.css                              | CSS                |          8 |          0 |          1 |          9 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Breath/types/index.ts                         | TypeScript         |          1 |          0 |          0 |          1 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Chevell/Chevell.tsx                           | TypeScript React   |         35 |          0 |          4 |         39 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Chevell/assets/images/style1.svg              | SVG                |         24 |          0 |          1 |         25 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Chevell/assets/images/style2.svg              | SVG                |         28 |          0 |          1 |         29 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Chevell/assets/images/styleGLG.svg            | SVG                |         48 |          0 |          1 |         49 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Chevell/assets/images/text.svg                | SVG                |          4 |          0 |          1 |          5 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Chevell/components/ChevellHeader.tsx          | TypeScript React   |         35 |          0 |          8 |         43 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Chevell/components/Device.tsx                 | TypeScript React   |         22 |          0 |          3 |         25 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Chevell/components/EssenceOfLove.tsx          | TypeScript React   |         80 |          4 |         10 |         94 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Chevell/components/InherentlyStylish.tsx      | TypeScript React   |         38 |          0 |          3 |         41 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Chevell/components/Inspired.tsx               | TypeScript React   |         57 |          2 |          8 |         67 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Chevell/components/StyleGuide.tsx             | TypeScript React   |         71 |         12 |          4 |         87 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Chevell/components/core/ChevellText.tsx       | TypeScript React   |         41 |          0 |          3 |         44 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Chevell/components/responsiveBackground.tsx   | TypeScript React   |         33 |          2 |         12 |         47 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Chevell/constants/ChevellColors.ts            | TypeScript         |          6 |          0 |          0 |          6 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Chevell/index.css                             | CSS                |          8 |          0 |          1 |          9 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Chevell/types/index.ts                        | TypeScript         |          1 |          0 |          0 |          1 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/ComingSoon.tsx                                | TypeScript React   |         20 |          0 |          5 |         25 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Contact/Calendar.tsx                          | TypeScript React   |         17 |          2 |          2 |         21 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Contact/Components/BookNow.tsx                | TypeScript React   |         20 |          2 |          4 |         26 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Contact/Components/Creations.tsx              | TypeScript React   |         25 |          0 |          3 |         28 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Contact/Components/LetsChat.tsx               | TypeScript React   |         20 |          0 |          4 |         24 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Contact/Components/Process.tsx                | TypeScript React   |         25 |          1 |          4 |         30 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Contact/Components/ReadyAi.tsx                | TypeScript React   |         17 |          0 |          4 |         21 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Contact/Components/Socials.tsx                | TypeScript React   |         10 |          0 |          4 |         14 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Contact/Components/Start.tsx                  | TypeScript React   |         17 |          0 |          5 |         22 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Contact/Components/TCs.tsx                    | TypeScript React   |         17 |          0 |          4 |         21 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Contact/Contact.tsx                           | TypeScript React   |         29 |          2 |          4 |         35 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Contact/ContactAi.tsx                         | TypeScript React   |         29 |          2 |          6 |         37 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/ContactForm/ContactForm.tsx                   | TypeScript React   |        134 |          5 |         12 |        151 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Creations/Creations.tsx                       | TypeScript React   |         35 |          1 |          6 |         42 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Creations/components/PortfolioCard.tsx        | TypeScript React   |         31 |          0 |          4 |         35 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Creations/components/portfolioData.ts         | TypeScript         |         45 |          0 |          4 |         49 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Home/Craft/Craft.tsx                          | TypeScript React   |         32 |          0 |          7 |         39 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Home/Home.tsx                                 | TypeScript React   |         62 |          4 |         13 |         79 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Home/Offering/Companion.tsx                   | TypeScript React   |         40 |          2 |          8 |         50 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Home/Offering/Websites.tsx                    | TypeScript React   |         40 |          2 |          8 |         50 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Home/Section1/Landing1.tsx                    | TypeScript React   |         34 |          3 |          5 |         42 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Home/Section1/Landing2.tsx                    | TypeScript React   |         94 |          0 |          8 |        102 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Home/Section1/Section1.tsx                    | TypeScript React   |         17 |          2 |          5 |         24 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Home/Section2/Section2a.tsx                   | TypeScript React   |         64 |          7 |          8 |         79 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Home/Section2/drawAnimation.tsx               | TypeScript React   |         14 |          0 |          1 |         15 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Home/Section2/houseAnimation.tsx              | TypeScript React   |         56 |          6 |          7 |         69 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Home/Section3/Framework.tsx                   | TypeScript React   |         48 |          4 |          6 |         58 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Home/Section3/accordionData.ts                | TypeScript         |         31 |          1 |          3 |         35 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Home/Section4/Orange.tsx                      | TypeScript React   |         40 |          0 |         11 |         51 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Home/Section4/Section4.tsx                    | TypeScript React   |         15 |          0 |          3 |         18 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Home/Section4/Tan.tsx                         | TypeScript React   |         34 |          0 |         10 |         44 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Home/Square.tsx                               | TypeScript React   |         73 |          1 |          7 |         81 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Home/Stories/Stories.tsx                      | TypeScript React   |         32 |          0 |          7 |         39 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Luxe/Luxe.tsx                                 | TypeScript React   |         31 |          0 |          5 |         36 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Luxe/assets/images/background.svg             | SVG                |          9 |          0 |          1 |         10 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Luxe/assets/images/bgLG.svg                   | SVG                |          9 |          0 |          1 |         10 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Luxe/assets/images/palletLG.svg               | SVG                |          6 |          0 |          1 |          7 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Luxe/components/Device.tsx                    | TypeScript React   |         38 |          3 |          9 |         50 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Luxe/components/Hero.tsx                      | TypeScript React   |         28 |          2 |         11 |         41 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Luxe/components/Intro.tsx                     | TypeScript React   |         71 |          6 |         13 |         90 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Luxe/components/ResponsiveBackground.tsx      | TypeScript React   |         33 |          2 |         12 |         47 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Luxe/components/ResponsiveBackground2.tsx     | TypeScript React   |         33 |          2 |         12 |         47 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Luxe/components/Style.tsx                     | TypeScript React   |         45 |          4 |          9 |         58 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Luxe/components/core/LuxeText.tsx             | TypeScript React   |         43 |          0 |          3 |         46 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Luxe/components/story/Image.tsx               | TypeScript React   |         71 |          3 |         11 |         85 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Luxe/components/story/Story.tsx               | TypeScript React   |         30 |          2 |         12 |         44 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Luxe/constants/LuxeColour.ts                  | TypeScript         |          6 |          0 |          0 |          6 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Luxe/index.css                                | CSS                |          4 |          0 |          2 |          6 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Luxe/types/index.ts                           | TypeScript         |          1 |          0 |          0 |          1 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/PE/Pe.tsx                                     | TypeScript React   |         35 |          0 |          5 |         40 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/PE/assets/images/bg.svg                       | SVG                |          1 |          0 |          0 |          1 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/PE/assets/images/styleLG.svg                  | SVG                |          8 |          0 |          1 |          9 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/PE/assets/images/styleMD.svg                  | SVG                |          8 |          0 |          1 |          9 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/PE/assets/images/styleSM.svg                  | SVG                |          8 |          0 |          1 |          9 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/PE/assets/images/tape1.svg                    | SVG                |          9 |          0 |          1 |         10 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/PE/components/PeHeader.tsx                    | TypeScript React   |         12 |          0 |          4 |         16 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/PE/components/PeSection1.tsx                  | TypeScript React   |         24 |          6 |          6 |         36 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/PE/components/PeSection2.tsx                  | TypeScript React   |         10 |          0 |          3 |         13 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/PE/components/PeSection3.tsx                  | TypeScript React   |         29 |          4 |          7 |         40 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/PE/components/PeSection4.tsx                  | TypeScript React   |         27 |          2 |         12 |         41 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/PE/components/PeSection5.tsx                  | TypeScript React   |         23 |          0 |          4 |         27 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/PE/components/core/PeText.tsx                 | TypeScript React   |         42 |          0 |          3 |         45 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/PE/components/responsiveBackground.tsx        | TypeScript React   |         33 |          2 |         12 |         47 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/PE/constants/PeColours.ts                     | TypeScript         |          6 |          0 |          1 |          7 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/PE/index.css                                  | CSS                |         12 |          0 |          4 |         16 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/PE/types/index.ts                             | TypeScript         |          1 |          0 |          0 |          1 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Shadow/Shadow.tsx                             | TypeScript React   |         31 |          0 |          5 |         36 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Shadow/assets/images/colourLG.svg             | SVG                |         15 |          0 |          1 |         16 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Shadow/assets/images/colourMD.svg             | SVG                |         15 |          0 |          1 |         16 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Shadow/assets/images/colourSM.svg             | SVG                |         15 |          0 |          1 |         16 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Shadow/components/DeviceResponsive.tsx        | TypeScript React   |         33 |          2 |         11 |         46 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Shadow/components/ResponsiveBackground.tsx    | TypeScript React   |         33 |          2 |         11 |         46 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Shadow/components/SVGResponsive.tsx           | TypeScript React   |         46 |          2 |          9 |         57 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Shadow/components/ShadowHeader.tsx            | TypeScript React   |         28 |          0 |          6 |         34 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Shadow/components/ShadowSection2.tsx          | TypeScript React   |         17 |          2 |          5 |         24 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Shadow/components/ShadowSection3.tsx          | TypeScript React   |         54 |          2 |          8 |         64 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Shadow/components/ShadowSection4.tsx          | TypeScript React   |         36 |          0 |          7 |         43 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Shadow/components/ShadowSection5.tsx          | TypeScript React   |         36 |          3 |          8 |         47 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Shadow/components/core/ShadowText.tsx         | TypeScript React   |         42 |          0 |          3 |         45 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Shadow/constants/ShadowColours.ts             | TypeScript         |          8 |          0 |          0 |          8 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Shadow/index.css                              | CSS                |          8 |          0 |          1 |          9 |
+| /Users/tobycarroll/develop/sohohouse/src/components/Pages/Shadow/types/index.ts                         | TypeScript         |          1 |          0 |          0 |          1 |
+| /Users/tobycarroll/develop/sohohouse/src/components/ScrollToTop.tsx                                     | TypeScript React   |         10 |          0 |          5 |         15 |
+| /Users/tobycarroll/develop/sohohouse/src/components/StyleGuide/Style.tsx                                | TypeScript React   |         92 |          4 |          3 |         99 |
+| /Users/tobycarroll/develop/sohohouse/src/index.css                                                      | CSS                |         32 |          2 |          9 |         43 |
+| /Users/tobycarroll/develop/sohohouse/src/index.tsx                                                      | TypeScript React   |         10 |          1 |          2 |         13 |
+| /Users/tobycarroll/develop/sohohouse/src/react-app-env.d.ts                                             | TypeScript         |          0 |          1 |          1 |          2 |
+| /Users/tobycarroll/develop/sohohouse/src/reportWebVitals.ts                                             | TypeScript         |         13 |          0 |          3 |         16 |
+| /Users/tobycarroll/develop/sohohouse/src/setupTests.ts                                                  | TypeScript         |          1 |          4 |          1 |          6 |
+| /Users/tobycarroll/develop/sohohouse/tailwind.config.js                                                 | JavaScript         |         23 |          9 |          2 |         34 |
+| /Users/tobycarroll/develop/sohohouse/tsconfig.json                                                      | JSON with Comments |         26 |          0 |          1 |         27 |
+| Total                                                                                                   |                    |     22,220 |        197 |        862 |     23,279 |
++---------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+

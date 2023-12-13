@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import mobIMG from "../assets/images/loveSM.png";
 import tabIMG from "../assets/images/loveMD.png";
 import deskIMG from "../assets/images/loveLG.png";
-import text from "../assets/images/text.svg";
 import ChevellText from "./core/ChevellText";
 
 function Inspired() {

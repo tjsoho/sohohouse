@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import bg from "../assets/images/background.svg";
 import mobIMG from "../assets/images/styleSM.png";
 import tabIMG from "../assets/images/styleMD.png";
 import deskIMG from "../assets/images/styleLG.png";
