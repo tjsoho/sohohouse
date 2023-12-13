@@ -17,7 +17,7 @@ function About() {
       <div className="w-screen h-contain bg-brand-camel">
         <Content />
       </div>
-      <div className="h-contain ">
+      <div className="h-contain">
         <Values />
       </div>
       <div className="w-screen h-contain">
