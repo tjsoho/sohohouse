@@ -1,7 +1,7 @@
 import Button1 from "../../../Button/Button1";
 import graphic from "../images/graphic.png";
 import { SlideReveal } from "../../../Animations/SlideReveal";
-import { Slide } from "@mui/material";
+
 
 
 function Graphic() {
@@ -17,7 +17,7 @@ function Graphic() {
         <SlideReveal> 
         <p className="text-center text-[26px] md:text-[38px] font-bold">
           Elevate Your Business with <br />
-          All-in-One Assistance, <br /> Priced at $990
+          All-in-One Assistance, <br /> Starting at $990
         </p>
         </SlideReveal>
         <a href={externalLink} target="_blank" rel="noopener noreferrer">
