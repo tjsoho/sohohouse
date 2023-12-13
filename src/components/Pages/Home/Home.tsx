@@ -16,6 +16,7 @@ import Websites from "./Offering/Websites";
 import Companion from "./Offering/Companion";
 import Stories from "./Stories/Stories";
 
+
 function Home() {
   return (
     <div className="w-screen">
@@ -67,6 +68,7 @@ function Home() {
       <div className="w-screen h-contain">
         <Contact />
       </div>
+    
     </div>
   );
 }

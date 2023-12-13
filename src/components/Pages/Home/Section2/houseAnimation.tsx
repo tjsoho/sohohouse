@@ -39,7 +39,7 @@ export default function HouseAnimation() {
     }, []);
 
     return (
-        <div id="houseAnimation">
+        <div id="houseAnimation" style={{ height: '150px' }}>
             <AnimatePresence>
                 {showHouseOutline && (
                     <Icon
