@@ -28,7 +28,7 @@ function PromiseMobile({
       </div>
       <div>{image}</div>
       <div>
-        <div className="px-8">{para2}</div>
+        <div className="lg:px-8">{para2}</div>
       </div>
     </div>
   );

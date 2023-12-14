@@ -69,7 +69,7 @@ const content = {
   paragraph5: (
     <p className={paraClass}>
       Much like the spirit of Soho, our designs are modern, trendy, and
-      high-end, but there's more to it. We're not just about creating something
+      high-end, but there's more to it than that. We're not just about creating something
       visually stunning; we infuse it with the welcoming and warm spirit of a
       house. <br /> <br />
       The idea of a "house" signifies openness, approachability, and a place
