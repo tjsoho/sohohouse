@@ -1,5 +1,7 @@
 import { ReactNode } from "react";
 
+import { SlideReveal } from "../../../../Animations/SlideReveal";
+
 interface ComponentProps {
   title: string;
   para1: ReactNode;
@@ -16,19 +18,25 @@ function BeginningsMobile({
   lineColour,
 }: ComponentProps) {
   return (
-    <div className="py-24">
+    <div className="py-16">
       <div className="px-8">
         <div>
+     
           <h4 className="uppercase text-[42px] font-Black text-brand-blue leading-none">
             {title}
           </h4>
+        
           <div className={lineColour} />
         </div>
-        <div>{para1}</div>
+        <SlideReveal>
+          <div>{para1}</div>
+        </SlideReveal>
       </div>
       <div>{image}</div>
       <div>
+        <SlideReveal>
         <div className="px-8">{para2}</div>
+        </SlideReveal>
       </div>
     </div>
   );

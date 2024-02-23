@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import { SlideReveal } from "../../../../Animations/SlideReveal";
 
 interface ComponentProps {
   title: string;
@@ -24,10 +25,12 @@ function BeginningsTablet({
           </h4>
           <div className={lineColour} />
         </div>
+        <SlideReveal>
         <div className="flex flex-row top-0 left-0 lg:px-8 ">
           {para1}
           {para2}
         </div>
+        </SlideReveal>
       </div>
       <div>{image}</div>
     </div>

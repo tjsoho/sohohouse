@@ -5,7 +5,7 @@ import PromiseTablet from "./Components/PromiseTablet";
 
 function Content3() {
   return (
-    <div>
+    <div className="max-w-[1440px] mx-auto">
       <div className="md:hidden">
         <PromiseMobile
           title="Promise"

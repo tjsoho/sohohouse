@@ -18,12 +18,12 @@ function PortfolioCard({ image, title, subTitle, link }: PortfolioCardProps) {
         >
           <img className="mb-4" src={image} alt={title} />
           <Reveal>
-        <h3 className="leading-none text-4xl md:text-[40px] text-brand-camel hover:text-brand-orange mb-2">
+        <h3 className="leading-none text-[32px] md:text-[40px] text-brand-camel hover:text-brand-orange mb-2">
           {title}
         </h3>
         </Reveal>
         <Reveal>
-        <p className="text-[20px] text-brand-cream">{subTitle}</p>
+        <p className="text-[18px] lg:text-[20px] text-brand-cream">{subTitle}</p>
         </Reveal>
         </motion.div>
       </div>

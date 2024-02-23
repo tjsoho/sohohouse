@@ -5,7 +5,7 @@ import StyleTablet from "./Components/StyleTablet";
 
 function Content2() {
   return (
-    <div>
+    <div className="max-w-[1440px] mx-auto">
       <div className="md:hidden">
         <StyleMobile
           title="Style"

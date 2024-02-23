@@ -39,7 +39,7 @@ function Section2() {
             Breath Retreats
         </BreathText>
         <BreathText  type="sub1" color="#EBE0C6">
-        At Breath we believe that by immersing ourselves in the embrace of nature, we can find peace, healing, and a deeper connection with our true selves. <br /> <br /> Our mission at SoHo was to create a website where the clients of Breath felt at ease, calming, relaxed and had an enjoyable easy process to book their retreat experience at breath. <br /> <br /> Their website was the gateway to their natures retreat.
+        Breath are driven by the believe that by immersing ourselves in the embrace of nature, we can find peace, healing, and a deeper connection with our true selves. <br /> <br /> Our mission at SoHo was to create a website where the clients of Breath felt at ease, calming, relaxed and had an enjoyable easy process to book their retreat experience at breath. <br /> <br /> Their website was the gateway to their natures retreat.
         </BreathText>
 
       </div>

@@ -1,3 +1,4 @@
+import { Reveal } from "../../../Animations/Reveal";
 import img1 from "../assets/images/style1.svg";
 import img2 from "../assets/images/style2.svg";
 import style from "../assets/images/styleGLG.svg";
@@ -12,6 +13,7 @@ function StyleGuide() {
         <div className="flex justify-center items-center">
           <img src={img1} alt="" />
         </div>
+        <Reveal>
         <ChevellText
           type="h2"
           color={ChevellColors.SOFT_BLACK}
@@ -19,20 +21,23 @@ function StyleGuide() {
         >
           Style Guide
         </ChevellText>
+        </Reveal>
         <div
-          className="w-[100px] h-[8px] flex flex-col justify-start items-start ml-8"
+          className="w-[100px] h-[1px] flex flex-col justify-start items-start ml-8"
           style={{
             backgroundColor: ChevellColors.SOFT_BLACK,
           }}
         ></div>
-        <ChevellText
-          type="sub1"
-          color={ChevellColors.SOFT_BLACK}
-          className="p-8 lg:px-16 pb-8"
-        >
-          A design system that represents the inherrent beauty and elegance of
-          CHEVELL photography.
-        </ChevellText>
+        <Reveal>
+          <ChevellText
+            type="sub1"
+            color={ChevellColors.SOFT_BLACK}
+            className="p-8 lg:px-16 pb-8"
+          >
+            A design system that represents the inherrent beauty and elegance of
+            CHEVELL photography.
+          </ChevellText>
+        </Reveal>
         <div className="flex justify-center items-center mb-4">
           <img src={img2} alt="" />
         </div>

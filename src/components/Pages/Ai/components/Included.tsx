@@ -21,7 +21,7 @@ const Included: React.FC = () => {
 
   const externalLink = "https://calendly.com/sohocreativehouse/30min";
   return (
-
+<div className="max-w-[1440px] mx-auto">
     <div className="w-full h-full flex flex-col lg:flex-row justify-center items-center bg-brand-blue py-16">
       {/* Slider and Button Container */}
           
@@ -49,6 +49,7 @@ const Included: React.FC = () => {
         <img src={desktop} alt="Soho Creative House Ai ChatGPT Training" style={{ width: '70%', height: 'auto' }} />
       </div>
       
+    </div>
     </div>
   );
 };

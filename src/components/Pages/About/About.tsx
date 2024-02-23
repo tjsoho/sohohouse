@@ -11,25 +11,27 @@ import Values from "./Values/Values";
 function About() {
   return (
     <div className="flex flex-col">
-      <div className="w-screen h-screen">
+      <div className="h-screen">
         <Hero />
       </div>
-      <div className="w-screen h-contain bg-brand-camel">
+      <div className=" h-contain bg-brand-camel">
         <Content />
       </div>
       <div className="h-contain">
         <Values />
       </div>
-      <div className="w-screen h-contain">
+      <div className="bg-brand-orange h-contain">
         <Elevate />
       </div>
-      <div className="w-screen h-contain bg-brand-blue">
+      <div className=" h-contain bg-brand-blue">
         <Content2 />
       </div>
-      <div className="w-screen h-contain bg-brand-camel">
+      <div className=" h-contain bg-brand-camel">
         <Content3 />
       </div>
+      <div className="bg-brand-cream h-contain">
       <Contact />
+      </div>
     </div>
   );
 }

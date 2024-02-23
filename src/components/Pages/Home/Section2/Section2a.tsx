@@ -13,7 +13,8 @@ function Section2a() {
   `;
 
   return (
-    <div className="h-contain bg-brand-cream flex flex-col md:flex-row py-8">
+    <div className="max-w-[1440px] mx-auto">
+    <div className="h-contain bg-#FFF6F4 flex flex-col md:flex-row py-8">
       {/* Left Column: Heading, Orange Line, Paragraph */}
       <div className="w-full md:w-1/2 flex flex-col items-center">
         {/* Heading */}
@@ -71,6 +72,7 @@ function Section2a() {
           </div>
         </Link>
       </div>
+    </div>
     </div>
   );
 }

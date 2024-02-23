@@ -30,10 +30,10 @@ export default function Landing() {
           className="text-brand-orange xs:text-[90px]  md:text-[180px] lg:text-[220px] xl:text-[230px] 2xl:text-[230px]
    leading-none "
         >
-          SoHo
+          Ai
         </h1>
-        <span className="text-brand-camel xs:text-[22px] md:text-[38px] lg:text-[48px] xl:text-[50px] 2xl:text-[50px] font-Raleway font-light leading-none tracking-widest">
-          CREATIVE HOUSE
+        <span className="text-brand-orange text-[60px] md:text-[88px] lg:text-[108px] xl:text-[112px] font-Black leading-none mt-[-18px] md:mt-[-28px] lg:mt-[-34px] align-left w-full">
+          GUY
         </span>
       </motion.div>
     </div>

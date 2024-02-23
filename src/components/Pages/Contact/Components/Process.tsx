@@ -7,14 +7,14 @@ function Process() {
       <div className="row px-5 -mx-5">
         <div className="flex-col justify-center items-center h-full w-full">
           <Reveal>
-          <p className="text-brand-blue text-xl leading-none font-Raleway font-extralight">
+          <p className="text-brand-blue text-[18px] leading-none font-Raleway font-extralight">
             Discover Our
           </p>
           </Reveal>
           {/* Update this Link */}
           <Link to="/#framework">
           <Reveal>
-            <p className="text-brand-blue text-2xl leading-none font-Raleway font-normal underline">
+            <p className="text-brand-blue text-1xl leading-none font-Raleway font-normal underline">
               Framework
             </p>
           </Reveal>

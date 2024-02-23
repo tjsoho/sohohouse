@@ -1,15 +1,12 @@
 
-const paraClass = `Paragraph Classes
-  px-4 lg:px-8
-  text-brand-blue text-justify
-  `;
+
 const content = {
   paragraph1: (
 
     
    
 
-    <p className="text-brand-blue md:pr-8 text-justify">
+    <p className="text-brand-blue md:pr-8 text-justify text-[18px] md:text-[20px] ">
 
       Hi there! I’m Toby J - the founder of SoHo Creative House. Think of me as
       the guy who swapped a guitar pick for a digital pen. <br /> <br /> You
@@ -26,7 +23,7 @@ const content = {
   ),
 
   paragraph2: (
-    <p className="text-brand-blue md:pr-8 text-justify">
+    <p className="text-brand-blue md:pr-8 text-justify text-[18px] md:text-[20px] ">
       Why, you ask? Because I wanted to create a different kind of harmony – the
       kind that resonates through pixels and code. SoHo Creative House was born
       from the ashes of my music career (not literally, that would be a bit
@@ -41,7 +38,7 @@ const content = {
   ),
 
   paragraph3: (
-    <p className="text-brand-orange md:pr-8 text-justify lg:w-[1800px]">
+    <p className="text-brand-orange md:pr-8 text-justify text-[18px] md:text-[20px] ">
       Our style? Picture a blend of swagger and cheekiness, a pinch of Ryan
       Gosling's charm, and a sprinkle of Harvey Specter's confidence. <br />{" "}
       <br />
@@ -55,7 +52,7 @@ const content = {
   ),
 
   paragraph4: (
-    <p className="text-brand-orange md:pr-8 text-justify">
+    <p className="text-brand-orange md:pr-8 text-justify text-[18px] md:text-[20px]  ">
       These places are the epicentre of trends, where style and sophistication
       blend effortlessly with sophisticated inspiration. <br /> <br />
       In the streets of these Soho districts, you'll find a community of young,
@@ -67,7 +64,7 @@ const content = {
   ),
 
   paragraph5: (
-    <p className={paraClass}>
+    <p className="text-brand-blue md:pr-8 text-justify text-[18px] md:text-[20px]">
       Much like the spirit of Soho, our designs are modern, trendy, and
       high-end, but there's more to it than that. We're not just about creating something
       visually stunning; we infuse it with the welcoming and warm spirit of a
@@ -81,7 +78,7 @@ const content = {
   ),
 
   paragraph6: (
-    <p className={paraClass}>
+    <p className="text-brand-blue md:pr-8 text-justify text-[18px] md:text-[20px]">
       But it's not all bravado and charm. We're all about warmth, patience, and
       of course kindness. <br /> <br />
       We understand tech can be a maze, and we're your trusty guides, leading

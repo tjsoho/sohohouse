@@ -3,6 +3,8 @@ import { ChevellColors } from "../constants/ChevellColors";
 import ChevellText from "./core/ChevellText";
 import graceSM from "../assets/images/graceSM.png";
 import graceMD from "../assets/images/graceMD.jpg";
+import { Reveal } from "../../../Animations/Reveal";
+import { SlideReveal } from "../../../Animations/SlideReveal";
 
 const EssenceOfLove = () => {
   // Detect screen size (for simplicity, using window width)
@@ -45,45 +47,51 @@ const EssenceOfLove = () => {
       <div
         style={{ backgroundImage: `url(${grace})` }}
         className="h-screen w-full hidden lg:block relative"
-      
       >
-
-            {/* Overlay with semi-transparent background */}
-            <div
+        {/* Overlay with semi-transparent background */}
+        <div
           style={{
-            position: 'absolute',
+            position: "absolute",
             top: 0,
             left: 0,
             right: 0,
             bottom: 0,
-            backgroundColor: 'rgba(0, 0, 0, 0.3)', // Semi-transparent overlay
+            backgroundColor: "rgba(0, 0, 0, 0.3)", // Semi-transparent overlay
           }}
         ></div>
 
-
-        <div style={{ position: 'relative', zIndex: 1 }} className="h-full flex flex-col justify-center items-end">
-          <ChevellText
-            type="h2"
-            color={"#FFE9E2"}
-            className="text-right mx-16"
-          >
-            The Essence of Love <br /> with an Editorial Flair
-          </ChevellText>
+        <div
+          style={{ position: "relative", zIndex: 1 }}
+          className="h-full flex flex-col justify-center items-end"
+        >
+          <Reveal>
+            <ChevellText
+              type="h2"
+              color={"#FFE9E2"}
+              className="text-right mx-16"
+            >
+              The Essence of Love <br /> with an Editorial Flair
+            </ChevellText>
+          </Reveal>
           <div
-            className="w-[100px] h-[8px] m-16"
+            className="w-[100px] h-[1px] my-8 mx-16"
             style={{
               backgroundColor: ChevellColors.CREAM_WHITE,
             }}
           ></div>
-          <ChevellText
-            type="sub1"
-            color="white"
-            className="text-right text-[#FFE9E2] pr-16 w-1/3"
-          >
-            Inspired by the look of love and the stylish pages of Vogue. We
-            brought Chevell's vision to life with a website that reflects their
-            inherently stylish, romantic, and timeless aesthetic.
-          </ChevellText>
+          
+          
+            <ChevellText
+              type="sub1"
+              color="white"
+              className="text-right text-[#FFE9E2] pr-16 w-1/3"
+            >
+              Inspired by the look of love and the stylish pages of Vogue. We
+              brought Chevell's vision to life with a website that reflects
+              their inherently stylish, romantic, and timeless aesthetic.
+            </ChevellText>
+          
+          
         </div>
       </div>
     </div>

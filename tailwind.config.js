@@ -9,7 +9,7 @@ module.exports = {
       colors: {
         'brand-blue': '#061C4E',
         'brand-orange': '#FC7643',
-        'brand-cream': '#FFE9E2',
+        'brand-cream': '#FDF8F1',
         'brand-camel': '#CA9F78',
         'brand-black': '#222222',
         'brand-beige': '#F9D3B1',

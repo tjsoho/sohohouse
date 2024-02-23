@@ -36,7 +36,7 @@ const ContactForm: React.FC = () => {
       <Grid
         item
         xs={12}
-        sm={6}
+        md={6}
         sx={{
           
           display: "flex",
@@ -54,7 +54,7 @@ const ContactForm: React.FC = () => {
         </h2>
         </SlideReveal>
         <Reveal>
-        <Typography variant="h5" style={{ textAlign: 'center', fontSize: '20px' }} className="text-brand-camel" gutterBottom>
+        <Typography variant="h5" style={{ textAlign: 'center', fontSize: '20px' }} className="text-brand-cream px-16 xl:px-32" gutterBottom>
          We love to hear about new ideas.<br /><br /> Feel free to share your thoughts with us and we'll get back to you as soon as we can.
         </Typography>
         </Reveal>
@@ -63,10 +63,10 @@ const ContactForm: React.FC = () => {
       <Grid
         item
         xs={12}
-        sm={6}
+        md={6}
         sx={{
           
-          padding: { xs: '50px', sm: "0 20px"},
+          padding: { xs: '50px', sm: "0 32px", lg: "0 64px" ,xl: "0 132px"},
           height: "100vh",
           display: "flex",
           flexDirection: "column",

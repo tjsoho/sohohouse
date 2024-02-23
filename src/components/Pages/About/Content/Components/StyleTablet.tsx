@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import { SlideReveal } from "../../../../Animations/SlideReveal";
 
 interface ComponentProps {
   title: string;
@@ -15,10 +16,7 @@ function StyleTablet({
   image,
   lineColour,
 }: ComponentProps) {
-  const paraClass = `Paragraph Classes
-    px-4 lg:px-8
-    text-brand-orange text-justify
-    `;
+ 
 
   return (
     <div className="py-24">
@@ -29,12 +27,14 @@ function StyleTablet({
           </h4>
           <div className={lineColour} />
         </div>
-        <div className="flex flex-row top-0 left-0 px-4 lg:px-8">
+        <SlideReveal>
+        <div className="flex  top-0 left-0 px-8">
           {para1}
           {para2}
         </div>
+        </SlideReveal>
       </div>
-      {image}
+      <div>{image}</div>
     </div>
   );
 }

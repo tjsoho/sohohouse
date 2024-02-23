@@ -5,7 +5,7 @@ import BeginningsTablet from "./Components/BeginningsTablet";
 
 function Content() {
   return (
-    <div>
+    <div className="max-w-[1440px] mx-auto">
       <div className="md:hidden">
         <BeginningsMobile
           title="Beginnings"

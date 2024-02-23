@@ -3,6 +3,7 @@ import mobIMG from "../assets/images/loveSM.png";
 import tabIMG from "../assets/images/loveMD.png";
 import deskIMG from "../assets/images/loveLG.png";
 import ChevellText from "./core/ChevellText";
+import { Reveal } from "../../../Animations/Reveal";
 
 function Inspired() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -32,29 +33,32 @@ function Inspired() {
   return (
     <div className="w-full h-full flex flex-col lg:flex-row">
       <div className="flex lg:w-1/2 h-full flex-col justify-center items-center">
-        <ChevellText type="h2" color="#000000" className="text-center">
-          Inspired by
-        </ChevellText>
-        <div className="flex w-full justify-center items-center">
+       <Reveal>
+        <div>
           <ChevellText type="h2" color="#000000" className="text-center">
-            the
+            Inspired by
           </ChevellText>
-          <ChevellText type="h2" color="#000000" className="text-center ml-3">
-            look of love
-          </ChevellText>
-          <ChevellText type="h2" color="#000000" className="text-center ml-3">
-            and
-          </ChevellText>
+          <div className="flex w-full justify-center items-center">
+            <ChevellText type="h2" color="#000000" className="text-center">
+              the
+            </ChevellText>
+            <ChevellText type="h2" color="#000000" className="text-center ml-3">
+              look of love
+            </ChevellText>
+            <ChevellText type="h2" color="#000000" className="text-center ml-3">
+              and
+            </ChevellText>
+          </div>
+          <div className="flex w-full justify-center items-center">
+            <ChevellText type="h2" color="#000000" className="text-center">
+              stylish
+            </ChevellText>
+            <ChevellText type="h2" color="#000000" className="text-center ml-3">
+              pages of Vogue
+            </ChevellText>
+          </div>
         </div>
-        <div className="flex w-full justify-center items-center">
-          <ChevellText type="h2" color="#000000" className="text-center">
-            stylish
-          </ChevellText>
-          <ChevellText type="h2" color="#000000" className="text-center ml-3">
-            pages of Vogue
-          </ChevellText>
-        
-        </div>
+        </Reveal>
       </div>
       <div className="pb-16 md:pr-8 lg:pb-0  lg:w-[40%] lg:flex flex-col justify-end items-end">
         <img src={imageSrc} alt="" />

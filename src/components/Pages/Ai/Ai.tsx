@@ -12,16 +12,16 @@ function Ai() {
       <div className="w-full h-screen">
         <Hero />
       </div>
-      <div className="w-full h-contain lg:h-screen">
+      <div className="w-full h-contain lg:h-screen bg-brand-blue">
         <Voice />
       </div>
-      <div className="w-full h-screen">
+      <div className="w-full h-screen bg-brand-camel">
         <Graphic />
       </div>
-      <div className="w-full h-contain ">
+      <div className="w-full h-contain bg-brand-blue">
         <Included />
       </div>
-      <div className="w-full h-screen">
+      <div className="w-full h-screen bg-brand-cream">
         <ContactAi />
       </div>
     </div>

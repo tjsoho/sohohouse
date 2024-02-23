@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import { SlideReveal } from "../../../../Animations/SlideReveal";
 
 interface ComponentProps {
   title: string;
@@ -15,10 +16,7 @@ function PromiseTablet({
   image,
   lineColour,
 }: ComponentProps) {
-  const paraClass = `Paragraph Classes
-    px-4 lg:px-8
-    text-brand-blue text-justify
-    `;
+  
 
   return (
     <div className="py-24">
@@ -29,10 +27,12 @@ function PromiseTablet({
           </h4>
           <div className={lineColour} />
         </div>
-        <div className="flex flex-row top-0 left-0">
-          {para1}
-          {para2}
-        </div>
+        <SlideReveal>
+          <div className="flex flex-row top-0 left-0 px-8">
+            {para1}
+            {para2}
+          </div>
+        </SlideReveal>
       </div>
       <div>{image}</div>
     </div>

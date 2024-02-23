@@ -22,13 +22,14 @@ interface ButtonProps {
 const buttonClasses = `
   Button Class
   px-6 py-3
-  bg-brand-blue
+  bg-brand-orange
   text-brand-cream hover:text-brand-camel  active:underline text-3xl leading-none
   font-Black
   w-[250px]
   h-[75px]
   items-center
   rounded
+  mt-16 lg:mt-0
 `;
 
 function Button({ label, onClick, link }: ButtonProps) {

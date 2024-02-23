@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import { SlideReveal } from "../../../../Animations/SlideReveal";
 
 interface Mobile1Props {
   title: string;
@@ -16,7 +17,7 @@ function StylesMobile({
   lineColour,
 }: Mobile1Props) {
   return (
-    <div className="py-24">
+    <div className="py-16">
       <div className="px-8">
         <div>
           <h4 className="uppercase text-[42px] font-Black text-brand-orange leading-none">
@@ -24,11 +25,15 @@ function StylesMobile({
           </h4>
           <div className={lineColour} />
         </div>
-        <div>{para1}</div>
+        <SlideReveal>
+          <div>{para1}</div>
+        </SlideReveal>
       </div>
       <div>{image}</div>
       <div>
-        <div className="px-8">{para2}</div>
+        <SlideReveal>
+          <div className="px-8">{para2}</div>
+        </SlideReveal>
       </div>
     </div>
   );

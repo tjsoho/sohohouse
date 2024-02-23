@@ -20,6 +20,7 @@ import ScrollToTop from './components/ScrollToTop'
 import Creations from "./components/Pages/Creations/Creations";
 import Calendar from "./components/Pages/Contact/Calendar";
 import ComingSoon from "./components/Pages/ComingSoon";
+import PrivacyPolicy from "./components/Pages/Contact/PrivacyPolicy";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -33,7 +34,7 @@ function App() {
   return (
     <Router>
        <ScrollToTop />
-      <div>
+      <div className="">
       <MenuBar toggleMenu={toggleMenu} isMenuOpen={isMenuOpen} />
         {isMenuOpen && <MenuPage toggleMenu={toggleMenu} />}
 
@@ -50,6 +51,8 @@ function App() {
           <Route path="/creations" element={<Creations />} />
           <Route path="/calendar" element={<Calendar />} />
           <Route path="/comingsoon" element={<ComingSoon />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+
         </Routes>
       </div>
     </Router>

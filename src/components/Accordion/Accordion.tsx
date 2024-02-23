@@ -53,11 +53,12 @@ export function Accordion({ title, content }: AccordionProps) {
             name="arrowDown"
             className="w-4 h-4 ml-8"
             rotation={rotation}
+            color="#FC7643"
           />
         </div>
       </motion.button>
       <motion.div
-        className="text-base p-4 font-Raleway text-brand-cream text-left w-contain flex-wrap" // Apply Tailwind CSS classes for content styling
+        className="text-base p-4 font-Raleway text-brand-cream text-left w-contain flex-wrap text-[18px] mb-4" // Apply Tailwind CSS classes for content styling
       >
         <motion.div
           ref={contentRef}
