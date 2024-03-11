@@ -1,91 +1,60 @@
-
-
 const content = {
   paragraph1: (
-
-    
-   
-
-    <p className="text-brand-blue md:pr-8 text-justify text-[18px] md:text-[20px] ">
-
-      Hi there! I’m Toby J - the founder of SoHo Creative House. Think of me as
-      the guy who swapped a guitar pick for a digital pen. <br /> <br /> You
-      see, in a previous life, I was a globe-trotting musician. Yep, I could
-      rock a saxophone like nobody's business and strum a guitar with the
-      passion of a Jack Black from ‘School of Rock.’ <br /> <br />
-      For two decades, I took my tunes from New York to London, Hong Kong, and
-      everywhere in between. Every city, every culture, every melody, it all
-      became a part of me But one day, amidst the roar of applause and the
-      shimmering lights of the stage, I decided to pivot. I hung up my ‘muso’
-      boots and slipped into the digital realm.
+    <p className="text-brand-orange-light md:pr-8 text-justify text-[18px] md:text-[20px] ">
+      Hey there! I’m Toby J, aka The Ai Guy. Picture me as the guy who traded a
+      guitar pick for a digital pen. <br /> <br /> I made the leap from music
+      stage to digital stage with a one-two punch for business: Web design and
+      bespoke Ai solutions. <br /> <br />
+      My mission? To amp up your business with not just one, but two power
+      plays: captivating websites and a tailor-made AI Dream Team. <br /> <br />Back in the
+      day, I was all about those epic guitar riffs, Careless Whisper sax solos
+      and heart melting violin melodies.
     </p>
-    
   ),
 
   paragraph2: (
-    <p className="text-brand-blue md:pr-8 text-justify text-[18px] md:text-[20px] ">
-      Why, you ask? Because I wanted to create a different kind of harmony – the
-      kind that resonates through pixels and code. SoHo Creative House was born
-      from the ashes of my music career (not literally, that would be a bit
-      dramatic). It's where the art of storytelling meets the precision of web
-      design. <br /> <br /> We don't just build websites; we craft digital
-      symphonies that play your brand's tune, loud and clear. Now, you might
-      wonder, "What makes this guy and SoHo Creative House different?" <br />{" "}
-      <br /> Well, it's all about the layers. Just like a song with depth and
-      texture, our designs have layers that unravel your brand's story. We don't
-      settle for ordinary; we aim for extraordinary.
+    <p className="text-brand-orange-light md:pr-8 text-justify text-[18px] md:text-[20px] ">
+      Hitting every note from Europe to Asia, to America and everywhere in
+      between.<br /> <br /> Fast forward to now, and you’ll find me making magic in the
+      digital realm. <br /> <br /> But here’s the twist: I’m doing it with a
+      double act. First up, crafting websites that do more than just dazzle;
+      they tell your brand’s story like it’s headline news.<br /> <br /> And then, bringing
+      in the heavy hitters, your very own AI Dream Team, custom-built by yours
+      truly.
     </p>
   ),
 
   paragraph3: (
-    <p className="text-brand-orange md:pr-8 text-justify text-[18px] md:text-[20px] ">
-      Our style? Picture a blend of swagger and cheekiness, a pinch of Ryan
-      Gosling's charm, and a sprinkle of Harvey Specter's confidence. <br />{" "}
+    <p className="text-brand-orange-light md:pr-8 text-justify text-[18px] md:text-[20px] ">
+      So why me? Why The Ai Guy?  <br />{" "}
       <br />
-      We're not your average web agency – we're the cool kids on the digital
-      block, and we're here to make your online presence pop.
+      Because your business deserves more than just a pretty face online—it needs brains, too.
       <br /> <br />
-      So, why SoHo Creative House, you might wonder? Well, it's more than just a
-      name; it's a tribute to the beating hearts of three vibrant cities that
-      all share a suburb called Soho: New York, London, and Hong Kong.
+      We’re talking smart, savvy AI that works just as hard as you do. Here, AI is your secret weapon, ready to take your digital game to a whole new level.
     </p>
   ),
 
   paragraph4: (
-    <p className="text-brand-orange md:pr-8 text-justify text-[18px] md:text-[20px]  ">
-      These places are the epicentre of trends, where style and sophistication
-      blend effortlessly with sophisticated inspiration. <br /> <br />
-      In the streets of these Soho districts, you'll find a community of young,
-      vibrant, and successful creatives, driven by their passion for art,
-      innovation, and design. <br /> <br />
-      In Soho, you'll discover the pulse of fashion, the sizzle of food, and the
-      canvas of art—all leading the way in these dynamic cities.
+    <p className="text-brand-orange-light md:pr-8 text-justify text-[18px] md:text-[20px]  ">
+      This isn’t your typical tech talk. <br /> <br />
+      It’s the inside scoop on how AI and web design can jam together, creating something that’s not just functional but freakin’ awesome.  <br /> <br />
+      My world tour days taught me how to captivate a crowd, and now? I’m using those skills to captivate your audience online.
     </p>
   ),
 
   paragraph5: (
-    <p className="text-brand-blue md:pr-8 text-justify text-[18px] md:text-[20px]">
-      Much like the spirit of Soho, our designs are modern, trendy, and
-      high-end, but there's more to it than that. We're not just about creating something
-      visually stunning; we infuse it with the welcoming and warm spirit of a
-      house. <br /> <br />
-      The idea of a "house" signifies openness, approachability, and a place
-      where you're always welcome. <br /> <br />
-      That's the essence of Soho Creative House – where your brand's story meets
-      the pulse of Soho. Where class and creativity come together, and where
-      you'll find a warm, inviting space to bring your digital dreams to life.
+    <p className="text-brand-orange md:pr-8 text-justify text-[18px] md:text-[20px]">
+      The Ai Guy isn’t just some fancy title; it’s a promise to you: delivering eye-popping web designs and creating your AI Dream Team that works tirelessly behind the scenes.  <br /> <br />
+     
+      It’s about giving your business the spotlight it deserves with a website that’s as compelling as a chart-topping hit and AI solutions that ensure you keep hitting those high notes.
     </p>
   ),
 
   paragraph6: (
-    <p className="text-brand-blue md:pr-8 text-justify text-[18px] md:text-[20px]">
-      But it's not all bravado and charm. We're all about warmth, patience, and
-      of course kindness. <br /> <br />
-      We understand tech can be a maze, and we're your trusty guides, leading
-      you through it with a friendly grin. <br /> <br />
-      When we hand over your brand-new website, it's not a farewell; it's more
-      like, "Welcome to your new online home!" We provide you with the tools,
-      the guidance, and the support to make it your own.
+    <p className="text-brand-orange md:pr-8 text-justify text-[18px] md:text-[20px]">
+      Your business isn’t just a business. It’s a part of you. And it’s a story that deserves to be highlighted and shared. But it doesn’t stop there. You too deserve the best of the best.  <br /> <br />
+      
+      And that’s exactly what your Ai Dream Team is. It’s your expert in every field of business sitting right in the palm of your hand. Ready on call to amplify your business.
     </p>
   ),
 };

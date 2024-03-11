@@ -32,6 +32,17 @@ export default function Landing2() {
   //  text-brand-cream text-[20px] md:text-[28px] lg:text-[32px] xl:text-[35px] 2xl:text-[36px] font-Raleway font-thin leading-1 tracking-widest
   //  text-center
   //  `;
+
+  const scrollToNextSection = () => {
+    const nextSection = document.getElementById('placeholderSection');
+    if (nextSection) {
+      window.scrollTo({
+        top: nextSection.offsetTop,
+        behavior: 'smooth',
+      });
+    }
+  };
+
   return (
     <div className="w-full h-screen flex flex-col items-center bg-brand-blue">
       <div className="flex-1 flex flex-col justify-center items-center">
@@ -99,7 +110,8 @@ export default function Landing2() {
           ease: [0, 0.71, 0.2, 1.01],
         }}
       >
-        <div className="flex flex-col justify-center items-end animate-bounce pb-20 md:pb-8">
+        <div className="flex flex-col justify-center items-end animate-bounce pb-20 md:pb-8 hover:cursor-pointer"  onClick={scrollToNextSection}>
+        
           <Icon name="arrowDown" color="#FC7643"/>
         </div>
       </motion.div>

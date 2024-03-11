@@ -22,7 +22,7 @@ function BeginningsMobile({
       <div className="px-8">
         <div>
      
-          <h4 className="uppercase text-[42px] font-Black text-brand-blue leading-none">
+          <h4 className="uppercase text-[42px] font-Black text-brand-orange-light leading-none">
             {title}
           </h4>
         

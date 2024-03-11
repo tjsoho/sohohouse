@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import { motion } from "framer-motion";
 import Icon from "../Icons/Icon";
 
+
 interface AccordionProps {
   title: string;
   content: string;
@@ -34,29 +35,34 @@ export function Accordion({ title, content }: AccordionProps) {
     Accordion Class
     text-[20px] md:text-[28px] font-medium font-Black text-brand-cream 
     ${isOpen ? "text-brand-orange underline" : ""}
-    hover:text-brand-camel active:text-brand-orange flex justify-between items-center text-left uppercase
+    hover:text-brand-orange-light active:text-brand-orange flex justify-between items-center text-left uppercase
   `;
 
   const rotation = isOpen ? 180 : 0;
 
   return (
     <div className="flex flex-col justify-between w-full lg:w-1/2 px-8 md:px-16 my-2">
+      
       <motion.button
         onClick={() => setIsOpen(!isOpen)}
         initial={false}
         animate={{ backgroundColor: isOpen ? "" : "" }}
         className={getAccordionClasses()} // Apply Tailwind CSS classes for title styling
-      >
-        <div className="flex">{title}</div>
+        >
+        
+        <div className="flex">{title}
+        </div>
+        
         <div className="flex flex-col items-end">
           <Icon
             name="arrowDown"
             className="w-4 h-4 ml-8"
             rotation={rotation}
             color="#FC7643"
-          />
+            />
         </div>
       </motion.button>
+            
       <motion.div
         className="text-base p-4 font-Raleway text-brand-cream text-left w-contain flex-wrap text-[18px] mb-4" // Apply Tailwind CSS classes for content styling
       >
@@ -71,6 +77,7 @@ export function Accordion({ title, content }: AccordionProps) {
           {content}
         </motion.div>
       </motion.div>
+      
     </div>
   );
 }

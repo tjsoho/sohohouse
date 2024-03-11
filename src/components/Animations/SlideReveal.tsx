@@ -33,7 +33,7 @@ export const SlideReveal = ({
         }}
         initial="hidden"
         animate={mainControls}
-        transition={{ duration: 0.25, delay: delay }}
+        transition={{ duration: 0.25, delay: 0.25 }}
       >
         {children}
       </motion.div>

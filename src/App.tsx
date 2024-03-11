@@ -12,7 +12,7 @@ import Breath from "./components/Pages/Breath/Breath";
 import Luxe from "./components/Pages/Luxe/Luxe";
 import Ai from "./components/Pages/Ai/Ai";
 import ContactForm from "./components/Pages/ContactForm/ContactForm";
-
+import Sites from "./components/Pages/Websites/Sites";
 // Import MenuBar and MenuPage
 import MenuBar from "./components/Menu/MenuBar";
 import MenuPage from "./components/Menu/MenuPage";
@@ -47,10 +47,11 @@ function App() {
           <Route path="/breath" element={<Breath />} />
           <Route path="/luxe" element={<Luxe />} />
           <Route path="/businesscompanion" element={<Ai />} />
-          <Route path="/contactform" element={<ContactForm />} />
+          <Route path="/contactme" element={<ContactForm />} />
           <Route path="/creations" element={<Creations />} />
           <Route path="/calendar" element={<Calendar />} />
           <Route path="/comingsoon" element={<ComingSoon />} />
+          <Route path="/websites" element={<Sites />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
 
         </Routes>

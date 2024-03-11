@@ -14,19 +14,19 @@ interface AccordionItem {
     },
     {
       title: 'Design Studio Magic',
-      content: "We're in the Play room, crafting designs and weaving stories, collaborating closely to bring your vision to life.",
+      content: "Now we're in the Play room, crafting designs and weaving stories, collaborating closely to bring your vision to life.",
     },
     {
       title: 'Netflix & Chill',
-      content: "Sit back and relax while we cook up a masterpiece in our digital kitchen, stirring every pixel and line of code to perfection.",
+      content: "Sit back and relax while I cook up a masterpiece in my digital kitchen, stirring every pixel and line of code to perfection.",
     },
     {
       title: 'Your House Keys',
-      content: "Your brand-new website is ready. this is not a goodbye though, it's a hearty welcome to your new online home.",
+      content: "Your brand-new website is ready. This is not a goodbye though, it's a hearty welcome to your new online home.",
     },
     {
       title: 'Keeping it Fresh',
-      content: "We arm you with tools and wisdom, guiding you on how to keep your website updated, vibrant, and always telling your story.",
+      content: "Arming you with tools and wisdom, guiding you on how to keep your website updated, vibrant, and always telling your story.",
     },
     // Add more objects as needed
   ];

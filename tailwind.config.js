@@ -9,8 +9,10 @@ module.exports = {
       colors: {
         'brand-blue': '#061C4E',
         'brand-orange': '#FC7643',
-        'brand-cream': '#FDF8F1',
-        'brand-camel': '#CA9F78',
+        'brand-orange-light': '#FF9268',
+        'brand-blue-light': '#263559',
+        'brand-cream': '#FFFBFA',
+        'brand-camel': '#263559',
         'brand-black': '#222222',
         'brand-beige': '#F9D3B1',
       },

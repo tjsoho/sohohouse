@@ -3,10 +3,10 @@ import { motion, useInView, useAnimation } from "framer-motion";
 
 interface Props {
   children: JSX.Element;
-  width?: "fit-content" | "100%";
+  width?: "100%" | "100%";
 }
 
-export const Reveal = ({ children, width = "fit-content" }: Props) => {
+export const Reveal = ({ children, width = "100%" }: Props) => {
   const ref = useRef(null);
   const isInView = useInView(ref);
 
@@ -28,7 +28,7 @@ export const Reveal = ({ children, width = "fit-content" }: Props) => {
         }}
         initial="hidden"
         animate={mainControls}
-        transition={{ duration: 0.25, delay: 0 }}
+        transition={{ duration: 0.25, delay: 0.25 }}
       >
         {children}
       </motion.div>

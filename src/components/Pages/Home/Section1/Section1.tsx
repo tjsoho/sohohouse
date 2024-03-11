@@ -18,6 +18,7 @@ export default function LandingHome() {
   return (
     <div className="w-full h-screen flex flex-col items-center bg-brand-blue">
       {showLanding ? <Landing1 /> : <Landing2 />}
+      
     </div>
   );
 }

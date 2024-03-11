@@ -20,7 +20,7 @@ function PromiseMobile({
     <div className="py-16">
       <div className="px-8">
         <div>
-          <h4 className="uppercase text-[42px] font-Black text-brand-blue leading-none">
+          <h4 className="uppercase text-[42px] font-Black text-brand-orange leading-none">
             {title}
           </h4>
           <div className={lineColour} />

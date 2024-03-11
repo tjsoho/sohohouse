@@ -1,28 +1,23 @@
-import phone from '../images/phone.png';
-import { SlideReveal } from "../../../Animations/SlideReveal";
+
+
+import ResponsiveVidBG from './RespsonsiveVidBG';
 
 function Hero() {
   return (
-    <div className="flex flex-col lg:flex-row h-full w-full">
-      <div className="bg-brand-orange h-1/2 w-full lg:h-full lg:w-1/2 flex flex-col justify-center items-center">
-        <h3 className="font-Raleway italic leading-none text-brand-blue text-[36px] text-left w-1/2 md:pl-16 lg:pl-8 ">The</h3>
-        <SlideReveal>
-        <h3 className=" leading-none text-brand-blue w-full text-center text-[42px] lg:text-[52px] md:pr-16">Master Key</h3>
-        </SlideReveal>
-        <h3 className="font-Raleway italic leading-none text-brand-blue text-[36px] text-left w-1/2 pl-16 md:pl-48 lg:pl-36 xl:pl-40 1xl:pl-52 -mt-3">to your</h3>
-        <SlideReveal>
-        <h3 className=" leading-none text-brand-blue w-full text-center text-[42px] lg:text-[52px] md:pl-16">Business</h3>
-        </SlideReveal>
-
-      </div>
-
-      <div className="bg-brand-cream h-1/2 w-full lg:h-full lg:w-1/2 flex flex-col justify-center">
-        <div className="w-full flex justify-center">
-        <img src={phone} alt="SoHo Creative House Ai for Business" className="max-w-[400px] md:max-w-[600px] align-middle" />
+    <div className=" h-full w-full">
+      <ResponsiveVidBG>
+        {/* Overlay */}
+        <div className="absolute inset-0 ">
+          {/* Content */}
+          <div className="flex justify-center items-center h-full">
+            {/* <Reveal>
+          <h1 className="text-brand-orange font-bold text-8xl lg:text-9xl m-4 text-center">Welcome to teh Ai Hub</h1>
+          </Reveal> */}
+          </div>
         </div>
-      </div>
+      </ResponsiveVidBG>
     </div>
-  )
+  );
 }
 
-export default Hero
+export default Hero;

@@ -37,6 +37,8 @@ export default function Square({
         ? "bg-brand-blue"
         : color === 'cream'
         ? "bg-brand-cream"
+        : color === 'light'
+        ? "bg-brand-orange-light"
         : "bg-brand-camel"
     }
     absolute inset-0 flex justify-center items-center text-center h-full flex-col absolute

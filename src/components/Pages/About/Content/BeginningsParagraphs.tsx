@@ -11,7 +11,7 @@ function Content() {
           title="Beginnings"
           para1={Data.paragraph1}
           para2={Data.paragraph2}
-          lineColour="bg-brand-orange self-center w-[72px] md:w-[116px] shrink-0 h-[6px] my-8"
+          lineColour="bg-brand-cream self-center w-[72px] md:w-[116px] shrink-0 h-[6px] my-8"
           image={<SohoTan />}
         />
       </div>
@@ -20,7 +20,7 @@ function Content() {
           title="Beginnings"
           para1={Data.paragraph1}
           para2={Data.paragraph2}
-          lineColour="bg-brand-orange self-center w-[72px] md:w-[116px] shrink-0 h-[6px] my-8"
+          lineColour="bg-brand-cream self-center w-[72px] md:w-[116px] shrink-0 h-[6px] my-8"
           image={<SohoTan />}
         />
       </div>

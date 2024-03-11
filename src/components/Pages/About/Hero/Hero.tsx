@@ -1,21 +1,21 @@
 
-import ResponsiveBackground from './ResponsiveBackground'; // import the new component
 import { Reveal } from "../../../Animations/Reveal";
+import ResponsiveVidBG from '../../Ai/components/RespsonsiveVidBG';
 
 function Hero() {
   return (
-    <div className="bg-brand-blue h-full w-full">
-      <ResponsiveBackground>
+    <div className=" h-full w-full">
+      <ResponsiveVidBG>
         {/* Overlay */}
         <div className="absolute inset-0 ">
           {/* Content */}
           <div className="flex justify-center items-center h-full">
-            <Reveal>
-          <h1 className="text-brand-orange font-bold text-8xl lg:text-9xl m-4 text-center">SoHo Story</h1>
-          </Reveal>
+            {/* <Reveal>
+          <h1 className="text-brand-orange font-bold text-8xl lg:text-9xl m-4 text-center">Welcome to teh Ai Hub</h1>
+          </Reveal> */}
           </div>
         </div>
-      </ResponsiveBackground>
+      </ResponsiveVidBG>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.13722982.css",
-    "main.js": "/static/js/main.77bc05b0.js",
+    "main.css": "/static/css/main.72237dcb.css",
+    "main.js": "/static/js/main.3e1cfaeb.js",
     "static/media/desktop.png": "/static/media/desktop.55410f0e8c5d841f0368.png",
     "static/media/colourSM.svg": "/static/media/colourSM.99fe03d241bbe5ceb5b54b7169f3be8f.svg",
     "static/media/colourLG.svg": "/static/media/colourLG.13855bc978a78da7f1a7fc5b81b0c0da.svg",
@@ -50,9 +50,7 @@
     "static/media/logoMD.png": "/static/media/logoMD.e846ad29ed30ad5d9cfd.png",
     "static/media/ShadowImgMD.jpg": "/static/media/ShadowImgMD.7515375559919e96b1b0.jpg",
     "static/media/becSM.png": "/static/media/becSM.e584f011f97ce71c49bf.png",
-    "static/media/AiLG.png": "/static/media/AiLG.913554f2a4c831f46a45.png",
     "static/media/loveSM.png": "/static/media/loveSM.1abc073e990ff33db3cc.png",
-    "static/media/websitesLG.png": "/static/media/websitesLG.51dea73c890ce648a3b6.png",
     "static/media/pradaSM.png": "/static/media/pradaSM.d596dcc94075211a7eca.png",
     "static/media/becLG.jpg": "/static/media/becLG.73372f576222e9ee3802.jpg",
     "static/media/graceMD.jpg": "/static/media/graceMD.884a4f4dfd4acd94a69e.jpg",
@@ -67,8 +65,6 @@
     "static/media/logoSM.png": "/static/media/logoSM.0ee40fe74e8581e57660.png",
     "static/media/Section2ImgMD.jpg": "/static/media/Section2ImgMD.bbc61e1d6bf6cbb6c046.jpg",
     "static/media/MonitorSM.png": "/static/media/MonitorSM.09aca7690eb11f808c89.png",
-    "static/media/AiSM.png": "/static/media/AiSM.a628a938a2e0ffc89ae4.png",
-    "static/media/websitesSM.png": "/static/media/websitesSM.98d5295321059e33cb86.png",
     "static/media/PElogo2.png": "/static/media/PElogo2.7732b2c9480fd30384b8.png",
     "static/media/bgSM.png": "/static/media/bgSM.523a82b7567c71ad7321.png",
     "static/media/styleLG.png": "/static/media/styleLG.469510ae7ce59cca11af.png",
@@ -85,11 +81,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "static/media/palletLG.svg": "/static/media/palletLG.7b0622a1308a9a8fcf147be27e9fdb47.svg",
-    "main.13722982.css.map": "/static/css/main.13722982.css.map",
-    "main.77bc05b0.js.map": "/static/js/main.77bc05b0.js.map"
+    "main.72237dcb.css.map": "/static/css/main.72237dcb.css.map",
+    "main.3e1cfaeb.js.map": "/static/js/main.3e1cfaeb.js.map"
   },
   "entrypoints": [
-    "static/css/main.13722982.css",
-    "static/js/main.77bc05b0.js"
+    "static/css/main.72237dcb.css",
+    "static/js/main.3e1cfaeb.js"
   ]
 }
