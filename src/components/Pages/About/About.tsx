@@ -7,6 +7,7 @@ import Elevate from "./Elevate/Elevate";
 import Hero from "./Hero/Hero";
 
 import Values from "./Values/Values";
+import Hero2 from "./Hero/Hero2";
 
 function About() {
   return (
@@ -14,19 +15,22 @@ function About() {
       <div className="h-screen">
         <Hero />
       </div>
-      <div className=" h-contain bg-brand-camel">
+      <div className=" h-contain bg-brand-blue">
         <Content />
       </div>
-      <div className="h-contain">
+      {/* <div className="h-contain">
         <Values />
-      </div>
+      </div> */}
       <div className="bg-brand-orange h-contain">
         <Elevate />
       </div>
-      <div className=" h-contain bg-brand-blue">
+      <div className=" h-contain bg-brand-cream">
         <Content2 />
       </div>
-      <div className=" h-contain bg-brand-camel">
+      <div className="h-screen">
+        <Hero2 />
+      </div>
+      <div className=" h-contain bg-brand-blue">
         <Content3 />
       </div>
       <div className="bg-brand-cream h-contain">

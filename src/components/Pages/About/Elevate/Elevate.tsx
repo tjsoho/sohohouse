@@ -24,7 +24,7 @@ function Elevate() {
         </div>
         <div>
           <p className="uppercase text-brand-blue italic text-center text-2xl md:text-3xl lg:text-5xl lg:text-end md:pr-[10px] lg:pr-[170px] 1xl:pr-[100px] 2xl:pr-[106px] mt-8 md:mt-0 leading-none font-medium lg:font-normal">
-            Through Design Mastery
+            Through Design+Tech Mastery
           </p>
           <div className="flex justify-center md:hidden">
             <div className="bg-brand-cream self-center w-[72px] md:w-[116px] shrink-0 h-[4px] mt-8"></div>

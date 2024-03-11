@@ -49,7 +49,7 @@ export default function MenuBar({ isMenuOpen, toggleMenu }: MenuBarProps) {
 
   return (
     <div
-      className={`fixed top-0 left-0 right-0 z-50 bg-opacity-70 hover:opacity-100 transition-transform duration-300 ease-in-out ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-transform duration-300 ease-in-out ${
         hasScrolled && mouseActive ? "bg-brand-cream" : ""
       } ${isHidden && !mouseActive ? "-translate-y-full" : "translate-y-0"} flex justify-between items-center px-[25px] py-0`}
     >
