@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 const PrivacyPolicy = () => {
   return (
     <div className="w-screen h-contain bg-brand-cream flex flex-col justify-between py-16 px-8 lg:pt-32">
-      <h3 className="text-[26px] text-brand-blue">Your Privacy Suite at SoHo Creative House</h3>
+      <h3 className="text-[26px] text-brand-blue">Your Privacy Suite at the Ai Guy.</h3>
       <p className=" mb-16 text-[18px] ">
         Just like every chord in a symphony matters, we believe your privacy is
-        paramount. At SoHo Creative House, we're not just about crafting digital
+        paramount. At the Ai Guy, we're not just about crafting digital
         landscapes; we're about creating a space where your data is treated with
         respect and care. Dive into our privacy policy, tailored to harmonize
         with your expectations and the Australian Privacy Principles.
@@ -15,7 +15,7 @@ const PrivacyPolicy = () => {
         <h5 className="text-[26px]">Our Privacy Jam Session</h5>
         <p className="pl-8 mb-8 text-[18px]">
           Your data and our commitment to protecting it play a sweet duet at
-          SoHo Creative House. Our privacy practices resonate with the
+          the Ai Guy. Our privacy practices resonate with the
           Australian Privacy Principles, ensuring your personal information hits
           the right notes.
         </p>
@@ -38,7 +38,7 @@ const PrivacyPolicy = () => {
           <span className="font-bold">
             3. Online Footprints (Website Activity):
           </span>{" "}
-          Our website, www.sohocreativehouse.com, uses cookies and digital
+          Our website, www.ai-guy.co, uses cookies and digital
           markers in three genres:
           <div className="pl-8 ">
             <span className="font-bold">

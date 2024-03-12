@@ -1,21 +1,60 @@
+import React, { useState, useEffect } from "react";
+import image1 from "./images/21.png";
+import image2 from "./images/22.png";
+import image3 from "./images/23.png";
+import image4 from "./images/24.png";
+import image5 from "./images/25.png";
+import image6 from "./images/26.png";
 
-
-import ResponsiveVidBG from './RespsonsiveVidBG';
 
 function Hero() {
+  // Images for the first div
+  const images1 = [
+    image1,
+    image4,
+    image3,
+
+  ];
+
+  // Images for the second div, could be the same or different
+  const images2 = [
+    image5,
+    image6,
+    image2,
+  ];
+
+  const [currentIndex1, setCurrentIndex1] = useState(0);
+  const [currentIndex2, setCurrentIndex2] = useState(0);
+
+  useEffect(() => {
+    const interval1 = setInterval(() => {
+      setCurrentIndex1((currentIndex1) => (currentIndex1 + 1) % images1.length);
+    }, 800); // Change image every 800ms for the first div
+
+    const interval2 = setInterval(() => {
+      setCurrentIndex2((currentIndex2) => (currentIndex2 + 1) % images2.length);
+    }, 1200); // Change image every 1200ms for the second div, for alternate cycling
+
+    return () => {
+      clearInterval(interval1);
+      clearInterval(interval2);
+    };
+  }, []);
+
   return (
-    <div className=" h-full w-full">
-      <ResponsiveVidBG>
-        {/* Overlay */}
-        <div className="absolute inset-0 ">
-          {/* Content */}
-          <div className="flex justify-center items-center h-full">
-            {/* <Reveal>
-          <h1 className="text-brand-orange font-bold text-8xl lg:text-9xl m-4 text-center">Welcome to teh Ai Hub</h1>
-          </Reveal> */}
-          </div>
-        </div>
-      </ResponsiveVidBG>
+    <div className="flex h-screen w-screen relative bg-[#011138]">
+      {/* Background */}
+      <div className="w-full lg:w-1/2 h-full">
+        <img src={images1[currentIndex1]} alt="Background 1" className="w-full h-full object-cover"/>
+      </div>
+      {/* Background */}
+      <div className="hidden lg:block w-1/2 h-full">
+        <img src={images2[currentIndex2]} alt="Background 2" className="w-full h-full object-cover"/>
+      </div>
+      {/* Overlay */}
+      <div className="absolute inset-0 flex justify-center items-center z-10" style={{ backgroundColor: 'rgba(1, 17, 56, 0.6)' }}>
+        <h1 className="text-5xl lg:text-9xl font-bold text-brand-cream">Introducing <br/> The <span className="text-brand-orange">Ai HUB</span></h1>
+      </div>
     </div>
   );
 }
