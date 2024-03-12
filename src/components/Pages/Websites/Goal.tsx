@@ -50,7 +50,7 @@ function Goal() {
             </p>
           </SlideReveal>
           <div className="flex justify-center ">
-            <Link to="/contact">
+            <Link to="/contactme">
               <Button1 label="LET'S DO IT" className="text-brand-blue" />
             </Link>
           </div>

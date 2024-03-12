@@ -39,20 +39,20 @@ const Card = () => {
             <img
               src={testimonials[currentIndex].profileImage}
               alt="icon"
-              className="w-20 h-20 rounded-full object-cover mr-4"
+              className="w-20 h-20 object-cover mr-4"
             />
             <p className="font-Black">{testimonials[currentIndex].name}</p>
           </div>
         </motion.div>
         <button
           onClick={handlePrev}
-          className="absolute left-0 -ml-10 top-1/2 transform -translate-y-1/2 text-brand-orange-light"
+          className="absolute left-0 -ml-4 top-1/2 transform -translate-y-1/2 text-brand-orange-light"
         >
           <FaArrowLeft />
         </button>
         <button
           onClick={handleNext}
-          className="absolute right-0 -mr-10 top-1/2 transform -translate-y-1/2 text-brand-orange-light"
+          className="absolute right-0 -mr-4 top-1/2 transform -translate-y-1/2 text-brand-orange-light"
         >
           <FaArrowRight />
         </button>
@@ -63,7 +63,7 @@ const Card = () => {
         {testimonials.map((item, index) => (
           <span
             key={item.id}
-            className={`mx-1 h-2 w-2 bg-white rounded-full ${
+            className={`mx-1 h-2 w-2 bg-white  ${
               index === currentIndex ? "bg-opacity-100" : "bg-opacity-50"
             }`}
             onClick={() => setCurrentIndex(index)}

@@ -36,8 +36,25 @@ h5 {
 }
 
 p {
-  font-family: 'Raleway', sans-serif;
-  font-size: 22px;
-  font-weight: 400;
-  
+  @apply text-base font-normal font-Raleway; /* Tailwind class for 16px font size and normal font weight */
+  /* Override to set specific font size */
+  font-size: 18px; /* Mobile size */
+}
+
+/* Tailwind's 'md' breakpoint for medium devices and up (default is 768px) */
+@media (min-width: 768px) {
+  p {
+    @apply text-lg; /* Tailwind class for larger font size, typically 18px */
+    /* Override if Tailwind's default 'text-lg' size does not match your design */
+    font-size: 20px; /* Larger devices size */
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
 }

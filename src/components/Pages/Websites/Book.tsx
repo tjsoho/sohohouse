@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 import { Reveal } from "../../Animations/Reveal";
 import { SlideReveal } from "../../Animations/SlideReveal";
 import Button1 from "../../Button/Button1";
@@ -7,13 +7,14 @@ import { SlideReveal2 } from "../../Animations/SlideReveal2";
 import mob from "./images/calMob.png";
 import shh from "./images/Shh.jpg";
 
-
 function Book() {
   const titleClasses = `
     text-brand-blue
     text-[36px] md:text-[50px] lg:text-[50px] leading-none
     text-center leading-[45px] md:leading-[60px]
   `;
+
+  const externalLink = "https://calendly.com/ai-guy-bookings/30min";
 
   return (
     <div className="h-full lg:h-screen bg-#FFFFFF flex flex-col lg:flex-row">
@@ -38,12 +39,16 @@ function Book() {
         {/* Paragraph */}
         <div className="px-4 tracking-wider pb-16 ">
           <SlideReveal>
-            <img src={mob} alt="The Ai Guy" className="w-full h-full object-cover my-8" />
+            <img
+              src={mob}
+              alt="The Ai Guy"
+              className="w-full h-full object-cover my-8"
+            />
           </SlideReveal>
           <div className="flex justify-center ">
-            <Link to="/contact">
+            <a href={externalLink} target="_blank" rel="noreferrer">
               <Button1 label="BOOK NOW" className="text-brand-blue" />
-            </Link>
+            </a>
           </div>
         </div>
       </div>
@@ -52,7 +57,7 @@ function Book() {
         {/* Parent div with background image */}
         <SlideReveal2>
           <div className="w-full h-screen lg:w-full xl:w-full">
-            <Link to="/your-target-route">
+            <a href={externalLink} target="_blank" rel="noreferrer">
               {" "}
               {/* Wrap the image with Link and specify the target route */}
               <img
@@ -61,7 +66,7 @@ function Book() {
                 className="w-full h-full object-cover "
                 // Adjusted scale for normal and hover states
               />
-            </Link>
+            </a>
           </div>
         </SlideReveal2>
       </div>

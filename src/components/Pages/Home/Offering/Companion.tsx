@@ -36,8 +36,8 @@ function Companion() {
                 </h3>
               </div>
             </Reveal>
-            <div className="text-justify text-brand-cream px-8 lg:px-16 pt-4">
-              <p>
+            <div className="text-justify text-brand-cream px-8 lg:px-16 pt-4 ">
+              <p className="text-[18px] md:text-[20px]">
                 Boost Your Business, Minimize Expenses, and Reclaim Countless
                 Hours in One Bold Move.
                 <br />
@@ -47,7 +47,7 @@ function Companion() {
                 scale and grow.
               </p>
             </div>
-            <Link to="/about">
+            <Link to="/aihub">
               
               <Button1 label="TELL ME MORE" className="text-brand-blue my-8" color="light" />
               </Link>

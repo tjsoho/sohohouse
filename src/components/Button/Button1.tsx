@@ -22,7 +22,9 @@ export default function Button1 ({ label, onClick, icon, color = 'orange', text 
   ${className}
   flex justify-center items-center 
   font-Black
-
+  rounded
+  shadow-md
+  hover:shadow-xl
   `
   const iconClasses = `
   Icon Class
@@ -31,9 +33,9 @@ export default function Button1 ({ label, onClick, icon, color = 'orange', text 
   return (
     <button className={buttonClasses} onClick={onClick} >
       {label}
-      <div className={iconClasses}>
+      {/* <div className={iconClasses}>
         {icon && <Icon name={icon}  />}
-      </div>
+      </div> */}
     </button>
   )
 }

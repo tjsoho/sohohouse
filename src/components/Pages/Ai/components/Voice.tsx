@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { SlideReveal } from "../../../Animations/SlideReveal";
 import Button1 from "../../../Button/Button1";
 import phone from "../images/aiPhone.png"
@@ -12,16 +13,18 @@ function Voice() {
 
       <div className=" h-3/5 lg:h-full w-full lg:w-1/2 flex flex-col justify-center items-start">
       <SlideReveal>
-      <p className="text-brand-cream text-[22px] md:text-[26px] text-left font-semibold px-4">The Ai HUB</p>
+      <p className="text-brand-cream text-[22px] md:text-[26px] text-left font-Black  mb-4">The Ai HUB</p>
       </SlideReveal>
         <SlideReveal>
-        <p className="text-brand-orange-light px-4 text-[18px] md:text-[20px] text-justify">
+        <p className="text-brand-orange-light text-[18px] md:text-[20px] text-justify">
         This isn't your run-of-the-mill, off-the-shelf platform. It’s the secret weapon you’ve been looking for, designed to take your business to new heights.<br /><br /> The Ai HUB's innovation lies deeply within it's personalised approach which is what truly sets it apart. While proudly hosting a number of members, each one enjoys a distinct experience through a unique sign-in portal.<br /><br /> Meticulously customised to fit the specific nuances of your business, your brand voice, your target customers, and your overarching business goals. <br /><br />
         It’s like having your own personal think tank, ensuring your business not only runs but sprints towards its goals. Putting time and dollars back into your pocket! 
         </p>
         </SlideReveal>
-        <div className="flex items-start w-full px-4 my-8">
+        <div className="flex items-start w-full my-8">
+          <Link to="/contactme">
         <Button1 label="ENQUIRE NOW" color="orange" className="text-brand-cream hover:text-brand-blue" />
+        </Link>
         </div>
         
       </div>

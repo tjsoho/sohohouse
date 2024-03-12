@@ -13,7 +13,7 @@ function Creations() {
           Our Creations
         </h2>
         <SlideReveal>
-          <p className="text-brand-camel text-[20px] md:text-[28px] lg:text-[32px] xl:text-[35px] 2xl:text-[35px] font-Raleway font-light lg:font-thin leading-1 tracking-widest text-left mb-16 md:mb-32">
+          <p className="text-brand-orange-light text-[20px] md:text-[28px] lg:text-[32px] xl:text-[35px] 2xl:text-[35px] font-Raleway font-light lg:font-thin leading-1 tracking-widest text-left mb-16 md:mb-32">
             Awesome people doing awesome things.
           </p>
         </SlideReveal>

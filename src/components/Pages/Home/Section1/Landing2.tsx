@@ -34,7 +34,7 @@ export default function Landing2() {
   //  `;
 
   const scrollToNextSection = () => {
-    const nextSection = document.getElementById('placeholderSection');
+    const nextSection = document.getElementById('curious');
     if (nextSection) {
       window.scrollTo({
         top: nextSection.offsetTop,

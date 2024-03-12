@@ -12,9 +12,9 @@ const Included: React.FC = () => {
       {/* Slider and Button Container */}
           
      {/* 3 cols */}
-      <div className="h-full w-full lg:w-1/3 px-2">
+      <div className="h-full w-full lg:w-1/3">
       <SlideReveal>
-            <p className="text-brand-orange px-4 text-[22px] md:text-[26px] text-left font-semibold">Marketing Mastery</p>
+            <p className="text-brand-orange px-4 text-[22px] md:text-[26px] text-left font-Black mb-4">Marketing Mastery</p>
             </SlideReveal>
             <SlideReveal>
             <p className="text-brand-cream px-4 text-[18px] md:text-[20px] text-justify">
@@ -26,11 +26,11 @@ const Included: React.FC = () => {
           </SlideReveal>
       </div>
       <div className="h-full w-full lg:w-1/3">
-        <img src={tablet} alt="The Ai Guy" className="transform scale-110" />
+        <img src={tablet} alt="The Ai Guy" className="transform scale-100 lg:scale-110" />
       </div>
-      <div className="h-full w-full lg:w-1/3 px-2">
+      <div className="h-full w-full lg:w-1/3">
       <SlideReveal>
-            <p className="text-brand-orange px-4 text-[22px] md:text-[26px] text-left font-semibold">Strategic Business Guidance</p>
+            <p className="text-brand-orange px-4 text-[22px] md:text-[26px] text-left font-Black mb-4">Strategic Business Guidance</p>
             </SlideReveal>
             <SlideReveal>
             <p className="text-brand-cream px-4 text-[18px] md:text-[20px] text-justify">

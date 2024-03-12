@@ -55,7 +55,7 @@ const ContactForm: React.FC = () => {
         </SlideReveal>
         <Reveal>
         <Typography variant="h5" style={{ textAlign: 'center', fontSize: '20px' }} className="text-brand-cream px-16 xl:px-32" gutterBottom>
-         We love to hear about new ideas.<br /><br /> Feel free to share your thoughts with us and we'll get back to you as soon as we can.
+         I love hearing about new ideas.<br /><br /> Feel free to share your thoughts with me and I'll get back to you within 24hrs.
         </Typography>
         </Reveal>
       

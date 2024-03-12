@@ -29,7 +29,7 @@ function Websites() {
                 paired with a design that makes you frickin' proud – all
                 delivered to your digital doorstep in just 2 weeks.
               </p>
-              <Link to="/about">
+              <Link to="/websites">
               
               <Button1 label="TELL ME MORE" className="text-brand-orange-light my-8" color="blue" />
               </Link>
@@ -38,7 +38,7 @@ function Websites() {
           <div className="flex flex-col justify-center items-center h-full  order-2 mt-16 lg:mt-0 w-full lg:w-1/2">
             <SlideReveal2>
               <div className="w-full h-auto  lg:w-full xl:w-full p-8 ">
-                <Link to="/aihub">
+                <Link to="/websites">
                   {" "}
                   {/* Wrap the image with Link and specify the target route */}
                   <img

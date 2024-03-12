@@ -8,7 +8,7 @@ function Creations() {
       <div className="flex-col justify-center items-center h-full w-full">
        <Reveal>
         <p className="text-brand-blue text-[18px] leading-none font-Raleway font-extralight ">
-          Explore Our
+          Explore My
         </p>
         </Reveal>
         <Link to="/creations">

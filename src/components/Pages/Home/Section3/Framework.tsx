@@ -52,7 +52,7 @@ export default function Framework() {
       {/* Row 3 */}
       <div className="flex w-full">
         <div className="flex flex-col justify-center items-center w-full">
-        <Link to="/contactform">
+        <Link to="/contactme">
         <Button1 label="SHARE YOUR STORY"  icon="arrowRight" />
         </Link>
         </div>

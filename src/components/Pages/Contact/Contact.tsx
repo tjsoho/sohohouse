@@ -37,7 +37,7 @@ function Contact() {
 <div className="flex justify-center items-center w-full bg-brand-cream">
   <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left w-full px-5 md:px-10">
     <p className="text-[16px] text-zinc-400">
-      © SoHo Creative House Pty Ltd
+      © Ai Guy Business Solutions Pty Ltd
     </p>
     <div className="w-auto mx-16 my-4 md:my-0">
       <Socials />

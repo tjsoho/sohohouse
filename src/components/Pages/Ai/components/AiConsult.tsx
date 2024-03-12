@@ -21,11 +21,11 @@ function AiConsult() {
       <div className="w-full h-full lg:w-1/2 flex flex-col  items-center max-w-[1440px] my-16">
         {/* Heading */}
         <Reveal>
-          <div className="lg:pt-16 h-1/3">
+          <div className="lg:pt-16 lg:h-1/3">
             <h3 className={titleClasses}>Free Ai </h3>
 
             <h3 className={titleClasses}>Strategy Session</h3>
-            <p className="text-center text-brand-orange text-[18px]">
+            <p className="text-center text-brand-orange text-[18px] my-4">
               VALUED AT $290
             </p>
           </div>
@@ -35,7 +35,7 @@ function AiConsult() {
           <img
             src={aiPhone}
             alt="Ai Guy"
-            className="object-contain h-[120%] my-8"
+            className="object-contain lg:h-[120%] lg:my-8"
           />
           
           <div>

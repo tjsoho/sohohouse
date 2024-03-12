@@ -46,7 +46,7 @@ function App() {
           <Route path="/pe" element={<Pe />} />
           <Route path="/breath" element={<Breath />} />
           <Route path="/luxe" element={<Luxe />} />
-          <Route path="/businesscompanion" element={<Ai />} />
+          <Route path="/aihub" element={<Ai />} />
           <Route path="/contactme" element={<ContactForm />} />
           <Route path="/creations" element={<Creations />} />
           <Route path="/calendar" element={<Calendar />} />

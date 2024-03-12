@@ -2,7 +2,7 @@ import { SlideReveal } from "../../../Animations/SlideReveal";
 
 function BookNow() {
   // Define the external link URL
-  const externalLink = "https://calendly.com/sohocreativehouse/30min";
+  const externalLink = "https://calendly.com/ai-guy-bookings/free-ai-strategy-session";
 
   return (
     <div className="row px-5 -mx-5">

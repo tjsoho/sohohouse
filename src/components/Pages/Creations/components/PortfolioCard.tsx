@@ -16,9 +16,9 @@ function PortfolioCard({ image, title, subTitle, link }: PortfolioCardProps) {
         <motion.div
           whileHover={{ scale: 0.9 }} // Increase the scale on hover
         >
-          <img className="mb-4" src={image} alt={title} />
+          <img className="mb-4 rounded-md" src={image} alt={title} />
           <Reveal>
-        <h3 className="leading-none text-[32px] md:text-[40px] text-brand-camel hover:text-brand-orange mb-2">
+        <h3 className="leading-none text-[32px] md:text-[40px] text-brand-orange-light hover:text-brand-orange mb-2">
           {title}
         </h3>
         </Reveal>

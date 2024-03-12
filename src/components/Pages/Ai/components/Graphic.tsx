@@ -2,6 +2,7 @@
 import graphic from "../images/graphic.png";
 import { SlideReveal } from "../../../Animations/SlideReveal";
 import Button1 from "../../../Button/Button1";
+import { Link } from "react-router-dom";
 
 function Graphic() {
   
@@ -14,10 +15,10 @@ function Graphic() {
 
         <div className="lg:w-1/2 lg:h-full flex flex-col justify-center items-start px-4 lg:px-8">
           <SlideReveal>
-            <p className="text-brand-cream text-[22px] md:text-[26px] text-left font-semibold">Why This Matters</p>
+            <p className="text-brand-cream text-[22px] md:text-[26px] text-left font-Black mb-4">Why This Matters</p>
             </SlideReveal>
             <SlideReveal>
-            <p className="text-brand-blue text-[18px] md:text-[20px] text-justify">
+            <p className="text-brand-blue text-[18px] md:text-[20px] text-justify ">
               In a digital landscape teeming with one-size-fits-all solutions,
               The Ai HUB stands out by offering a truly tailored AI platform.
               Your business is as unique as your fingerprint, and your tools
@@ -31,7 +32,9 @@ function Graphic() {
               <br /> 
             </p>
           </SlideReveal>
+          <Link to="/contactme">
           <Button1 label="ENQUIRE NOW" color="blue" className="text-brand-cream hover:text-brand-orange" />
+          </Link>
         </div>
       </div>
     </div>
