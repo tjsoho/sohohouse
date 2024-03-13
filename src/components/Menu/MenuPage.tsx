@@ -16,6 +16,7 @@ const MenuPage: React.FC<MenuPageProps> = ({ toggleMenu }) => {
     { text: "Ai HUB", route: "/aihub", i: 3 }, // Corrected the index
     { text: "Websites", route: "/websites", i: 4 }, // Corrected the route and index
     { text: "Portfolio", route: "/creations", i: 5 }, // Corrected the index
+    { text: "Member Login", route: "https://polite-rock-0e27c2600.5.azurestaticapps.net/", isExternal: true, i: 6 },
     { text: "Let's Chat", route: "/contactme", i: 6 }, // Corrected the index
   ];
 

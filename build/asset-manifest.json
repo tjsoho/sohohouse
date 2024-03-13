@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.20d3a719.css",
-    "main.js": "/static/js/main.83b2d3c7.js",
+    "main.css": "/static/css/main.fff7a094.css",
+    "main.js": "/static/js/main.47f1b77f.js",
     "static/media/colourSM.svg": "/static/media/colourSM.99fe03d241bbe5ceb5b54b7169f3be8f.svg",
     "static/media/colourLG.svg": "/static/media/colourLG.13855bc978a78da7f1a7fc5b81b0c0da.svg",
     "static/media/colourMD.svg": "/static/media/colourMD.31dd10a9901afa1944370e90144a8b49.svg",
@@ -16,6 +16,7 @@
     "static/media/BreathCard.png": "/static/media/BreathCard.dbef11067a7329f85494.png",
     "static/media/loveMD.png": "/static/media/loveMD.12edc353a0f5ce2df7b5.png",
     "static/media/ShadowImgSM.png": "/static/media/ShadowImgSM.155ee4b40becb694849a.png",
+    "static/media/22.png": "/static/media/22.2b95a980f8a0538ce631.png",
     "static/media/bookingLG.png": "/static/media/bookingLG.aa9c450dd264e16c33cb.png",
     "static/media/style2.svg": "/static/media/style2.36e921cca385aedd738b56f0c1c9104f.svg",
     "static/media/itemsMD.png": "/static/media/itemsMD.e9c91f7efa57abaa083f.png",
@@ -26,16 +27,19 @@
     "static/media/heroSM.png": "/static/media/heroSM.f9f134a29ea0b28eb0e2.png",
     "static/media/deviceMD.png": "/static/media/deviceMD.a29438055a500a8034b9.png",
     "static/media/shadowGirlBoard.png": "/static/media/shadowGirlBoard.872b32ca60429c04466b.png",
+    "static/media/24.png": "/static/media/24.4c0a8249306f410597bb.png",
     "static/media/15.jpg": "/static/media/15.fdfdb8f76465b918842f.jpg",
     "static/media/heroMD.png": "/static/media/heroMD.fddad748f827d322fe74.png",
     "static/media/ShadowCard.png": "/static/media/ShadowCard.75cdf55c96d37197fd8e.png",
     "static/media/aiPhone.png": "/static/media/aiPhone.7204720e7cb4e9327465.png",
+    "static/media/25.png": "/static/media/25.26da5e0df8e5e040d690.png",
     "static/media/17.jpg": "/static/media/17.42edb5344603a690e1aa.jpg",
     "static/media/Shh.jpg": "/static/media/Shh.42edb5344603a690e1aa.jpg",
     "static/media/MonitorMD.png": "/static/media/MonitorMD.0e5f58b169dd0d3da3b9.png",
     "static/media/16.jpg": "/static/media/16.d0e7cc1f09d4a81ef0e6.jpg",
     "static/media/5.jpg": "/static/media/5.36556a3fc458a3bc8272.jpg",
     "static/media/girlBoardLG.png": "/static/media/girlBoardLG.10702d0faaafc2ebee0a.png",
+    "static/media/26.png": "/static/media/26.bd019eeb225d374ddcd4.png",
     "static/media/6.jpg": "/static/media/6.0ffaf98929551dcefe79.jpg",
     "static/media/style1.svg": "/static/media/style1.fda13fac3d88fa1bc850ff25925e1e04.svg",
     "static/media/iPad.png": "/static/media/iPad.865b9c469f6c9087bad1.png",
@@ -48,6 +52,7 @@
     "static/media/pradaLG.png": "/static/media/pradaLG.d242b124c594309b0382.png",
     "static/media/MonitorLG.png": "/static/media/MonitorLG.7f4bc845028b3573628c.png",
     "static/media/natureSM.png": "/static/media/natureSM.a595923edf2c51d0556c.png",
+    "static/media/23.png": "/static/media/23.7f6b6f1b5b3180e7f21b.png",
     "static/media/Section2ImgSM.png": "/static/media/Section2ImgSM.bea1cf694ee22effd2cc.png",
     "static/media/8.jpg": "/static/media/8.bceecdd9028e7235e103.jpg",
     "static/media/13.jpg": "/static/media/13.48687b3f8764ad8d8597.jpg",
@@ -56,6 +61,7 @@
     "static/media/chevell2.jpg": "/static/media/chevell2.3f178c401bb58642ce68.jpg",
     "static/media/PEDevices.png": "/static/media/PEDevices.137b0470e8159b4f1f82.png",
     "static/media/14.jpg": "/static/media/14.93ebe882ce0b48fb5d02.jpg",
+    "static/media/21.png": "/static/media/21.01dd26e3fdc4d458a217.png",
     "static/media/18.jpg": "/static/media/18.b96876cfe55a3338ff27.jpg",
     "static/media/graceLG.jpg": "/static/media/graceLG.fe49f97f46d710b1dd50.jpg",
     "static/media/7.jpg": "/static/media/7.a91f026b0211174baaf1.jpg",
@@ -99,11 +105,11 @@
     "static/media/letter.svg": "/static/media/letter.4632e9b8242ab77d0f3df845ef437844.svg",
     "index.html": "/index.html",
     "static/media/palletLG.svg": "/static/media/palletLG.7b0622a1308a9a8fcf147be27e9fdb47.svg",
-    "main.20d3a719.css.map": "/static/css/main.20d3a719.css.map",
-    "main.83b2d3c7.js.map": "/static/js/main.83b2d3c7.js.map"
+    "main.fff7a094.css.map": "/static/css/main.fff7a094.css.map",
+    "main.47f1b77f.js.map": "/static/js/main.47f1b77f.js.map"
   },
   "entrypoints": [
-    "static/css/main.20d3a719.css",
-    "static/js/main.83b2d3c7.js"
+    "static/css/main.fff7a094.css",
+    "static/js/main.47f1b77f.js"
   ]
 }
