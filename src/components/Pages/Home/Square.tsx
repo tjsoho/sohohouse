@@ -35,9 +35,9 @@ export default function Square({
         ? "bg-brand-orange"
         : color === "blue"
         ? "bg-brand-blue"
-        : color === 'cream'
+        : color === "cream"
         ? "bg-brand-cream"
-        : color === 'light'
+        : color === "light"
         ? "bg-brand-orange-light"
         : "bg-brand-camel"
     }
@@ -61,18 +61,20 @@ export default function Square({
   `;
 
   return (
-    <div
-      className="group h-full w-full [perspective:1000px] flex flex-col justify-center items-center"
-    >
+    <div className="group h-full w-full [perspective:1000px] flex flex-col justify-center items-center">
       <div className="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
         <div className={cardClasses}>
           {/* Front side content */}
           <div className="flex flex-col h-full justify-center items-center">
             <h3 className={labelClasses}>{label}</h3>
-            <Icon className="w-[25px] lg:hidden" name="click" color={iconColor} />
+            <Icon
+              className="w-[25px] lg:hidden"
+              name="click"
+              color={iconColor}
+            />
           </div>
         </div>
-        <div className="absolute inset-0 h-full w-full text-center bg-brand-cream text-brand-blue [backface-visibility:hidden] [transform:rotateY(180deg)]">
+        <div className="absolute inset-0 h-full w-full text-center bg-white text-brand-blue [backface-visibility:hidden] [transform:rotateY(180deg)]">
           <div className="flex min-h-full flex-col items-center justify-center">
             <h3
               style={{ cursor: "pointer" }}
@@ -82,7 +84,11 @@ export default function Square({
               Show Me
             </h3>
             <div className="w-full max-h-[380px]">
-              <img className="object-contain w-full max-h-[380px]" src={image} alt={label} />
+              <img
+                className="object-cover w-full max-h-[380px]"
+                src={image}
+                alt={label}
+              />
             </div>
           </div>
         </div>
