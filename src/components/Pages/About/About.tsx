@@ -15,7 +15,7 @@ function About() {
       <div className="h-screen">
         <Hero />
       </div>
-      <div className=" h-contain bg-brand-blue">
+      <div className=" h-contain">
         <Content />
       </div>
       {/* <div className="h-contain">
@@ -24,7 +24,7 @@ function About() {
       <div className="bg-brand-orange h-contain">
         <Elevate />
       </div>
-      <div className=" h-contain bg-brand-cream">
+      <div className=" h-contain">
         <Content2 />
       </div>
       <div className="h-screen">

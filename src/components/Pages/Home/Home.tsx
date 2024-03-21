@@ -12,10 +12,10 @@ function Home() {
   return (
     <div className="">
       <Section1 />
-      {/* <PlaceHolder /> */}
+      
       <Craft />
 
-      <div className="w-full bg-brand-camel">
+      <div >
         <Companion />
       </div>
       <Websites />
@@ -29,17 +29,14 @@ function Home() {
       <div className="bg-brand-orange">
         <Stories />
       </div>
-      
+     
  
-      <div className="w-screen h-contain lg:screen">
+       <div className="h-contain lg:screen">
         <Adventure />
       </div>
-      {/* <div className="bg-brand-blue">
-        <Section4 />
-      </div> */}
       <div className="bg-brand-cream h-contain">
         <Contact />
-      </div>
+      </div>  
     </div>
   );
 }

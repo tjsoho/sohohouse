@@ -5,6 +5,8 @@ import StyleTablet from "./Components/StyleTablet";
 
 function Content2() {
   return (
+    <div className="w-full h-full bg-brand-orange">
+    <div className="w-full h-full white rounded-tl-[75px] md:rounded-tl-[150px] bg-white ">
     <div className="max-w-[1440px] mx-auto">
       <div className="md:hidden">
         <StyleMobile
@@ -24,6 +26,8 @@ function Content2() {
           image={<SohoWhite />}
         />
       </div>
+    </div>
+    </div>
     </div>
   );
 }

@@ -7,6 +7,8 @@ import { Link } from "react-router-dom";
 function Graphic() {
   
   return (
+    <div className="w-full h-full bg-brand-orange">
+    <div className="w-full h-full white rounded-bl-[75px] md:rounded-bl-[0px] md:rounded-br-[150px]  md:rounded-tr-[150px] bg-brand-orange">
     <div className="max-w-[1440px] mx-auto h-contain">
       <div className="w-full h-contain flex flex-col lg:flex-row bg-brand-orange justify-around items-center py-16 lg:py-32">
         <div className="flex flex-col justify-center items-center w-full h-1/2 lg:w-1/2 lg:h-full mb-16 lg:mb-0 lg:order-2">
@@ -36,6 +38,8 @@ function Graphic() {
           <Button1 label="ENQUIRE NOW" color="blue" className="text-brand-cream hover:text-brand-orange" />
           </Link>
         </div>
+      </div>
+    </div>
       </div>
     </div>
   );

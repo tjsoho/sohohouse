@@ -58,7 +58,7 @@ export default function MenuBar({ isMenuOpen, toggleMenu }: MenuBarProps) {
           <LogoO />
         </Link>
       </div>
-      <div className="flex items-center">
+      <div className=" flex items-center">
         <MenuIcon isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
       </div>
     </div>

@@ -17,13 +17,13 @@ function Ai() {
       <div className='bg-brand-orange'>
         <Platform />
       </div>
-      <div className="w-full h-contain lg:h-screen bg-brand-blue-light">
+      <div className="w-full h-contain lg:h-screen">
         <Voice />
       </div>
-      <div className="w-full h-contain bg-brand-orange">
+      <div className="w-full h-contain">
         <Graphic />
       </div>
-      <div className="w-full h-contain bg-brand-blue">
+      <div className="w-full h-contain">
         <Included />
       </div>
       <div>

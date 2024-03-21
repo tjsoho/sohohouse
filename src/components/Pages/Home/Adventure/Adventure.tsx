@@ -1,7 +1,7 @@
 import React from 'react'
 import Button1 from '../../../Button/Button1';
 import { Link } from 'react-router-dom';
-import Button from '../../../Button/Button';
+
 
 function Adventure() {
 
@@ -9,7 +9,11 @@ function Adventure() {
     const divClass = 'w-full lg:w-1/2 flex flex-col justify-center items-center py-8 lg:py-16'
 
   return (
-    <div className='max-w-[1440px] mx-auto'>
+    <div className="w-full h-full bg-brand-orange">
+    <div className="w-full h-full white rounded-tl-[75px] md:rounded-tl-[150px] bg-white ">
+      
+        <div className="max-w-[1440px] mx-auto">
+    
     <div className='h-full w-full  flex flex-col lg:flex-row py-8 lg:py-16'>
       
     {/* left col */}
@@ -39,7 +43,9 @@ function Adventure() {
       </div>
       </div>
     </div>
+    </div>  
     
+    </div>  
   )
 }
 

@@ -31,10 +31,10 @@ export const MenuItem: React.FC<MenuItemProps> = ({ text, i, onClick, isCurrentP
       initial="closed"
       animate="open"
       variants={variants}
-      whileHover={{ scale: 1.2 }}
+      whileHover={{ scale: 1.3 }}
       whileTap={{ scale: 0.95 }}
     >
-      <div className={`text-3xl lg:text-6xl cursor-pointer my-12 origin-left w-contain text-center ${
+      <div className={`text-3xl lg:text-4xl cursor-pointer my-12 origin-left w-contain text-center ${
         isCurrentPage ? "text-brand-cream" : "text-brand-orange-light hover:text-brand-orange active:text-brand-cream"
       }`}
         onClick={onClick}>

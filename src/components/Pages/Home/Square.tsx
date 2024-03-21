@@ -61,7 +61,7 @@ export default function Square({
   `;
 
   return (
-    <div className="group h-full w-full [perspective:1000px] flex flex-col justify-center items-center">
+    <div className="group h-full w-full [perspective:1000px] flex flex-col justify-center items-center" >
       <div className="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
         <div className={cardClasses}>
           {/* Front side content */}
@@ -85,7 +85,7 @@ export default function Square({
             </h3>
             <div className="w-full max-h-[380px]">
               <img
-                className="object-cover w-full max-h-[380px]"
+                className="object-contain w-full max-h-[380px]"
                 src={image}
                 alt={label}
               />

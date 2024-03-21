@@ -7,8 +7,10 @@ const Included: React.FC = () => {
 
   
   return (
-<div className="max-w-[1440px] mx-auto">
-    <div className="w-full h-full flex flex-col lg:flex-row justify-center items-center bg-brand-blue py-16 lg:py-32">
+    <div className="w-full h-full bg-white">
+    <div className="w-full h-full white rounded-bl-[75px]  md:rounded-bl-[150px]  bg-brand-blue">
+      <div className="max-w-[1440px] mx-auto h-full">
+    <div className="w-full h-full flex flex-col lg:flex-row justify-center items-center py-16 lg:py-32">
       {/* Slider and Button Container */}
           
      {/* 3 cols */}
@@ -42,6 +44,8 @@ const Included: React.FC = () => {
           </SlideReveal>
       </div>
       
+    </div>
+    </div>
     </div>
     </div>
   );

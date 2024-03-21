@@ -21,7 +21,7 @@ import Creations from "./components/Pages/Creations/Creations";
 import Calendar from "./components/Pages/Contact/Calendar";
 import ComingSoon from "./components/Pages/ComingSoon";
 import PrivacyPolicy from "./components/Pages/Contact/PrivacyPolicy";
-import BlogPage from "./components/Pages/Blog/BlogPage";
+import BlogPage from "./components/Pages/Blog/BlogPageHero";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
