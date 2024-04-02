@@ -21,7 +21,8 @@ import Creations from "./components/Pages/Creations/Creations";
 import Calendar from "./components/Pages/Contact/Calendar";
 import ComingSoon from "./components/Pages/ComingSoon";
 import PrivacyPolicy from "./components/Pages/Contact/PrivacyPolicy";
-import BlogPage from "./components/Pages/Blog/BlogPageHero";
+import BlogPage from "./components/Pages/Blog/BlogPage";
+import BlogPageHero from "./components/Pages/Blog/BlogPageHero";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -53,7 +54,8 @@ function App() {
           <Route path="/calendar" element={<Calendar />} />
           <Route path="/comingsoon" element={<ComingSoon />} />
           <Route path="/websites" element={<Sites />} />
-          <Route path="/blog" element={<BlogPage />} />
+          <Route path="/journal" element={<BlogPageHero />} />
+          <Route path="/journal-entry" element={<BlogPage />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
 
         </Routes>

@@ -1,6 +1,6 @@
 
 
-function BlogPage() {
+function BlogPageHero() {
   return (
     <section className="w-screen h-screen">
       {/* header */}
@@ -23,7 +23,7 @@ function BlogPage() {
       
       {/* Square ontpoo of banner */}
       <div className="w-full flex justify-center items-center">
-        <div className="w-4/5 xl:w-1/3 h-1/3 bg-brand-blue-light absolute bottom-15  flex justify-center items-center p-4   lg:p-12 xl:p-4">
+        <div className="w-4/5 xl:w-1/3 h-1/3 bg-brand-blue-light absolute bottom-15  flex justify-center items-center p-4   lg:p-12 xl:p-4 shadow-lg">
           <h5 className=" text-brand-cream text-center leading-[40px] text-2xl md:text-3xl font-Raleway font-light lg:p-4"><span className="text-brand-orange font-Black md:text-4xl ">BEHIND THE SCREEN <br/></span>Exploring the Power of Websites & AI</h5>
         </div>
       </div>
@@ -33,4 +33,4 @@ function BlogPage() {
   );
 }
 
-export default BlogPage;
+export default BlogPageHero;
