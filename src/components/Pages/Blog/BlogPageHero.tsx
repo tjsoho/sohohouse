@@ -30,8 +30,8 @@ function BlogPageHero() {
       {/* Square ontpoo of banner */}
       <div className="w-full flex justify-center items-center">
         <div className="w-4/5 xl:w-1/3 h-1/3 bg-brand-blue-light absolute bottom-15  flex justify-center items-center p-4   lg:p-12 xl:p-4 shadow-lg">
-          <h5 className=" text-brand-cream text-center leading-[40px] text-2xl md:text-3xl font-Raleway font-light lg:p-4">
-            <span className="text-brand-orange font-Black md:text-4xl ">
+          <h5 className=" text-brand-cream text-center leading-[40px] text-2xl md:text-3xl font-Raleway font-thin lg:p-4">
+            <span className="text-brand-orange font-Black md:text-4xl">
               BEHIND THE SCREEN <br />
             </span>
             Exploring the Power of Websites & AI
@@ -40,8 +40,9 @@ function BlogPageHero() {
       </div>
 
       {/* blog tiles */}
-      <div className="flex justify-center items-center w-[100%] ">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-12 p-4 mt-64 justify-center items-center">
+      <div className="flex justify-center items-center w-[100%]  h-1/2">
+        <h3 className="text-brand-blue mt-24 text-center leading-none text-4xl md:text-6xl">Coming Soon</h3>
+        {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-12 p-4 mt-64 justify-center items-center">
           <BlogCard
             title="Revolutionalise Your Business"
             description="The power of an engaging website"
@@ -63,7 +64,7 @@ function BlogPageHero() {
             date="September 2021"
             link="/journal-entry"
           />
-        </div>
+        </div> */}
       </div>
       <Contact />
     </section>

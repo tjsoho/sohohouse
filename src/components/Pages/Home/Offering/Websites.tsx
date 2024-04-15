@@ -5,8 +5,8 @@ import Button1 from "../../../Button/Button1";
 
 function Websites() {
   return (
-    <div className="w-full h-full bg-white lg:pl-2">
-      <div className="w-full h-full white rounded-tl-[75px] md:rounded-tl-[150px] rounded-bl-[75px] md:rounded-bl-[150px] bg-brand-orange-light">
+    <div className="w-full h-full bg-white">
+      <div className="w-full h-full rounded-bl-[75px] md:rounded-bl-[150px] bg-brand-orange-light">
         <div className="max-w-[1440px] mx-auto">
           <div className="flex flex-col lg:flex-row justify-around items-center py-16 lg:py-32">
             <div className="flex flex-col justify-center items-center h-full w-full lg:w-1/2">
