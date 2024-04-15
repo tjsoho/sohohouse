@@ -1,7 +1,5 @@
-import  { useState } from "react";
+import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
-// Import your page components
 
 import Chevell from "./components/Pages/Chevell/Chevell";
 import Home from "./components/Pages/Home/Home";
@@ -13,21 +11,19 @@ import Luxe from "./components/Pages/Luxe/Luxe";
 import Ai from "./components/Pages/Ai/Ai";
 import ContactForm from "./components/Pages/ContactForm/ContactForm";
 import Sites from "./components/Pages/Websites/Sites";
-// Import MenuBar and MenuPage
 import MenuBar from "./components/Menu/MenuBar";
 import MenuPage from "./components/Menu/MenuPage";
-import ScrollToTop from './components/ScrollToTop'
+import ScrollToTop from "./components/ScrollToTop";
 import Creations from "./components/Pages/Creations/Creations";
 import Calendar from "./components/Pages/Contact/Calendar";
 import ComingSoon from "./components/Pages/ComingSoon";
 import PrivacyPolicy from "./components/Pages/Contact/PrivacyPolicy";
-import BlogPage from "./components/Pages/Blog/BlogPage";
+import JournalOne from "./components/Pages/Blog/JournalOne";
 import BlogPageHero from "./components/Pages/Blog/BlogPageHero";
+import JournalTwo from "./components/Pages/Blog/JournalTwo";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -35,9 +31,9 @@ function App() {
 
   return (
     <Router>
-       <ScrollToTop />
+      <ScrollToTop />
       <div className="">
-      <MenuBar toggleMenu={toggleMenu} isMenuOpen={isMenuOpen} />
+        <MenuBar toggleMenu={toggleMenu} isMenuOpen={isMenuOpen} />
         {isMenuOpen && <MenuPage toggleMenu={toggleMenu} />}
 
         <Routes>
@@ -55,9 +51,9 @@ function App() {
           <Route path="/comingsoon" element={<ComingSoon />} />
           <Route path="/websites" element={<Sites />} />
           <Route path="/journal" element={<BlogPageHero />} />
-          <Route path="/journal-entry" element={<BlogPage />} />
+          <Route path="/journal-one" element={<JournalOne />} />
+          <Route path="/journal-two" element={<JournalTwo />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-
         </Routes>
       </div>
     </Router>

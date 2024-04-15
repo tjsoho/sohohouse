@@ -16,8 +16,9 @@ const MenuPage: React.FC<MenuPageProps> = ({ toggleMenu }) => {
     { text: "Ai HUB", route: "/aihub", i: 3 },
     { text: "Websites", route: "/websites", i: 4 },
     { text: "Portfolio", route: "/creations", i: 5 },
-    { text: "Member Login", route: "https://polite-rock-0e27c2600.5.azurestaticapps.net/", isExternal: true, i: 6 },
-    { text: "Let's Chat", route: "/contactme", i: 7 },
+    { text: "Member Login", route: "https://app.ai-guy.co/", isExternal: true, i: 6 },
+    { text: "Journal", route: "/journal", i: 7 },
+    { text: "Let's Chat", route: "/contactme", i: 8 },
   ];
 
   const handleItemClick = (route: string, isExternal: boolean = false) => {
