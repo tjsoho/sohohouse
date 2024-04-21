@@ -69,7 +69,7 @@ export default function Landing2() {
             ease: [0, 0.41, 0.2, 1.01],
           }}
         >
-          <h2 className={headerClasses}>Captivating Websites {isSmallScreen && <br />} & Ai Tools</h2>
+          <h2 className={headerClasses}>Ai HUB <span className="text-5xl">&</span> {isSmallScreen && <br />} Captivating Websites </h2>
         </motion.div>
        
        <motion.div

@@ -4,6 +4,9 @@ import Button1 from "../../../Button/Button1";
 import phone from "../images/aiPhone.png";
 
 function Voice() {
+  const externalLink =
+    "https://calendly.com/ai-guy-bookings/free-ai-strategy-session";
+
   return (
     <div className="w-full h-full bg-brand-orange">
       <div className="w-full h-full white  md:rounded-tr-[150px] rounded-br-[75px] md:rounded-br-[150px] bg-brand-blue-light">
@@ -40,13 +43,13 @@ function Voice() {
                 </p>
               </SlideReveal>
               <div className="flex items-start w-full my-8">
-                <Link to="/contactme">
-                  <Button1
-                    label="ENQUIRE NOW"
-                    color="orange"
-                    className="text-brand-cream hover:text-brand-blue"
-                  />
-                </Link>
+                <a
+                  href={externalLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button1 label="BOOK NOW" className="text-brand-blue" />
+                </a>
               </div>
             </div>
           </div>

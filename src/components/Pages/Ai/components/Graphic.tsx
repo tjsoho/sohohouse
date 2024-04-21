@@ -5,7 +5,7 @@ import Button1 from "../../../Button/Button1";
 import { Link } from "react-router-dom";
 
 function Graphic() {
-  
+  const externalLink ="https://calendly.com/ai-guy-bookings/free-ai-strategy-session"
   return (
     <div className="w-full h-full bg-brand-orange">
     <div className="w-full h-full white rounded-bl-[75px] md:rounded-bl-[0px] md:rounded-br-[150px]  md:rounded-tr-[150px] bg-brand-orange">
@@ -34,9 +34,13 @@ function Graphic() {
               <br /> 
             </p>
           </SlideReveal>
-          <Link to="/contactme">
-          <Button1 label="ENQUIRE NOW" color="blue" className="text-brand-cream hover:text-brand-orange" />
-          </Link>
+          <a
+                  href={externalLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+          <Button1 label="BOOK NOW" color="blue" className="text-brand-cream hover:text-brand-orange" />
+          </a>
         </div>
       </div>
     </div>
@@ -46,3 +50,4 @@ function Graphic() {
 }
 
 export default Graphic;
+
