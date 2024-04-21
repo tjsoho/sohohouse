@@ -21,6 +21,7 @@ export default function Landing2() {
    text-brand-orange text-[30px]  md:text-[60px] lg:text-[70px] 
    leading-[42px] md:leading-[65px] lg:leading-[80px] xl:leading-[90px] 2xl:leading-[110px] 
    text-center
+   flex items-center
    `;
   const subClasses = `
    Sub-Title Styling
@@ -69,7 +70,7 @@ export default function Landing2() {
             ease: [0, 0.41, 0.2, 1.01],
           }}
         >
-          <h2 className={headerClasses}>Ai HUB <span className="text-5xl">&</span> {isSmallScreen && <br />} Captivating Websites </h2>
+          <h2 className={headerClasses}>Ai HUB + {isSmallScreen && <br />} Captivating Websites </h2>
         </motion.div>
        
        <motion.div
