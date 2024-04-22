@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import Chevell from "./components/Pages/Chevell/Chevell";
 import Home from "./components/Pages/Home/Home";
 import About from "./components/Pages/About/About";
+import Chevell from "./components/Pages/Chevell/Chevell";
 import Shadow from "./components/Pages/Shadow/Shadow";
 import Pe from "./components/Pages/PE/Pe";
 import Breath from "./components/Pages/Breath/Breath";
