@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Chevell from "./components/Pages/Chevell/Chevell";
 import Home from "./components/Pages/Home/Home";
 import About from "./components/Pages/About/About";
