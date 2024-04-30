@@ -13,10 +13,10 @@ function Websites() {
               <Reveal>
                 <div>
                   <h3 className="text-brand-blue text-[36px] md:text-[50px] lg:text-[50px] text-center leading-none">
-                    A Website That
+                    A Website You
                   </h3>
                   <h3 className="text-brand-blue text-[36px] md:text-[50px] lg:text-[50px] text-center leading-none my-2 lg:my-4">
-                    Oozes 'Wow Factor'
+                    F@#king Love
                   </h3>
                   {/* <h3 className="text-brand-blue text-[36px] md:text-[50px] lg:text-[50px] text-center leading-none">
              

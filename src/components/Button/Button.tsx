@@ -20,7 +20,7 @@ interface ButtonProps {
 }
 
 const buttonClasses = `
-  Button Class
+  Button Class 
   px-6 py-3
   bg-brand-orange
   text-brand-cream hover:text-brand-camel  active:underline text-3xl leading-none
