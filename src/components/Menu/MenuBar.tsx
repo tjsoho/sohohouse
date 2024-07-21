@@ -50,16 +50,21 @@ export default function MenuBar({ isMenuOpen, toggleMenu }: MenuBarProps) {
   return (
     <div
       className={`fixed top-0 left-0 right-0 z-50 transition-transform duration-300 ease-in-out ${
-        hasScrolled && mouseActive ? "bg-brand-cream" : ""
-      } ${isHidden && !mouseActive ? "-translate-y-full" : "translate-y-0"} flex justify-between items-center px-[25px] py-0`}
+        hasScrolled && mouseActive ? "" : ""
+      } ${isHidden && !mouseActive ? "lg:-translate-y-full" : "translate-y-0"} flex justify-between items-center px-[25px] py-0`}
     >
-      <div className="flex items-center md:pl-4 ">
+      <div className="flex items-center md:pl-4 mt-2">
         <Link to="/">
           <LogoO />
         </Link>
       </div>
-      <div className=" flex items-center">
-        <MenuIcon isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
+      <div className="flex items-center">
+        <div className="block lg:hidden">
+          <MenuIcon isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
+        </div>
+        <div className="hidden lg:flex items-center">
+          <MenuIcon isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
+        </div>
       </div>
     </div>
   );

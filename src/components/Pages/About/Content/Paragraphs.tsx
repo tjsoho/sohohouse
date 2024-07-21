@@ -6,7 +6,7 @@ const content = {
       stage to digital stage with a one-two punch for business: Web design and
       bespoke Ai solutions. <br /> <br />
       My mission? To amp up your business with not just one, but two power
-      plays: captivating websites and a tailor-made Ai HUB. <br /> <br />Back in the
+      plays: captivating websites and a tailor-made Ai solutions. <br /> <br />Back in the
       day, I was all about those epic guitar riffs, Careless Whisper sax solos
       and heart melting violin melodies.
     </p>
@@ -19,8 +19,7 @@ const content = {
       digital realm. <br /> <br /> But here’s the twist: I’m doing it with a
       double act. First up, crafting websites that do more than just dazzle;
       they tell your brand’s story like it’s headline news.<br /> <br /> And then, bringing
-      in the heavy hitters, your very own Ai HUB, custom-built, for you, by yours
-      truly.
+      in the heavy hitters, your very own Ai strategy tailored to your unique business needs.
     </p>
   ),
 
@@ -42,7 +41,7 @@ const content = {
 
   paragraph5: (
     <p className="text-brand-orange md:pr-8 text-justify text-[18px] md:text-[20px]">
-      The Ai Guy isn’t just some fancy title; it’s a promise to you: delivering eye-popping web designs and crafting your fully customised Ai HUB that works tirelessly behind the scenes.  <br /> <br />
+      The Ai Guy isn’t just some fancy title; it’s a promise to you: delivering eye-popping web designs and crafting your customised Ai solution that works tirelessly behind the scenes.  <br /> <br />
      
       It’s about giving your business the spotlight it deserves with a website that’s as compelling as a chart-topping hit and a power-house Ai side kick that ensures you keep hitting those high notes.
     </p>
@@ -52,7 +51,7 @@ const content = {
     <p className="text-brand-orange md:pr-8 text-justify text-[18px] md:text-[20px]">
       Your business isn’t just a business. It’s a part of you. And it’s a story that deserves to be highlighted and shared. But it doesn’t stop there. You too deserve the best of the best.  <br /> <br />
       
-      And that’s exactly what the Ai HUB is. It’s your expert in every field of business sitting right in the palm of your hand. Ready on call to amplify your business.
+      And that’s exactly what the Ai can do. It’s your expert in any field you need. Sitting right in the palm of your hand. Ready on call to amplify your business.
     </p>
   ),
 };

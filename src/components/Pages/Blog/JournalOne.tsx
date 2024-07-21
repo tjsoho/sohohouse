@@ -32,8 +32,8 @@ function JournalOne() {
         <div>
           <div className="max-w-[1440px] mx-auto">
             <h1 className="text-center text-brand-blue text-3xl md:text-5xl lg:text-6xl">
-              <span className="text-brand-orange">Revolutionize</span> Your
-              Business with a <span className="text-brand-orange">Dynamic</span>{" "}
+              <span className="text-brand-orange">Show-off</span> Your
+              Business with a <span className="text-brand-orange">Stunning</span>{" "}
               Website
             </h1>
             <div className="w-full flex justify-center py-8">

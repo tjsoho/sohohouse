@@ -7,13 +7,13 @@ const testimonials = [
     },
     {
       id: 2,
-      comment: "The AI Hub transformed not just our online presence, but the way we approach every aspect of our business. The tailored AI solutions crafted specifically for Chevell Photography have not only streamlined our operations but also enhanced our creative process. It's like having an extra set of hands that knows exactly what we need before we even ask. Thanks to The AI Guy, we're not just keeping up with the digital age; we're setting the pace.",
+      comment: "This has transformed not just our online presence, but the way we approach every aspect of our business. The tailored AI solutions crafted specifically for Chevell Photography have not only streamlined our operations but also enhanced our creative process. It's like having an extra set of hands that knows exactly what we need before we even ask. Thanks to The AI Guy, we're not just keeping up with the digital age; we're setting the pace.",
       profileImage: "../../../../images/ChevellIcon.png",
       name: "Chevell",
     },
     {
       id: 3,
-      comment: "Implementing The AI Hub into our business strategy was a game-changer. The bespoke AI tools developed for Rosie & Laurent Prints have completely changed how we connect with our audience and manage our online content. It's as if The AI Guy handed us a magic wand—suddenly, we're creating with more efficiency and insight than ever before. Our only regret is not doing this sooner. The AI Hub isn't just a service; it's our secret weapon for success.",
+      comment: "Implementing Ai into our business strategy was a game-changer. The bespoke AI tools developed for Rosie & Laurent Prints have completely changed how we connect with our audience and manage our online content. It's as if The AI Guy handed us a magic wand—suddenly, we're creating with more efficiency and insight than ever before. Our only regret is not doing this sooner. The Ai isn't just a tool; it's our secret weapon for success.",
       profileImage: "../../../../images/RL.png",
       name: "Rosie & Laurent",
     },

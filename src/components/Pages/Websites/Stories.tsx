@@ -31,7 +31,7 @@ function Stories() {
           <div className="bg-brand-cream self-center w-[72px] md:w-[116px] shrink-0 h-[4px] mt-8"></div>
         </div>
       </div>
-      <p className="hidden axl:block">TEST</p>
+      
     </div>
     </div>
   );

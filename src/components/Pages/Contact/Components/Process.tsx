@@ -8,14 +8,14 @@ function Process() {
         <div className="flex-col justify-center items-center h-full w-full">
           <Reveal>
           <p className="text-brand-blue text-[18px] leading-none font-Raleway font-extralight text-center">
-            Discover The
+            Learn About
           </p>
           </Reveal>
           {/* Update this Link */}
-          <Link to="/aihub">
+          <Link to="/ai-solutions">
           <Reveal>
             <p className="text-brand-blue text-1xl leading-none font-Raleway font-normal underline text-center">
-              Ai HUB
+              Ai Consulting
             </p>
           </Reveal>
           </Link>

@@ -13,12 +13,11 @@ const MenuPage: React.FC<MenuPageProps> = ({ toggleMenu }) => {
   const menuItems = [
     { text: "Home", route: "/", i: 1 },
     { text: "About Me", route: "/about", i: 2 },
-    { text: "Ai HUB", route: "/aihub", i: 3 },
+    { text: "Ai Solutions", route: "/ai-solutions", i: 3 },
     { text: "Websites", route: "/websites", i: 4 },
     { text: "Portfolio", route: "/creations", i: 5 },
-    { text: "Member Login", route: "https://app.ai-guy.co/", isExternal: true, i: 6 },
-    { text: "Journal", route: "/journal", i: 7 },
-    { text: "Let's Chat", route: "/contactme", i: 8 },
+    { text: "Journal", route: "/journal", i: 6 },
+    { text: "Let's Chat", route: "/contactme", i: 7 },
   ];
 
   const handleItemClick = (route: string, isExternal: boolean = false) => {
@@ -45,7 +44,7 @@ const MenuPage: React.FC<MenuPageProps> = ({ toggleMenu }) => {
             key={item.i}
             text={item.text}
             i={item.i}
-            onClick={() => handleItemClick(item.route, item.isExternal)}
+            onClick={() => handleItemClick(item.route)}
             isCurrentPage={location.pathname === item.route}
           />
         ))}

@@ -12,6 +12,7 @@ import Goal from "./Goal";
 import Book from "./Book";
 import wow from "./images/wow.png";
 import Contact from "../Contact/Contact";
+import Work from "../Home/Work/Work";
 
 function Sites() {
   return (
@@ -87,7 +88,9 @@ function Sites() {
           </div>
         </div>
       </div>
-
+<div>
+  <Work />
+</div>
       <div className="bg-brand-blue" id="framework">
         <Framework />
       </div>

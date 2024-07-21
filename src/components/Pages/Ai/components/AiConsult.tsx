@@ -13,7 +13,7 @@ function AiConsult() {
     text-center leading-[45px] md:leading-[60px]
   `;
 
-  const externalLink ="https://calendly.com/ai-guy-bookings/free-ai-strategy-session"
+  const externalLink ="https://calendly.com/sloane-bookings/1-1-consultation-ai-guy"
 
   return (
     <div className="h-full lg:h-screen bg-#FFFFFF flex flex-col lg:flex-row">
@@ -22,11 +22,11 @@ function AiConsult() {
         {/* Heading */}
         <Reveal>
           <div className="lg:pt-16 lg:h-1/3">
-            <h3 className={titleClasses}>Free Ai </h3>
+            <h3 className={titleClasses}>Book Your Ai </h3>
 
             <h3 className={titleClasses}>Strategy Session</h3>
             <p className="text-center text-brand-orange text-[18px] my-4">
-              VALUED AT $290
+              INVESTMENT $290
             </p>
           </div>
         </Reveal>

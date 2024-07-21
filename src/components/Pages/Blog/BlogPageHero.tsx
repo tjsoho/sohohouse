@@ -3,7 +3,7 @@ import BlogCard from "./BlogCard";
 
 function BlogPageHero() {
   return (
-    <section className="w-screen-1 h-screen">
+    <section className="w-screen-1 h-screen ">
       {/* header */}
       <div className="w-full h-3/4 bg-brand-blue relative flex justify-center items-center">
         <div className="w-full h-full absolute">
@@ -40,9 +40,17 @@ function BlogPageHero() {
       </div>
 
       {/* blog tiles */}
-      <div className="flex justify-center items-center w-[100%]  h-1/2">
-        <h3 className="text-brand-blue mt-24 text-center leading-none text-4xl md:text-6xl">Coming Soon</h3>
-        {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-12 p-4 mt-64 justify-center items-center">
+      <div className="flex justify-center items-center h-contain max-w-[1440px] mx-auto">
+        
+         <div className="grid grid-cols-1  md:grid-cols-3  gap-12 p-4 mt-32 lg:mt-64 justify-center items-center py-8 mb-8 ">
+          
+           <BlogCard
+            title="Streamlined Brand Messaging"
+            description="Simplifying your brand message"
+            image="../../../images/mHighway.png"
+            date="April 2024"
+            link="/journal-three"
+          />
           <BlogCard
             title="Revolutionalise Your Business"
             description="The power of an engaging website"
@@ -50,21 +58,15 @@ function BlogPageHero() {
             date="February 2024"
             link="/journal-one"
           />
-          <BlogCard
+           {/* <BlogCard
             title="The Power of AI"
             description="The power of AI in the digital age"
-            image="../../../images/Tile1.png"
+            image="../../../images/Tile1a.png"
             date="September 2021"
             link="/journal-entry"
-          />
-          <BlogCard
-            title="The Power of Websites"
-            description="The power of websites in the digital age"
-            image="../../../images/Tile1.png"
-            date="September 2021"
-            link="/journal-entry"
-          />
-        </div> */}
+          /> */}
+          
+        </div> 
       </div>
       <Contact />
     </section>

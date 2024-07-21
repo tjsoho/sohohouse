@@ -8,7 +8,7 @@ function ReadyAi() {
         <div className="flex justify-center items-center h-full w-full">
           <SlideReveal>
           <p className="text-brand-blue text-4xl md:text-5xl leading-none font-Raleway">
-            Free Discovery Call <br /> To Find Out More.
+            1hr Discovery Call <br /> To Learn About Ai.
           </p>
           </SlideReveal>
         </div>

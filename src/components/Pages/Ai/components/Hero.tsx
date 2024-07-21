@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react";
-import image1 from "./images/21.png";
-import image2 from "./images/22.png";
-import image3 from "./images/23.png";
-import image4 from "./images/24.png";
-import image5 from "./images/25.png";
-import image6 from "./images/26.png";
+import image1 from "./images/1.jpg";
+import image2 from "./images/2.jpg";
+import image3 from "./images/3.jpg";
+import image4 from "./images/4.jpg";
+import image5 from "./images/5.jpg";
+import image6 from "./images/6.jpg";
+import image7 from "./images/7.jpg";
+import image8 from "./images/8.jpg";
 
 
 function Hero() {
@@ -13,6 +15,7 @@ function Hero() {
     image1,
     image4,
     image3,
+    image7,
 
   ];
 
@@ -21,6 +24,7 @@ function Hero() {
     image5,
     image6,
     image2,
+    image8,
   ];
 
   const [currentIndex1, setCurrentIndex1] = useState(0);
@@ -53,7 +57,7 @@ function Hero() {
       </div>
       {/* Overlay */}
       <div className="absolute inset-0 flex justify-center items-center z-10" style={{ backgroundColor: 'rgba(1, 17, 56, 0.6)' }}>
-        <h1 className="text-5xl lg:text-9xl font-bold text-brand-cream">Introducing <br/> The <span className="text-brand-orange">Ai HUB</span></h1>
+        <h1 className="text-5xl lg:text-9xl font-bold text-brand-cream text-center">Ai <span className="text-brand-orange">Consulting</span></h1>
       </div>
     </div>
   );

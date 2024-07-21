@@ -2,6 +2,7 @@ import Contact from "../Contact/Contact";
 import PortfolioCard from "./components/PortfolioCard";
 import portfolioData from "./components/portfolioData";
 import { SlideReveal } from "../../Animations/SlideReveal";
+import Work from "../Home/Work/Work";
 
 function Creations() {
   return (
@@ -20,6 +21,7 @@ function Creations() {
 
             {/* Map through portfolio card */}
             <div className="portfolio-cards flex flex-wrap ">
+              <Work />
               {portfolioData.map((item, index) => (
                 <div
                   key={index}

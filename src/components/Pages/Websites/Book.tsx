@@ -14,7 +14,8 @@ function Book() {
     text-center leading-[45px] md:leading-[60px]
   `;
 
-  const externalLink = "https://calendly.com/ai-guy-bookings/30min";
+  const externalLink = "https://calendly.com/toby-ai-guy/30min";
+  
 
   return (
     <div className="h-full lg:h-screen bg-#FFFFFF flex flex-col lg:flex-row">

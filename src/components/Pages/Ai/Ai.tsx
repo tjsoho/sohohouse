@@ -17,7 +17,7 @@ function Ai() {
       <div className='bg-brand-orange'>
         <Platform />
       </div>
-      <div className="w-full h-contain lg:h-screen">
+      <div className="w-full h-contain">
         <Voice />
       </div>
       <div className="w-full h-contain">

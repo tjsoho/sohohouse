@@ -16,11 +16,11 @@ function Craft() {
   }, []);
 
   return (
-    <div id="curious" className="bg-brand-orange w-full h-full py-12 md:py-16 lg:py-20">
+    <div id="curious" className="bg-brand-cream w-full h-full py-12 md:py-16 lg:py-20">
       <div className="max-w-[1440px] mx-auto">
       <div  className="w-contain">
         <Reveal>
-        <h3  className="uppercase font-Black text-brand-cream leading-none text-center text-[36px] lg:text-6xl xl:text-7xl  ">
+        <h3  className="uppercase font-Black text-brand-orange leading-none text-center text-[36px] lg:text-6xl xl:text-7xl  ">
           Curious {isMediumScreen && <br />}About My {isMediumScreen && <br />}{" "}
           Craft?
         </h3>

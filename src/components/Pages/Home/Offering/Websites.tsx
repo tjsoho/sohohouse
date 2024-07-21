@@ -6,7 +6,7 @@ import Button1 from "../../../Button/Button1";
 function Websites() {
   return (
     <div className="w-full h-full bg-white">
-      <div className="w-full h-full rounded-bl-[75px] md:rounded-bl-[150px] bg-brand-orange-light">
+      <div className="w-full h-full rounded-bl-[75px] md:rounded-bl-[150px] bg-brand-orange-light rounded-tl-[75px] md:rounded-tl-[150px]">
         <div className="max-w-[1440px] mx-auto">
           <div className="flex flex-col lg:flex-row justify-around items-center py-16 lg:py-32">
             <div className="flex flex-col justify-center items-center h-full w-full lg:w-1/2">
@@ -27,7 +27,7 @@ function Websites() {
                 <p className="text-brand-blue-light text-justify">
                   A website crafted to narrate your story as it truly deserves,
                   paired with a design that makes you frickin' proud – all
-                  delivered to your digital doorstep in just 2 weeks.
+                  delivered to your digital doorstep in as little as 2 weeks.
                 </p>
                 <Link to="/websites">
                   <Button1

@@ -5,7 +5,7 @@ import Button1 from "../../../Button/Button1";
 import { Link } from "react-router-dom";
 
 function Graphic() {
-  const externalLink ="https://calendly.com/ai-guy-bookings/free-ai-strategy-session"
+  const externalLink ="https://calendly.com/sloane-bookings/1-1-consultation-ai-guy"
   return (
     <div className="w-full h-full bg-brand-orange">
     <div className="w-full h-full white rounded-bl-[75px] md:rounded-bl-[0px] md:rounded-br-[150px]  md:rounded-tr-[150px] bg-brand-orange">
@@ -17,17 +17,17 @@ function Graphic() {
 
         <div className="lg:w-1/2 lg:h-full flex flex-col justify-center items-start px-4 lg:px-8">
           <SlideReveal>
-            <p className="text-brand-cream text-[22px] md:text-[26px] text-left font-Black mb-4">Why This Matters</p>
+            <p className="text-brand-cream text-[22px] md:text-[26px] text-left font-Black mb-4">Why Do I Need a Tailored Strategy?</p>
             </SlideReveal>
             <SlideReveal>
             <p className="text-brand-blue text-[18px] md:text-[20px] text-justify ">
               In a digital landscape teeming with one-size-fits-all solutions,
-              The Ai HUB stands out by offering a truly tailored AI platform.
+              a tailored strategy and set of tools allows you to pinpoint the specific areas you choose.
               Your business is as unique as your fingerprint, and your tools
               should reflect that individuality.
               <br />
-              <br /> By providing a custom-built Ai HUB for each member, you're
-              guaranteed that no two hubs are the same, ensuring that every
+              <br /> By providing a tailored solution for each business, you're
+              guaranteed that the solution is fit for you, ensuring that every
               strategy, every piece of content, and every insight is aligned
               perfectly with what makes your business unique.
               <br />
