@@ -57,7 +57,7 @@ function Hero() {
       </div>
       {/* Overlay */}
       <div className="absolute inset-0 flex justify-center items-center z-10" style={{ backgroundColor: 'rgba(1, 17, 56, 0.6)' }}>
-        <h1 className="text-5xl lg:text-9xl font-bold text-brand-cream text-center">Ai <span className="text-brand-orange">Consulting</span></h1>
+        <h1 className="text-5xl lg:text-9xl font-bold text-brand-cream text-center">Ai <span className="text-brand-blue">Consulting</span></h1>
       </div>
     </div>
   );

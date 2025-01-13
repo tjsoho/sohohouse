@@ -35,11 +35,11 @@ export default function Landing2() {
   //  `;
 
   const scrollToNextSection = () => {
-    const nextSection = document.getElementById('curious');
+    const nextSection = document.getElementById("curious");
     if (nextSection) {
       window.scrollTo({
         top: nextSection.offsetTop,
-        behavior: 'smooth',
+        behavior: "smooth",
       });
     }
   };
@@ -70,21 +70,24 @@ export default function Landing2() {
             ease: [0, 0.41, 0.2, 1.01],
           }}
         >
-          <h2 className={headerClasses}>Irresistible Websites{isSmallScreen && <br />} + Ai Solutions </h2>
+          <h2 className={headerClasses}>
+            Irresistible Websites{isSmallScreen && <br />} + Ai Solutions{" "}
+          </h2>
         </motion.div>
-       
-       <motion.div
-       className="flex flex-col justify-center items-center"
-       initial={{ y: "-100vh", opacity: 0 }}
-       animate={{ y: 0, opacity: 1 }}
-       transition={{
-         duration: 2.5,
-         delay: 0.5,
-         ease: [0, 0.41, 0.2, 1.01],
-       }}>
-        <div className="mt-2  md:hidden">
-          <Icon name="xsmallLine" />
-        </div>
+
+        <motion.div
+          className="flex flex-col justify-center items-center"
+          initial={{ y: "-100vh", opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{
+            duration: 2.5,
+            delay: 0.5,
+            ease: [0, 0.41, 0.2, 1.01],
+          }}
+        >
+          <div className="mt-2  md:hidden">
+            <Icon name="xsmallLine" />
+          </div>
         </motion.div>
         <motion.div
           className="flex flex-col justify-center items-center"
@@ -97,8 +100,7 @@ export default function Landing2() {
           }}
         >
           <span className={subClasses}>
-              {isSmallScreen && <br />}LET'S AMPLIFY YOUR BUSINESS
-             
+            {isSmallScreen && <br />}LET'S AMPLIFY YOUR BUSINESS
           </span>
         </motion.div>
       </div>
@@ -111,9 +113,28 @@ export default function Landing2() {
           ease: [0, 0.71, 0.2, 1.01],
         }}
       >
-        <div className="flex flex-col justify-center items-end animate-bounce pb-20 md:pb-8 hover:cursor-pointer"  onClick={scrollToNextSection}>
-        
-          <Icon name="arrowDown" color="#FC7643"/>
+        <div
+          className="flex flex-col justify-center items-end animate-bounce pb-20 md:pb-8 hover:cursor-pointer"
+          onClick={scrollToNextSection}
+        >
+          <div className="w-12 h-12 rounded-full border-2 border-brand-blue-light flex items-center justify-center">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 4L12 20M12 20L5 13M12 20L19 13"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="text-brand-blue-light"
+              />
+            </svg>
+          </div>
         </div>
       </motion.div>
     </div>

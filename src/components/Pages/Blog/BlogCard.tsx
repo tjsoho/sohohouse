@@ -4,11 +4,10 @@ interface BlogCardProps {
   title: string;
   description: string;
   image: string;
-  date: string;
   link: string;
 }
 
-function BlogCard({ title, description, image, date, link }: BlogCardProps) {
+function BlogCard({ title, description, image, link }: BlogCardProps) {
   return (
     <div className="w-contain h-full p-4 m-4 flex flex-col justify-center items-center hover:cursor-pointer mb-16">
       <Link to={link}>
@@ -28,7 +27,7 @@ function BlogCard({ title, description, image, date, link }: BlogCardProps) {
             <p className="text-brand-blue text-center text-[15px]">
               {description}
             </p>
-            <p className="text-gray-400 text-center text-[12px]">{date}</p>
+           
           </div>
         </div>
       </Link>

@@ -16,7 +16,7 @@ function AiConsult() {
   const externalLink ="https://calendly.com/sloane-bookings/1-1-consultation-ai-guy"
 
   return (
-    <div className="h-full lg:h-screen bg-#FFFFFF flex flex-col lg:flex-row">
+    <div className="h-full lg:h-screen bg-brand-cream flex flex-col lg:flex-row">
       {/* Left Column: Heading, Orange Line, Paragraph */}
       <div className="w-full h-full lg:w-1/2 flex flex-col  items-center max-w-[1440px] my-16">
         {/* Heading */}
@@ -25,7 +25,7 @@ function AiConsult() {
             <h3 className={titleClasses}>Book Your Ai </h3>
 
             <h3 className={titleClasses}>Strategy Session</h3>
-            <p className="text-center text-brand-orange text-[18px] my-4">
+            <p className="text-center text-brand-blue-light text-[18px] my-4">
               INVESTMENT $290
             </p>
           </div>
@@ -40,7 +40,7 @@ function AiConsult() {
           
           <div>
           <a href={externalLink} target="_blank" rel="noopener noreferrer">
-          <Button1 label="BOOK NOW" className="text-brand-blue" />
+          <Button1 label="BOOK NOW" color="blue" className="text-brand-cream" />
           </a>
           </div>
         </div>

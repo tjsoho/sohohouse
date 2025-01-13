@@ -19,7 +19,7 @@ const Included: React.FC = () => {
 
             <div className=" h-3/5 lg:h-full w-full lg:w-1/2 flex flex-col justify-center items-start">
               <SlideReveal>
-                <p className="text-brand-orange text-[22px] md:text-[26px] text-left font-Black  mb-4">
+                <p className="text-brand-blue text-[22px] md:text-[26px] text-left font-Black  mb-4">
                   Setting Up For Success
                 </p>
               </SlideReveal>
@@ -34,7 +34,7 @@ const Included: React.FC = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Button1 label="BOOK NOW" color="blue" className="text-brand-orange hover:text-brand-cream" />
+                  <Button1 label="BOOK NOW" color="blue" className="text-brand-cream hover:text-brand-cream" />
                 </a>
               </div>
             </div>

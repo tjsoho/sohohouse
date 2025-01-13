@@ -17,7 +17,7 @@ function Graphic() {
 
         <div className="lg:w-1/2 lg:h-full flex flex-col justify-center items-start px-4 lg:px-8">
           <SlideReveal>
-            <p className="text-brand-cream text-[22px] md:text-[26px] text-left font-Black mb-4">Why Do I Need a Tailored Strategy?</p>
+            <p className="text-brand-blue text-[22px] md:text-[26px] text-left font-Black mb-4">Why Do I Need a Tailored Strategy?</p>
             </SlideReveal>
             <SlideReveal>
             <p className="text-brand-blue text-[18px] md:text-[20px] text-justify ">

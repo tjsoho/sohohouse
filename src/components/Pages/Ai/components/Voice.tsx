@@ -9,7 +9,7 @@ function Voice() {
 
   return (
     <div className="w-full h-full bg-brand-orange">
-      <div className="w-full h-contain white  md:rounded-tr-[150px] rounded-br-[75px] md:rounded-br-[150px] bg-brand-blue-light">
+      <div className="w-full h-contain white  md:rounded-tr-[150px] rounded-br-[75px] md:rounded-br-[150px] bg-brand-blue">
         <div className="max-w-[1440px] mx-auto h-full">
           <div className="h-full flex flex-col lg:flex-row py-16 md:py-32 lg:py-24 px-4 md:p-8 items-center">
             <div className="h-2/5 lg:h-full w-full lg:w-1/2 flex flex-col justify-center items-center text-left md:text-center mb-16 lg:pr-16">
@@ -18,7 +18,7 @@ function Voice() {
 
             <div className=" h-3/5 lg:h-full w-full lg:w-1/2 flex flex-col justify-center items-start">
               <SlideReveal>
-                <p className="text-brand-cream text-[22px] md:text-[26px] text-left font-Black  mb-4">
+                <p className="text-brand-orange text-[22px] md:text-[26px] text-left font-Black  mb-4">
                   Setting Up For Success
                 </p>
               </SlideReveal>
@@ -33,7 +33,7 @@ function Voice() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Button1 label="BOOK NOW" className="text-brand-blue" />
+                  <Button1 label="BOOK NOW" className="text-[#4EA292]" />
                 </a>
               </div>
             </div>
