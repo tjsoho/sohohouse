@@ -25,153 +25,198 @@ export default function JournalFive() {
             onClick={(e) => e.stopPropagation()}
           >
             <div className="space-y-6 text-brand-cream bg-black max-h-full">
-              <h3 className="text-2xl font-Black text-brand-orange mb-6 top-0 bg-black pb-4">
+              <h3 className="text-xl md:text-2xl lg:text-3xl font-Black text-brand-orange mb-6 top-0 bg-black pb-4">
                 High-Converting Homepage Template
               </h3>
 
               {/* Hero Section */}
-              <div className="border-2 border-brand-orange p-4 rounded-lg bg-black">
-                <h4 className="text-brand-orange font-Black mb-2">
+              <div className="border-2 border-brand-orange p-3 md:p-4 rounded-lg bg-black">
+                <h4 className="text-base md:text-lg lg:text-3xl font-Black text-brand-orange mb-2">
                   HERO SECTION
                 </h4>
-                <div className="grid grid-cols-2 gap-4 text-sm">
-                  <div className="bg-brand-blue p-3 rounded">
-                    <p className="text-brand-orange-light">Headline</p>
-                    <p>Main value proposition</p>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4 text-xs md:text-sm">
+                  <div className="bg-brand-blue p-2 md:p-3 rounded">
+                    <p className="text-brand-orange-light text-sm md:text-base">
+                      Headline
+                    </p>
+                    <p className="text-sm">Main value proposition</p>
                   </div>
-                  <div className="bg-brand-blue p-3 rounded">
-                    <p className="text-brand-orange-light">Hero Image</p>
-                    <p>High-quality visual</p>
+                  <div className="bg-brand-blue p-2 md:p-3 rounded">
+                    <p className="text-brand-orange-light text-sm md:text-base">
+                      Hero Image
+                    </p>
+                    <p className="text-sm">High-quality visual</p>
                   </div>
                 </div>
               </div>
 
               {/* Introduction */}
-              <div className="border-2 border-brand-orange p-4 rounded-lg bg-black">
-                <h4 className="text-brand-orange font-Black mb-2">
+              <div className="border-2 border-brand-orange p-3 md:p-4 rounded-lg bg-black">
+                <h4 className="text-base md:text-lg lg:text-3xl font-Black text-brand-orange mb-2">
                   INTRODUCTION
                 </h4>
-                <div className="bg-brand-blue p-3 rounded">
-                  <p>Brief, compelling problem-solution statement</p>
+                <div className="bg-brand-blue p-2 md:p-3 rounded">
+                  <p className="text-sm">
+                    Brief, compelling problem-solution statement
+                  </p>
                 </div>
               </div>
 
               {/* Main Content Blocks */}
-              <div className="border-2 border-brand-orange p-4 rounded-lg bg-black">
-                <h4 className="text-brand-orange font-Black mb-2">
+              <div className="border-2 border-brand-orange p-3 md:p-4 rounded-lg bg-black">
+                <h4 className="text-base md:text-lg lg:text-3xl font-Black text-brand-orange mb-2">
                   MAIN CONTENT
                 </h4>
-                <div className="grid grid-cols-2 gap-4 text-sm">
-                  <div className="bg-brand-blue p-3 rounded">
-                    <p className="text-brand-orange-light">Content Block 1</p>
-                    <p>Primary service/product</p>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4 text-xs md:text-sm">
+                  <div className="bg-brand-blue p-2 md:p-3 rounded">
+                    <p className="text-brand-orange-light text-sm md:text-base">
+                      Content Block 1
+                    </p>
+                    <p className="text-sm">Primary service/product</p>
                   </div>
-                  <div className="bg-brand-blue p-3 rounded">
-                    <p className="text-brand-orange-light">Content Block 2</p>
-                    <p>Secondary service/product</p>
+                  <div className="bg-brand-blue p-2 md:p-3 rounded">
+                    <p className="text-brand-orange-light text-sm md:text-base">
+                      Content Block 2
+                    </p>
+                    <p className="text-sm">Secondary service/product</p>
                   </div>
                 </div>
               </div>
 
               {/* About Me Section */}
-              <div className="border-2 border-brand-orange p-4 rounded-lg bg-black">
-                <h4 className="text-brand-orange font-Black mb-2">
+              <div className="border-2 border-brand-orange p-3 md:p-4 rounded-lg bg-black">
+                <h4 className="text-base md:text-lg lg:text-3xl font-Black text-brand-orange mb-2">
                   ABOUT ME MINI
                 </h4>
-                <div className="grid grid-cols-2 gap-4 text-sm">
-                  <div className="bg-brand-blue p-3 rounded">
-                    <p className="text-brand-orange-light">Personal Image</p>
-                    <p>Authentic photo of you</p>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4 text-xs md:text-sm">
+                  <div className="bg-brand-blue p-2 md:p-3 rounded">
+                    <p className="text-brand-orange-light text-sm md:text-base">
+                      Personal Image
+                    </p>
+                    <p className="text-sm">Authentic photo of you</p>
                   </div>
-                  <div className="bg-brand-blue p-3 rounded">
-                    <p className="text-brand-orange-light">Brief Bio</p>
-                    <p>Quick personal connection + expertise highlight</p>
+                  <div className="bg-brand-blue p-2 md:p-3 rounded">
+                    <p className="text-brand-orange-light text-sm md:text-base">
+                      Brief Bio
+                    </p>
+                    <p className="text-sm">
+                      Quick personal connection + expertise highlight
+                    </p>
                   </div>
                 </div>
               </div>
 
               {/* Core Promise */}
-              <div className="border-2 border-brand-orange p-4 rounded-lg bg-black">
-                <h4 className="text-brand-orange font-Black mb-2">
+              <div className="border-2 border-brand-orange p-3 md:p-4 rounded-lg bg-black">
+                <h4 className="text-base md:text-lg lg:text-3xl font-Black text-brand-orange mb-2">
                   CORE PROMISE
                 </h4>
-                <div className="bg-brand-blue p-3 rounded text-center">
-                  <p className="text-brand-orange-light">Your Bold Statement</p>
-                  <p>Single powerful promise that sets you apart</p>
+                <div className="bg-brand-blue p-2 md:p-3 rounded text-center">
+                  <p className="text-brand-orange-light text-sm md:text-base">
+                    Your Bold Statement
+                  </p>
+                  <p className="text-sm">
+                    Single powerful promise that sets you apart
+                  </p>
                 </div>
               </div>
 
               {/* Social Proof */}
-              <div className="border-2 border-brand-orange p-4 rounded-lg bg-black">
-                <h4 className="text-brand-orange font-Black mb-2">
+              <div className="border-2 border-brand-orange p-3 md:p-4 rounded-lg bg-black">
+                <h4 className="text-base md:text-lg lg:text-3xl font-Black text-brand-orange mb-2">
                   SOCIAL PROOF
                 </h4>
-                <div className="grid grid-cols-3 gap-4 text-sm">
-                  <div className="bg-brand-blue p-3 rounded">Testimonial 1</div>
-                  <div className="bg-brand-blue p-3 rounded">Testimonial 2</div>
-                  <div className="bg-brand-blue p-3 rounded">Testimonial 3</div>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4 text-xs md:text-sm">
+                  <div className="bg-brand-blue p-2 md:p-3 rounded">
+                    Testimonial 1
+                  </div>
+                  <div className="bg-brand-blue p-2 md:p-3 rounded">
+                    Testimonial 2
+                  </div>
+                  <div className="bg-brand-blue p-2 md:p-3 rounded">
+                    Testimonial 3
+                  </div>
                 </div>
               </div>
 
               {/* Call to Action */}
-              <div className="border-2 border-brand-orange p-4 rounded-lg bg-black">
-                <h4 className="text-brand-orange font-Black mb-2">
+              <div className="border-2 border-brand-orange p-3 md:p-4 rounded-lg bg-black">
+                <h4 className="text-base md:text-lg lg:text-3xl font-Black text-brand-orange mb-2">
                   CALL TO ACTION
                 </h4>
-                <div className="bg-brand-blue p-3 rounded text-center">
-                  <p>Primary conversion button</p>
+                <div className="bg-brand-blue p-2 md:p-3 rounded text-center">
+                  <p className="text-sm">Primary conversion button</p>
                 </div>
               </div>
 
               {/* Enter My World Section */}
-              <div className="border-2 border-brand-orange p-4 rounded-lg bg-black">
-                <h4 className="text-brand-orange font-Black mb-2">
+              <div className="border-2 border-brand-orange p-3 md:p-4 rounded-lg bg-black">
+                <h4 className="text-base md:text-lg lg:text-3xl font-Black text-brand-orange mb-2">
                   ENTER MY WORLD
                 </h4>
-                <div className="grid grid-cols-2 gap-4 text-sm relative">
-                  <div className="bg-brand-blue p-3 rounded">
-                    <p className="text-brand-orange-light">Newsletter Signup</p>
-                    <p>Email capture with value offer</p>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4 text-xs md:text-sm relative">
+                  <div className="bg-brand-blue p-2 md:p-3 rounded">
+                    <p className="text-brand-orange-light text-sm md:text-base">
+                      Newsletter Signup
+                    </p>
+                    <p className="text-sm">Email capture with value offer</p>
                   </div>
 
                   {/* OR divider */}
-                  <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 bg-black px-2 font-Black text-brand-orange-light">
+                  <div className="hidden md:block absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 bg-black px-2 font-Black text-brand-orange-light">
+                    OR
+                  </div>
+                  <div className="block md:hidden text-center text-brand-orange-light font-Black my-2">
                     OR
                   </div>
 
-                  <div className="bg-brand-blue p-3 rounded">
-                    <p className="text-brand-orange-light">Free Download</p>
-                    <p>Lead magnet or valuable resource</p>
+                  <div className="bg-brand-blue p-2 md:p-3 rounded">
+                    <p className="text-brand-orange-light text-sm md:text-base">
+                      Free Download
+                    </p>
+                    <p className="text-sm">Lead magnet or valuable resource</p>
                   </div>
                 </div>
               </div>
 
               {/* Conclusion Section */}
-              <div className="border-2 border-brand-orange p-4 rounded-lg bg-black">
-                <h4 className="text-brand-orange font-Black mb-2">
+              <div className="border-2 border-brand-orange p-3 md:p-4 rounded-lg bg-black">
+                <h4 className="text-base md:text-lg lg:text-3xl font-Black text-brand-orange mb-2">
                   CONCLUSION
                 </h4>
-                <div className="bg-brand-blue p-3 rounded">
-                  <p className="text-brand-orange-light">Final Message</p>
-                  <p>Reinforcement of value + gentle push to action</p>
+                <div className="bg-brand-blue p-2 md:p-3 rounded">
+                  <p className="text-brand-orange-light text-sm md:text-base">
+                    Final Message
+                  </p>
+                  <p className="text-sm">
+                    Reinforcement of value + gentle push to action
+                  </p>
                 </div>
               </div>
 
               {/* Footer Section */}
-              <div className="border-2 border-brand-orange p-4 rounded-lg bg-black">
-                <h4 className="text-brand-orange font-Black mb-2">FOOTER</h4>
-                <div className="grid grid-cols-3 gap-4 text-sm">
-                  <div className="bg-brand-blue p-3 rounded">
-                    <p className="text-brand-orange-light">Social Links</p>
-                    <p>Instagram, LinkedIn, etc.</p>
+              <div className="border-2 border-brand-orange p-3 md:p-4 rounded-lg bg-black">
+                <h4 className="text-base md:text-lg lg:text-3xl font-Black text-brand-orange mb-2">
+                  FOOTER
+                </h4>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4 text-xs md:text-sm">
+                  <div className="bg-brand-blue p-2 md:p-3 rounded">
+                    <p className="text-brand-orange-light text-sm md:text-base">
+                      Social Links
+                    </p>
+                    <p className="text-sm">Instagram, LinkedIn, etc.</p>
                   </div>
-                  <div className="bg-brand-blue p-3 rounded">
-                    <p className="text-brand-orange-light">Quick Links</p>
-                    <p>Important pages & policies</p>
+                  <div className="bg-brand-blue p-2 md:p-3 rounded">
+                    <p className="text-brand-orange-light text-sm md:text-base">
+                      Quick Links
+                    </p>
+                    <p className="text-sm">Important pages & policies</p>
                   </div>
-                  <div className="bg-brand-blue p-3 rounded">
-                    <p className="text-brand-orange-light">Contact Info</p>
-                    <p>Email & business details</p>
+                  <div className="bg-brand-blue p-2 md:p-3 rounded">
+                    <p className="text-brand-orange-light text-sm md:text-base">
+                      Contact Info
+                    </p>
+                    <p className="text-sm">Email & business details</p>
                   </div>
                 </div>
               </div>
@@ -233,9 +278,9 @@ export default function JournalFive() {
           <Reveal>
             <div className="space-y-6 text-lg leading-relaxed text-brand-blue-light">
               <p>
-                Let's talk about your homepage. It's the digital home of
-                your business, the first impression you make on potential
-                clients & customers. It's often the only chance you get to capture their
+                Let's talk about your homepage. It's the digital home of your
+                business, the first impression you make on potential clients &
+                customers. It's often the only chance you get to capture their
                 attention and entice them to explore further. A stunning design
                 is important, yes, but it's not enough. A truly high-converting
                 homepage is a carefully crafted experience that subtly guides
