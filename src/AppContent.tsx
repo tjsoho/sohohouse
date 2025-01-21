@@ -46,6 +46,15 @@ const AppContent = () => {
   const hideMenuBarPaths = ["/website-page"];
   const shouldHideMenuBar = hideMenuBarPaths.includes(location.pathname);
 
+  useEffect(() => {
+    if (typeof window.gtag !== "undefined") {
+      window.gtag("event", "page_view", {
+        page_path: location.pathname,
+        page_title: document.title,
+      });
+    }
+  }, [location]);
+
   return (
     <div>
       {!shouldHideMenuBar && (
@@ -70,9 +79,15 @@ const AppContent = () => {
         <Route path="/power-of-an-engaging-website" element={<JournalOne />} />
         <Route path="/power-of-an-engaging-website" element={<JournalTwo />} />
         <Route path="/streamlined-brand-messaging" element={<JournalThree />} />
-        <Route path="/the-instagram-website-synergy" element={<JournalFour />} />
+        <Route
+          path="/the-instagram-website-synergy"
+          element={<JournalFour />}
+        />
         <Route path="/the-high-converting-homepage" element={<JournalFive />} />
-        <Route path="/5-reasons-your-business-needs-a-blog" element={<JournalSix />} />
+        <Route
+          path="/5-reasons-your-business-needs-a-blog"
+          element={<JournalSix />}
+        />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/website-page" element={<WebsitePage />} />
         <Route path="/blog-composer" element={<BlogComposer />} />

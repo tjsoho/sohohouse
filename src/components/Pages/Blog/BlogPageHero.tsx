@@ -1,7 +1,15 @@
 import Contact from "../Contact/Contact";
 import BlogCard from "./BlogCard";
+import { useSearchParams } from "react-router-dom";
 
 function BlogPageHero() {
+  const [searchParams] = useSearchParams();
+  const isAdmin = searchParams.get("admin") === "true";
+
+  const getClickCount = (link: string) => {
+    return parseInt(searchParams.get(link) || "0");
+  };
+
   return (
     <section className="w-screen-1 h-screen ">
       {/* header */}
@@ -28,32 +36,29 @@ function BlogPageHero() {
       </div>
 
       {/* Square ontpoo of banner */}
-     
 
       {/* blog tiles */}
       <div className="flex justify-center items-center h-contain max-w-[1440px] mx-auto">
-        
-         <div className="grid grid-cols-1  md:grid-cols-3  gap-12 p-4  justify-center items-center py-8 mb-8 ">
-          
-           <BlogCard
-             title="5 Reasons Your Business Needs a Blog"
-             description="And Why You Should Be Writing It!"
-             image="../../../images/team.jpg"
-             link="/5-reasons-your-business-needs-a-blog"
-           />
-           <BlogCard
+        <div className="grid grid-cols-1  md:grid-cols-3  gap-12 p-4  justify-center items-center py-8 mb-8 ">
+          <BlogCard
+            title="5 Reasons Your Business Needs a Blog"
+            description="And Why You Should Be Writing It!"
+            image="../../../images/team.jpg"
+            link="/5-reasons-your-business-needs-a-blog"
+          />
+          <BlogCard
             title="The Instagram-Website Synergy"
             description="How to Make Them Work Together Seamlessly"
             image="../../../images/toby.jpg"
             link="/the-instagram-website-synergy"
           />
-            <BlogCard
-              title="The High-Converting Homepage"
-              description="The digital home of your business"
-              image="../../../images/toby2.jpg"
-              link="/the-high-converting-homepage"
-            />
-           <BlogCard
+          <BlogCard
+            title="The High-Converting Homepage"
+            description="The digital home of your business"
+            image="../../../images/toby2.jpg"
+            link="/the-high-converting-homepage"
+          />
+          <BlogCard
             title="Streamlined Brand Messaging"
             description="Simplifying your brand message"
             image="../../../images/mHighway.png"
@@ -65,17 +70,42 @@ function BlogPageHero() {
             image="../../../images/Tile1a.png"
             link="/power-of-an-engaging-website"
           />
-           {/* <BlogCard
+          {/* <BlogCard
             title="The Power of AI"
             description="The power of AI in the digital age"
             image="../../../images/Tile1a.png"
             date="September 2021"
             link="/journal-entry"
           /> */}
-          
-        </div> 
+        </div>
       </div>
       <Contact />
+
+      {isAdmin && (
+        <div className="fixed top-4 right-4 bg-brand-blue-dark p-4 rounded-lg shadow-lg z-50">
+          <h3 className="text-brand-orange font-Black mb-4">Blog Views</h3>
+          <div className="space-y-2 text-brand-cream text-sm">
+            <p>
+              5 Reasons Blog:{" "}
+              {getClickCount("/5-reasons-your-business-needs-a-blog")}
+            </p>
+            <p>
+              Instagram Synergy:{" "}
+              {getClickCount("/the-instagram-website-synergy")}
+            </p>
+            <p>
+              Homepage Guide: {getClickCount("/the-high-converting-homepage")}
+            </p>
+            <p>
+              Brand Messaging: {getClickCount("/streamlined-brand-messaging")}
+            </p>
+            <p>
+              Business Revolution:{" "}
+              {getClickCount("/power-of-an-engaging-website")}
+            </p>
+          </div>
+        </div>
+      )}
     </section>
   );
 }
