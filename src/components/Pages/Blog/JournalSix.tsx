@@ -1,8 +1,162 @@
 import { Reveal } from "../../Animations/Reveal";
 import { Link } from "react-router-dom";
 import Contact from "../Contact/Contact";
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { toast } from "react-toastify";
 
 export default function JournalSix() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isSubmitted, setIsSubmitted] = useState(false);
+
+  const handleSubmit = async (values: FormData) => {
+    // Here you can add the logic to send the email to yourself
+    // For now, just show success state
+    console.log("Form submitted:", values);
+  };
+
+  // Replace the Content Waterfall Masterclass Button section with this:
+  const ContentWaterfallSection = (
+    <div className="w-full flex flex-col items-center my-24">
+      <button
+        onClick={() => setIsModalOpen(true)}
+        className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
+      >
+        <img
+          src="/images/team.jpg"
+          alt="Content Waterfall Masterclass"
+          className="w-full h-[30vh] md:h-[40vh] object-cover opacity-50"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-brand-blue-dark/50 to-brand-blue-dark/90 flex items-center justify-center">
+          <span className="text-brand-cream font-Black text-xl md:text-2xl px-8 py-4 bg-brand-blue rounded-full shadow-lg hover:bg-brand-orange-light transition-colors duration-300 hover:text-brand-blue">
+            Master The Content Waterfall Method™
+          </span>
+        </div>
+      </button>
+    </div>
+  );
+
+  // Update the modal component
+  const InterestModal = () => {
+    const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+      e.preventDefault();
+      const form = e.target as HTMLFormElement;
+      const formData = new FormData(form);
+
+      try {
+        const response = await fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          body: formData,
+        });
+
+        if (response.ok) {
+          console.log("Form submitted successfully!");
+          setIsSubmitted(true);
+          form.reset();
+          toast.success("Thanks for your interest! We'll be in touch soon.");
+        } else {
+          console.error("Form submission failed.");
+          toast.error("Something went wrong. Please try again.");
+        }
+      } catch (error) {
+        console.error("Error submitting form:", error);
+        toast.error("Something went wrong. Please try again.");
+      }
+    };
+
+    return (
+      <AnimatePresence>
+        {isModalOpen && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 bg-black/70 z-50 flex items-center justify-center p-4"
+            onClick={() => setIsModalOpen(false)}
+          >
+            <motion.div
+              initial={{ y: 50, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              exit={{ y: 50, opacity: 0 }}
+              className="bg-white/90 p-6 rounded-lg w-full max-w-sm relative"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <h3 className="text-xl font-Black text-brand-orange mb-3">
+                The Best $27 You'll Ever Spend For Your Business
+              </h3>
+              <p className="text-brand-blue text-sm mb-4">
+                Coming later this month. Drop your name and email for expression
+                of interest and we'll send this to you when it's live!
+              </p>
+
+              {!isSubmitted ? (
+                <form onSubmit={handleSubmit} className="space-y-3">
+                  <input
+                    type="hidden"
+                    name="access_key"
+                    value="26bc35ac-a6be-47ca-82dd-8b3af942e968"
+                  />
+                  <input
+                    type="hidden"
+                    name="subject"
+                    value="Content Waterfall Interest"
+                  />
+                  <input
+                    type="hidden"
+                    name="message"
+                    value="Interested in Content Waterfall Method™"
+                  />
+                  <div>
+                    <input
+                      type="text"
+                      name="name"
+                      placeholder="Your Name"
+                      required
+                      className="w-full p-2.5 rounded border border-brand-blue/20 text-brand-blue placeholder-brand-blue/50"
+                    />
+                  </div>
+                  <div>
+                    <input
+                      type="email"
+                      name="email"
+                      placeholder="Your Email"
+                      required
+                      className="w-full p-2.5 rounded border border-brand-blue/20 text-brand-blue placeholder-brand-blue/50"
+                    />
+                  </div>
+                  <div style={{ display: "none" }}>
+                    <input type="checkbox" name="botcheck" />
+                  </div>
+                  <button
+                    type="submit"
+                    className="w-full py-2.5 bg-brand-blue text-white rounded-full font-Black hover:bg-brand-orange-light transition-colors"
+                  >
+                    Notify Me When It's Live
+                  </button>
+                </form>
+              ) : (
+                <div className="text-center text-brand-blue">
+                  <p className="mb-2">Thanks for your interest!</p>
+                  <p>
+                    We'll notify you as soon as the Content Waterfall Method™ is
+                    live.
+                  </p>
+                </div>
+              )}
+
+              <button
+                className="absolute top-3 right-3 text-brand-blue hover:text-brand-orange text-xl"
+                onClick={() => setIsModalOpen(false)}
+              >
+                ×
+              </button>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    );
+  };
+
   return (
     <div className="w-full min-h-screen bg-brand-blue-dark text-brand-cream font-Raleway">
       {/* Header Image */}
@@ -150,41 +304,7 @@ export default function JournalSix() {
                 </div>
 
                 {/* Content Waterfall Masterclass Button */}
-                <div className="w-full flex flex-col items-center my-24">
-                  <button
-                    onClick={() =>
-                      window.open(
-                        "https://www.savetime-makemoney.com",
-                        "_blank"
-                      )
-                    }
-                    className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
-                  >
-                    <img
-                      src="/images/team.jpg"
-                      alt="Content Waterfall Masterclass"
-                      className="w-full h-[30vh] md:h-[40vh] object-cover opacity-50"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-b from-brand-blue-dark/50 to-brand-blue-dark/90 flex items-center justify-center">
-                      <span className="text-brand-cream font-Black text-xl md:text-2xl px-8 py-4 bg-brand-blue rounded-full shadow-lg hover:bg-brand-orange-light transition-colors duration-300 hover:text-brand-blue">
-                        Master The Content Waterfall Method™
-                      </span>
-                    </div>
-                  </button>
-
-                  <a
-                    href="https://www.savetime-makemoney.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mt-6 text-center text-brand-blue-light hover:text-brand-orange transition-colors duration-300"
-                  >
-                    <p className="max-w-2xl mx-auto">
-                      Ready to turn one piece of content into a week's worth of
-                      marketing material? Learn my proven Content Waterfall
-                      Method and save hours on your content creation.
-                    </p>
-                  </a>
-                </div>
+                {ContentWaterfallSection}
 
                 {/* Building Your Blog Strategy section */}
                 <div>
@@ -270,6 +390,9 @@ export default function JournalSix() {
           </Reveal>
         </div>
       </div>
+
+      {/* Add the modal */}
+      <InterestModal />
 
       <Contact />
     </div>
