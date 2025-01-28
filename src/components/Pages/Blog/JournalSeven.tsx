@@ -225,10 +225,14 @@ export default function JournalSeven() {
                       opposite directions.
                     </p>
                     <p>
-           My final note here is ... it's just so damn easy and makes so much sense. You're no longer putting all your egs in the basket of that one post converting. You're now putting all your eggs in the basket of you creating a piece of content that is so valuable that it will convert your audience into customers. So ... go on ... give it try. 
+                    This approach isn't just more efficient for you; it's also a better experience for your audience. Instead of a chaotic mix of messages across Instagram, your blog, and email, they receive a consistent, coherent narrative spread throughout the week. This bite-sized approach avoids overwhelming them, instead educating them gradually on your chosen topic or theme.
                     </p>
                     <p>
-                      My bet is ... this will change how you think about marketing!
+                     By guiding your audience on a journey throughout the week (or longer, depending on your chosen topic), you avoid the risk of putting all your marketing eggs in one basket—a single post. This approach strengthens your brand message and builds deeper engagement with your audience.
+                    </p>
+
+                    <p>
+                    Now it's your turn. Try this method out! Choose a theme or a topic for the week to talk about giving your audience so much value across the week. It just makes so much sense! And my bet is ... this will completely change how you think about marketing!
                     </p>
                   </div>
                 </div>
