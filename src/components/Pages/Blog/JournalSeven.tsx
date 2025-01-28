@@ -228,7 +228,7 @@ export default function JournalSeven() {
            My final note here is ... it's just so damn easy and makes so much sense. You're no longer putting all your egs in the basket of that one post converting. You're now putting all your eggs in the basket of you creating a piece of content that is so valuable that it will convert your audience into customers. So ... go on ... give it try. 
                     </p>
                     <p>
-                      My best is ... this will change how you think about marketing!
+                      My bet is ... this will change how you think about marketing!
                     </p>
                   </div>
                 </div>
