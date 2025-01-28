@@ -39,7 +39,13 @@ function BlogPageHero() {
 
       {/* blog tiles */}
       <div className="flex justify-center items-center h-contain max-w-[1440px] mx-auto">
-        <div className="grid grid-cols-1  md:grid-cols-3  gap-12 p-4  justify-center items-center py-8 mb-8 ">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 p-4 justify-center items-center py-8 mb-8">
+          <BlogCard
+            title="Content Waterfall Marketing"
+            description="The One & Only Marketing Strategy You Need"
+            image="../../../images/blog7a.jpg"
+            link="/content-waterfall-marketing"
+          />
           <BlogCard
             title="5 Reasons Your Business Needs a Blog"
             description="And Why You Should Be Writing It!"

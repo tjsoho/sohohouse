@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import Icon from "../../../Icons/Icon";
+import { Link } from "react-router-dom";
 
 export default function Landing2() {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
@@ -103,8 +104,22 @@ export default function Landing2() {
             {isSmallScreen && <br />}LET'S AMPLIFY YOUR BUSINESS
           </span>
         </motion.div>
+
+        {/* <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 2.5 }}
+          className="mt-12"
+        >
+          <Link
+            to="/5-reasons-your-business-needs-a-blog"
+            className="inline-block px-8 py-4 bg-brand-orange text-brand-cream rounded-full font-Black text-lg hover:bg-brand-orange-light transition-colors duration-300"
+          >
+            Read Latest: Why Your Business Needs a Blog
+          </Link>
+        </motion.div> */}
       </div>
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{
@@ -136,7 +151,7 @@ export default function Landing2() {
             </svg>
           </div>
         </div>
-      </motion.div>
+      </motion.div> */}
     </div>
   );
 }
