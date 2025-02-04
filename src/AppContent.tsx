@@ -34,6 +34,7 @@ import JournalFour from "./components/Pages/Blog/JournalFour";
 import JournalFive from "./components/Pages/Blog/JournalFive";
 import JournalSix from "./components/Pages/Blog/JournalSix";
 import JournalSeven from "./components/Pages/Blog/JournalSeven";
+import JournalEight from "./components/Pages/Blog/JournalEight";
 
 const AppContent = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -98,6 +99,10 @@ const AppContent = () => {
         <Route
           path="/content-waterfall-marketing"
           element={<JournalSeven />}
+        />
+        <Route 
+          path="/values-in-business" 
+          element={<JournalEight />} 
         />
       </Routes>
     </div>
