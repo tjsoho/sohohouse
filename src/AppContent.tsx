@@ -35,6 +35,7 @@ import JournalFive from "./components/Pages/Blog/JournalFive";
 import JournalSix from "./components/Pages/Blog/JournalSix";
 import JournalSeven from "./components/Pages/Blog/JournalSeven";
 import JournalEight from "./components/Pages/Blog/JournalEight";
+import JournalNine from "./components/Pages/Blog/JournalNine";
 
 const AppContent = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -103,6 +104,10 @@ const AppContent = () => {
         <Route 
           path="/values-in-business" 
           element={<JournalEight />} 
+        />
+        <Route 
+          path="/discover-your-core-values" 
+          element={<JournalNine />} 
         />
       </Routes>
     </div>

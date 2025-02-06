@@ -41,6 +41,12 @@ function BlogPageHero() {
       <div className="flex justify-center items-center h-contain max-w-[1440px] mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 p-4 justify-center items-center py-8 mb-8">
           <BlogCard
+            title="Discover Your Core Values"
+            description="A Guide to What Truly Matters"
+            image="../../../images/value.png"
+            link="/discover-your-core-values"
+          />
+          <BlogCard
             title="Values: Why They're So Important"
             description="A Journey of Authenticity and Connection"
             image="../../../images/blog8.jpg"
